@@ -1,29 +1,48 @@
-# EPG Embedding Similarity — EN + RU
+# EPG Embedding Benchmark — EN + RU + HY
 
 Research for a content recommendation system being developed for an IPTV operator.
+The platform serves EPG data in three languages: **English**, **Russian**, and **Armenian**.
+Same TV programs arrive from multiple sources with inconsistent titles — the RecSys needs to
+match and de-duplicate them cross-lingually.
 
-The platform receives EPG data from multiple providers. The same TV program arrives
-with different titles in different languages — it needs to be de-duplicated and matched
-for the RecSys to work properly. This script measures how well embedding models can align
-semantically identical titles across English and Russian.
+This script measures cosine similarity between semantically identical titles across all three
+language pairs (EN↔RU, EN↔HY, RU↔HY), and includes an Armenian synonym diagnostic.
+
+---
+
+## Key Finding
+
+`openai/text-embedding-3-large` scores **0.34 overall** — dramatically lower than every
+open-source multilingual model. EN↔RU alignment is decent (0.57–0.73), but Armenian vectors
+drift to near-random: `en-hy` and `ru-hy` hover around **0.15–0.19**.
+
+Armenian is a low-resource language severely underrepresented in OpenAI's training data.
+Open-source multilingual models trained on broader parallel corpora handle it far better.
 
 ## Models tested
 
-- `all-MiniLM-L6-v2` — English-centric, baseline (poor cross-lingual)
-- `paraphrase-multilingual-MiniLM-L12-v2` — lightweight multilingual
-- `paraphrase-multilingual-mpnet-base-v2` — stronger multilingual baseline
-- `openai/text-embedding-3-small` — cloud baseline
+- `intfloat/multilingual-e5-base` — strong multilingual baseline, best open-source EN+RU+HY performer at this stage
+- `sentence-transformers/LaBSE` — Google's language-agnostic BERT, broad multilingual coverage
+- `Metric-AI/armenian-text-embeddings-1` — Armenian-tuned model, sanity-check for HY specialization
+- `paraphrase-multilingual-MiniLM-L12-v2` — lightweight multilingual (carried over from day 2)
+- `openai/text-embedding-3-large` — flagship commercial model, included to test Armenian coverage
+- `all-MiniLM-L6-v2` — English-only reference baseline
+
+---
 
 ## Results
 
 See [RESULTS.md](RESULTS.md).
 
+---
+
 ## Run
 
 ```bash
 pip install -r requirements.txt
-python epg_similarity.py --api st --model paraphrase-multilingual-MiniLM-L12-v2
 
-# OpenAI backend requires an API key
-OPENAI_API_KEY=sk-... python epg_similarity.py --api openai --model text-embedding-3-small
+python epg_similarity.py --api st --model intfloat/multilingual-e5-base
+python epg_similarity.py --api st --model sentence-transformers/LaBSE
+python epg_similarity.py --api st --model Metric-AI/armenian-text-embeddings-1
+python epg_similarity.py --api openai --model text-embedding-3-large
 ```
