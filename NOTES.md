@@ -54,3 +54,29 @@ Quotes below record which suggestions I acted on and why.
 > text-embedding-3-large (OpenAI): top quality if API usage is acceptable; handles
 > low-resource languages better than smaller OpenAI models and supports domain
 > fine-tuning via prompt engineering.
+
+---
+
+## 2025-09-25: intfloat/multilingual-e5-large-instruct, intfloat/multilingual-e5-large, BAAI/bge-m3
+
+### Grok
+
+> multilingual-e5-large-instruct (from intfloat on Hugging Face): Tops MMTEB
+> multilingual rankings with an average score of 63.2 across tasks, excelling in STS
+> (84.3) and pair classification (86.2). Supports 100+ languages, including EN, RU,
+> and HY. Instruction-tuned for better query-passage matching, making it ideal for
+> semantic search in mixed-language EPG data.
+> Dimensions: 1024. Pros: High performance on cross-lingual retrieval; efficient for
+> short texts. Cons: Larger model (requires more compute).
+
+> multilingual-e5-large (from intfloat on Hugging Face): Ranks high in MMTEB (average
+> 58.6-62.1), with strong STS (80.6) and retrieval (49.0-73.5) for semantic matching
+> in EPG-like short passages. Supports 100+ languages, including EN, RU, and HY.
+> Pros: Balanced speed and accuracy; open-source.
+> Cons: Not instruction-tuned like its variant.
+
+### ChatGPT
+
+> ai-community/bge-m3: bilingual general embedding (BGE) with 100+ languages. Handles
+> asymmetric queries (search vs description) and keeps HY/RU quality robust; good for
+> dense retrieval.
