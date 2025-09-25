@@ -41,8 +41,8 @@ See [RESULTS.md](RESULTS.md).
 ```bash
 pip install -r requirements.txt
 
-python epg_similarity.py --api st --model intfloat/multilingual-e5-base
-python epg_similarity.py --api st --model sentence-transformers/LaBSE
-python epg_similarity.py --api st --model Metric-AI/armenian-text-embeddings-1
-python epg_similarity.py --api openai --model text-embedding-3-large
+python benchmark.py --api st --model intfloat/multilingual-e5-base
+python benchmark.py --api st --model sentence-transformers/LaBSE
+python benchmark.py --api st --model Metric-AI/armenian-text-embeddings-1
+python benchmark.py --api openai --model text-embedding-3-large
 ```
