@@ -293,6 +293,7 @@ def load_phrases_from_json(path: str) -> Sequence[Dict[str, str]]:
         payload = payload.get("triplets", payload.get("phrases", []))
     if not isinstance(payload, list):
         raise ValueError("JSON file must contain a list of phrase objects or an object with a 'triplets' key")
+
     required_keys = {"en", "ru", "hy"}
     validated = []
     for idx, entry in enumerate(payload):

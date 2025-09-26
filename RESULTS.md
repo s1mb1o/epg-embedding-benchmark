@@ -67,6 +67,48 @@ hy-hy:  0.9900 / 0.9489 / 0.9475 / 0.9472  ->  mean 0.9584
 
 Recommended for production: 28% faster than the large-instruct variant with only -2.6% cross-language accuracy.
 
+### sentence-transformers/LaBSE — rank 4
+
+```
+ID                          en-ru    en-hy    ru-hy     mean
+------------------------------------------------------------
+evening_news               0.9478   0.8980   0.8923   0.9127
+morning_show               0.8931   0.9106   0.9246   0.9094
+documentary_premiere       0.8949   0.8215   0.8215   0.8460
+live_football              0.8945   0.8986   0.9500   0.9144
+cooking_competition        0.7413   0.9093   0.7042   0.7849
+movie_road_home            0.5361   0.3798   0.7742   0.5633
+movie_secret_ararat        0.5918   0.6177   0.7902   0.6666
+------------------------------------------------------------
+overall_mean                                       0.7996
+
+hy-hy:  0.9018 / 0.9641 / 0.9178 / 0.9512  ->  mean 0.9337
+```
+
+Strong on common news/sports titles; drops sharply on movie entries with proper nouns and domain prefixes (`к/ф`, `ֆ/ֆ`).
+Best non-e5 fallback when the intfloat family is unavailable.
+
+### paraphrase-multilingual-mpnet-base-v2 — rank 10
+
+```
+ID                          en-ru    en-hy    ru-hy     mean
+------------------------------------------------------------
+evening_news               0.9433   0.5020   0.6292   0.6915
+morning_show               0.7748   0.9333   0.8596   0.8559
+documentary_premiere       0.6391   0.2330   0.6501   0.5074
+live_football              0.8291   0.8318   0.9589   0.8732
+cooking_competition        0.7764   0.9574   0.8191   0.8509
+movie_road_home            0.5258   0.5835   0.6289   0.5794
+movie_secret_ararat        0.5413   0.5558   0.7073   0.6015
+------------------------------------------------------------
+overall_mean                                       0.7085
+
+hy-hy: mean 0.7622
+```
+
+Inconsistent: some pairs score very high (cooking_competition en-hy 0.96, live_football ru-hy 0.96) while others collapse (documentary_premiere en-hy 0.23).
+Usable as a lightweight baseline but not reliable enough for production EPG matching.
+
 ### openai/text-embedding-3-large — rank 13
 
 ```
@@ -85,5 +127,40 @@ overall_mean                                       0.3377
 hy-hy:  0.6353 / 0.7817 / 0.4403 / 0.5300  ->  mean 0.5968
 ```
 
-EN-RU alignment is serviceable (0.56–0.73), but Armenian vectors collapse to near-random (en-hy: 0.08–0.32).
-Cost and brand do not predict performance on low-resource languages.
+en-ru scores hover around 0.6 — OpenAI aligns Russian and English reasonably well. en-hy and ru-hy stay near 0.15–0.20:
+Armenian is effectively drifting in the embedding space; the overall mean of 0.34 reflects that imbalance.
+
+> text-embedding-3-large is very strong overall, but Armenian is a low-resource language
+> in OpenAI's training mix. Without much HY-only or HY↔EN parallel data in their corpus,
+> the model just can't anchor Armenian phrases near their English/Russian counterparts.
+> Prefix cases (к/ф, ֆ/ֆ) add extra tokens that many models — including OpenAI's — may
+> have rarely seen, which drags the HY vectors further away.
+> — ChatGPT
+
+### all-MiniLM-L6-v2 — rank 14
+
+```
+ID                          en-ru    en-hy    ru-hy     mean
+------------------------------------------------------------
+evening_news               0.0827   0.1045   0.1827   0.1233
+morning_show               0.1195   0.1232   0.2626   0.1684
+documentary_premiere       0.0949   0.0625   0.1532   0.1035
+live_football              0.0931   0.1274   0.1599   0.1268
+cooking_competition        0.0600   0.1110   0.3180   0.1630
+movie_road_home            0.0150  -0.0043   0.2328   0.0812
+movie_secret_ararat        0.1223   0.2080   0.3214   0.2173
+------------------------------------------------------------
+overall_mean                                       0.1405
+
+hy-hy:  0.9031 / 0.2893 / 0.1948 / 0.4532  ->  mean 0.4601
+```
+
+> all-MiniLM-L6-v2 isn't tuned for cross-lingual tasks. Armenian especially is
+> underrepresented, so the embeddings drift apart despite true semantic matches.
+> ru-hy scores consistently beat en-ru/en-hy, suggesting the model catches a bit of
+> regional similarity but still lacks solid multilingual understanding. Movie-prefixed
+> rows (к/ф, ֆ/ֆ) drop even further; the model likely hasn't seen those prefixes, so
+> it treats the strings as unrelated.
+> — ChatGPT
+
+Included as a baseline only. Do not use for multilingual EPG matching.
