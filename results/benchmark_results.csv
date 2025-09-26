@@ -1,0 +1,15 @@
+backend,model,cross_lang_mean,hy_hy_mean,total_time_s,time_per_text_s,notes
+st,intfloat/multilingual-e5-large-instruct,0.8996,0.9755,10.6293,0.5062,Best overall performer across languages; ideal production candidate if runtime budget permits.
+st,intfloat/multilingual-e5-large,0.8810,0.9637,10.3189,0.4914,Slightly higher scores than e5-base but slower; use when extra accuracy outweighs latency.
+st,intfloat/multilingual-e5-base,0.8764,0.9584,7.6228,0.3630,Excellent overall match quality with fast HY convergence; great trade-off between accuracy and cost.
+st,sentence-transformers/LaBSE,0.7996,0.9337,9.3818,0.4468,Strong cross-lingual coverage and good HY synonyms; higher latency but reliable fallback.
+st,Metric-AI/armenian-text-embeddings-1,0.7975,0.9097,6.2116,0.2958,Armenian-tuned model raises HY scores but still trails multilingual-e5 in RU/EN.
+st,intfloat/e5-large-v2,0.7762,0.8331,6.6285,0.3156,English-optimized variant underperforms on HY; acceptable only when HY coverage is secondary.
+st,BAAI/bge-m3,0.7665,0.8486,8.7572,0.4170,Multilingual specialist but lags on cross-language averaging; keeps HY acceptable.
+flag,BAAI/bge-m3,0.7665,0.8486,5.6355,0.2684,Same embedding quality as ST variant with faster inference via FlagEmbedding; good for local deployments.
+st,intfloat/e5-large,0.7511,0.8629,6.4647,0.3078,Legacy e5 shows weaker cross-lingual lift; consider migrating to multilingual-e5 family.
+st,sentence-transformers/paraphrase-multilingual-mpnet-base-v2,0.7085,0.7622,7.5841,0.3611,Solid multilingual baseline but Armenian alignment remains moderate; consider for quick sanity checks only.
+st,sentence-transformers/distiluse-base-multilingual-cased,0.7079,0.7487,5.8061,0.2765,Balanced latency and accuracy yet still trails stronger HY-capable models.
+st,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,0.6684,0.7522,6.6681,0.3175,Lightweight model with noticeably weaker HY alignment; better options available for production.
+openai,text-embedding-3-large,0.3376,0.5969,3.7179,0.1770,Strong English/Russian alignment but HY performance collapses; not suitable for tri-lingual EPG without fine-tuning.
+st,all-MiniLM-L6-v2,0.1405,0.4601,8.5570,0.4075,English-centric MiniLM misses RU/HY semantics entirely; avoid for multilingual scenarios.

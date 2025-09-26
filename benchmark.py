@@ -213,7 +213,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument("--api", choices=("st", "ollama", "openai", "flag"), required=True)
     parser.add_argument("--model", help="Embedding model identifier for the selected backend")
-    parser.add_argument("--phrases", help="Optional path to JSON file with custom phrase triplets")
+    parser.add_argument("--phrases", help="Optional path to JSON file with custom phrase triplets and synonym pairs")
     parser.add_argument("--skip-synonyms", action="store_true", help="Skip the Armenian synonym diagnostic")
     parser.add_argument("--trust-remote-code", action="store_true", help="Allow loading models that require trust_remote_code")
     return parser
@@ -236,10 +236,32 @@ def load_phrases_from_json(path: str) -> Sequence[Dict[str, str]]:
     return validated
 
 
+def load_synonyms_from_json(path: str) -> Sequence[Dict[str, str]]:
+    import json
+    with open(path, "r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+    if not isinstance(payload, dict) or "hy_synonym_pairs" not in payload:
+        return []
+    pairs = payload["hy_synonym_pairs"]
+    required_keys = {"hy_a", "hy_b"}
+    validated = []
+    for idx, entry in enumerate(pairs):
+        if not isinstance(entry, dict) or not required_keys.issubset(entry):
+            raise ValueError(f"Synonym entry at index {idx} must provide keys: {sorted(required_keys)}")
+        validated.append(entry)
+    return validated
+
+
 def iterate_phrases(args: argparse.Namespace) -> Sequence[Dict[str, str]]:
     if args.phrases:
         return load_phrases_from_json(args.phrases)
     return PHRASE_TRIPLETS
+
+
+def iterate_synonyms(args: argparse.Namespace) -> Sequence[Dict[str, str]]:
+    if args.phrases:
+        return load_synonyms_from_json(args.phrases)
+    return HY_SYNONYM_PAIRS
 
 
 def prepare_embeddings(client: EmbeddingClient, phrases: Sequence[Dict[str, str]]) -> Tuple[Dict[Tuple[int, str], np.ndarray], Dict[str, float]]:
@@ -319,6 +341,8 @@ def main(argv: Sequence[str]) -> int:
     api = args.api
     model_name = args.model or DEFAULT_MODELS[api]
     phrases = iterate_phrases(args)
+    if not phrases:
+        parser.error("No phrase triplets found; check your --phrases file or use the built-in dataset")
     client = EmbeddingClient(api=api, model_name=model_name, trust_remote_code=args.trust_remote_code)
     try:
         embeddings, stats = prepare_embeddings(client, phrases)
@@ -330,7 +354,7 @@ def main(argv: Sequence[str]) -> int:
     print(f"api={client.api} | model={client.model_name} | texts={total_texts} | total_time={total_time:.4f}s | per_text={per_text:.4f}s")
     report_similarities(phrases, embeddings)
     if not args.skip_synonyms:
-        report_hy_synonyms(client, HY_SYNONYM_PAIRS)
+        report_hy_synonyms(client, iterate_synonyms(args))
     return 0
 
 

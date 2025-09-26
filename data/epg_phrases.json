@@ -1,0 +1,74 @@
+{
+  "description": "TV EPG title test set for multilingual embedding evaluation (EN/RU/HY)",
+  "languages": {
+    "en": "English",
+    "ru": "Russian",
+    "hy": "Armenian (Հայերեն)"
+  },
+  "triplets": [
+    {
+      "id": "evening_news",
+      "en": "Evening News",
+      "ru": "Вечерние новости",
+      "hy": "Երեկոյան լուրեր"
+    },
+    {
+      "id": "morning_show",
+      "en": "Morning Show",
+      "ru": "Утреннее шоу",
+      "hy": "Առավոտյան շոու"
+    },
+    {
+      "id": "documentary_premiere",
+      "en": "Documentary Premiere",
+      "ru": "Премьера документального фильма",
+      "hy": "Վավերագրական ֆիլմի պրեմիերա"
+    },
+    {
+      "id": "live_football",
+      "en": "Live Football",
+      "ru": "Прямая трансляция футбола",
+      "hy": "Ֆուտբոլի ուղիղ հեռարձակում"
+    },
+    {
+      "id": "cooking_competition",
+      "en": "Cooking Competition",
+      "ru": "Кулинарное состязание",
+      "hy": "Խոհարարական մրցույթ"
+    },
+    {
+      "id": "movie_road_home",
+      "en": "Feature Film: The Road Home",
+      "ru": "к/ф Дорога домой",
+      "hy": "ֆ/ֆ Տուն վերադարձ"
+    },
+    {
+      "id": "movie_secret_ararat",
+      "en": "Feature Film: Secret of Ararat",
+      "ru": "к/ф Тайна Арарата",
+      "hy": "ֆ/ֆ Արարատի գաղտնիքը"
+    }
+  ],
+  "hy_synonym_pairs": [
+    {
+      "id": "hy_news_bulletin",
+      "hy_a": "Լուրերի թողարկում",
+      "hy_b": "Նորությունների թողարկում"
+    },
+    {
+      "id": "hy_live_broadcast",
+      "hy_a": "Ուղիղ հեռարձակում",
+      "hy_b": "Ուղիղ եթեր"
+    },
+    {
+      "id": "hy_sports_wrap",
+      "hy_a": "Մարզական ամփոփում",
+      "hy_b": "Սպորտային ամփոփագիր"
+    },
+    {
+      "id": "hy_family_movie",
+      "hy_a": "Ընտանեկան ֆիլմ",
+      "hy_b": "Ընտանիքի համար նախատեսված ֆիլմ"
+    }
+  ]
+}
