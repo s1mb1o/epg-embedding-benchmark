@@ -22,11 +22,15 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PYTHON_BIN=${PYTHON_BIN:-python3}
 SCRIPT_PATH="$SCRIPT_DIR/benchmark.py"
+CSV_FILE="$SCRIPT_DIR/results/benchmark_results.csv"
 
 if [[ ! -f "$SCRIPT_PATH" ]]; then
   echo "benchmark.py not found next to run_benchmark.sh" >&2
   exit 1
 fi
+
+mkdir -p "$SCRIPT_DIR/results"
+rm -f "$CSV_FILE"
 
 declare -a RUNS
 
@@ -82,12 +86,13 @@ for entry in "${RUNS[@]}"; do
   echo "----------------------------------------------------------------"
 
   if [[ -n "${extra:-}" ]]; then
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" $extra
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $extra
   else
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model"
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE"
   fi
 
   echo
 done
 
 echo "All embedding evaluations completed."
+echo "Results CSV → $CSV_FILE"

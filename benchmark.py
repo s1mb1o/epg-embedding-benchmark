@@ -11,6 +11,7 @@ Usage example:
 from __future__ import annotations
 
 import argparse
+import csv
 import os
 import sys
 from dataclasses import dataclass, field
@@ -281,6 +282,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Allow loading SentenceTransformer models that require trust_remote_code"
     )
+    parser.add_argument(
+        "--csv-file",
+        help="Append a CSV result row to this file (created with header if missing)",
+    )
     return parser
 
 
@@ -358,7 +363,7 @@ def prepare_embeddings(
     return embedded, stats
 
 
-def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tuple[int, str], np.ndarray]) -> None:
+def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tuple[int, str], np.ndarray]) -> float:
     header = f"{'ID':<24} {'en-ru':>8} {'en-hy':>8} {'ru-hy':>8} {'mean':>8}"
     print(header)
     print("-" * len(header))
@@ -381,15 +386,16 @@ def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tupl
             f"{sim_en_ru:8.4f} {sim_en_hy:8.4f} {sim_ru_hy:8.4f} {mean_value:8.4f}"
         )
 
+    overall = sum(totals) / len(totals) if totals else 0.0
     if totals:
-        overall = sum(totals) / len(totals)
         print("-" * len(header))
         print(f"{'overall_mean':<24} {overall:>32.4f}")
+    return overall
 
 
-def report_hy_synonyms(client: EmbeddingClient, synonyms: Sequence[Dict[str, str]]) -> None:
+def report_hy_synonyms(client: EmbeddingClient, synonyms: Sequence[Dict[str, str]]) -> float:
     if not synonyms:
-        return
+        return 0.0
 
     texts: List[str] = []
     pair_indices: List[int] = []
@@ -422,10 +428,37 @@ def report_hy_synonyms(client: EmbeddingClient, synonyms: Sequence[Dict[str, str
         ident = synonyms[idx].get("id", f"hy_pair_{idx}")
         print(f"{ident:<24} {score:8.4f}")
 
+    mean_score = sum(totals) / len(totals) if totals else 0.0
     if totals:
-        mean_score = sum(totals) / len(totals)
         print("-" * len(header))
         print(f"{'overall_mean':<24} {mean_score:>8.4f}")
+    return mean_score
+
+
+def _append_csv_row(
+    csv_path: str,
+    backend: str,
+    model: str,
+    cross_lang_mean: float,
+    hy_hy_mean: float,
+    total_time_s: float,
+    time_per_text_s: float,
+) -> None:
+    """Append a single result row to *csv_path*, writing the header if the file is new or empty."""
+    header = ["backend", "model", "cross_lang_mean", "hy_hy_mean", "total_time_s", "time_per_text_s"]
+    write_header = not os.path.exists(csv_path) or os.path.getsize(csv_path) == 0
+    with open(csv_path, "a", newline="", encoding="utf-8") as fh:
+        writer = csv.writer(fh)
+        if write_header:
+            writer.writerow(header)
+        writer.writerow([
+            backend,
+            model,
+            f"{cross_lang_mean:.4f}",
+            f"{hy_hy_mean:.4f}",
+            f"{total_time_s:.4f}",
+            f"{time_per_text_s:.4f}",
+        ])
 
 
 def main(argv: Sequence[str]) -> int:
@@ -464,9 +497,15 @@ def main(argv: Sequence[str]) -> int:
         f"| total_time={total_time:.4f}s | per_text={per_text:.4f}s"
     )
 
-    report_similarities(phrases, embeddings)
+    cross_lang_mean = report_similarities(phrases, embeddings)
+
+    hy_hy_mean = 0.0
     if not args.skip_synonyms:
-        report_hy_synonyms(client, iterate_synonyms(args))
+        hy_hy_mean = report_hy_synonyms(client, iterate_synonyms(args))
+
+    if args.csv_file:
+        _append_csv_row(args.csv_file, api, model_name, cross_lang_mean, hy_hy_mean, total_time, per_text)
+
     return 0
 
 
