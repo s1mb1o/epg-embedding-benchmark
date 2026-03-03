@@ -8,6 +8,7 @@ sentence-transformers>=2.2.2
 # 1.2.12+ breaks on Python 3.13 (missing Optional in trainer.py star-import);
 # 1.2.11 works after patching trainer.py.
 FlagEmbedding>=1.2.0,<1.3
+peft>=0.10.0  # undeclared FlagEmbedding dependency (flag_reranker imports it)
 
 # OpenAI backend (--api openai) — requires OPENAI_API_KEY env var
 openai>=1.40.0
