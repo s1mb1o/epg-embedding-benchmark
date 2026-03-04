@@ -247,9 +247,13 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 ├── benchmark.py          # Main evaluation script
 ├── run_benchmark.sh      # Harness to run all models sequentially
 ├── analysis.ipynb        # Visualization notebook (4 charts)
+├── DATASET.md            # Dataset preparation notes
 ├── requirements.txt
 ├── data/
-│   └── epg_phrases.json  # Test dataset: 7 EN/RU/HY triplets + 4 HY synonym pairs
+│   ├── epg_phrases.json          # Test dataset: 7 EN/RU/HY triplets + 4 HY synonym pairs
+│   └── tmdb_armenian_movies.json # 515 Armenian movies from TMDB (HY/RU/EN titles)
+├── scripts/
+│   └── fetch_tmdb_armenian.py    # Fetch Armenian movie titles from TMDB API
 └── results/
     ├── benchmark_results.csv  # Pre-computed results from M2 Max
     ├── scores_ranked.png
@@ -264,7 +268,7 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 
 Developed as part of building a content recommendation system for an IPTV/OTT platform serving multi-language EPG data in English, Russian, and Armenian. The results directly informed the production model selection.
 
-The test dataset (7 triplets + 4 synonym pairs) is intentionally small — sufficient for a quick draft estimation of model quality, but should be extended with more titles and genres for production-grade evaluation. No proprietary EPG data is included.
+The test dataset (7 triplets + 4 synonym pairs) is intentionally small — sufficient for a quick draft estimation of model quality, but should be extended with more titles and genres for production-grade evaluation. See [DATASET.md](DATASET.md) for dataset preparation and extension plans. No proprietary EPG data is included.
 
 ---
 
