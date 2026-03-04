@@ -22,7 +22,18 @@ Built while developing a content recommendation system for an IPTV/OTT operator 
 
 ### Why these three languages?
 
-Digital television EPG data predominantly uses three languages: **English** (EN), **Russian** (RU), and **Armenian** (HY). English is the lingua franca of international content metadata. Russian is the primary language of post-Soviet broadcast markets where many IPTV/OTT operators serve. Armenian is the national language for operators in Armenia — a market where all three languages coexist in the same EPG feed, making trilingual matching a hard practical requirement rather than an academic exercise.
+Armenian IPTV/OTT EPG feeds use three languages simultaneously: **Armenian** (HY), **Russian** (RU), and **English** (EN). Armenian is the national language. Russian is widely spoken and dominates post-Soviet broadcast metadata. English is the lingua franca of international content. All three coexist in the same EPG feed, making trilingual matching a hard practical requirement rather than an academic exercise.
+
+A 14-day snapshot of a production Armenian EPG feed (239 channels, 35,170 entries, 2025-09-18 to 2025-10-02) shows the language mix:
+
+| Language | Entries | Share |
+|----------|--------:|------:|
+| Russian only | 18,876 | 53.7% |
+| Armenian only | 10,519 | 29.9% |
+| English only | 4,236 | 12.0% |
+| Mixed (two languages) | 1,519 | 4.3% |
+
+No single entry contained all three languages — each title is monolingual or bilingual, so a RecSys must align them purely through embedding similarity.
 
 Every IPTV operator ingests EPG data from multiple sources. The same program arrives with different titles, different transliterations, and in different languages — all needing to be matched together. A RecSys that can't do cross-lingual matching produces poor recommendations for non-English content.
 
@@ -30,7 +41,7 @@ Armenian (`hy`) is particularly challenging:
 - Non-Latin, non-Cyrillic script (unique Armenian alphabet: Հ, Ա, Յ, Ե, ...)
 - Low-resource language: underrepresented in most embedding model training data
 - Domain-specific abbreviations
-- Mix of armenian, russian and english in EPG titles
+- Mix of Armenian, Russian and English in EPG titles
 
 ### Domain-specific abbreviations
 
@@ -86,7 +97,7 @@ This benchmark measures how well each model handles **semantic alignment** of th
 
 ### Test Dataset
 
-250 trilingual title triplets: 7 hand-crafted TV EPG entries covering news, sports, entertainment, and movies, plus 243 real Armenian movie titles from [TMDB](https://www.themoviedb.org/) (see [DATASET.md](DATASET.md)).
+253 trilingual title triplets: 7 hand-crafted TV EPG entries covering news, sports, entertainment, and movies, plus 246 real Armenian titles (movies, animated films, TV series) from [TMDB](https://www.themoviedb.org/) (see [DATASET.md](DATASET.md)).
 
 Hand-crafted EPG triplets:
 
@@ -121,43 +132,38 @@ The `movie_*` entries include domain-specific abbreviations (`к/ф` in Russian,
 
 ### Hardware
 
-MacBook M2 Max, 32 GB RAM — local models run via CPU/Metal; OpenAI uses remote API.
+MacBook M2 Max, 32 GB RAM — local models run via CPU/Metal; paid models (OpenAI, Cohere, Jina, Voyage) use remote APIs.
 
 ---
 
 ## Results
 
-| # | Backend | Model | Year | Paid | Cross-lang | EN↔RU | EN↔HY | RU↔HY | HY↔HY | s/text |
-|---|---------|-------|:----:|:----:|:----------:|:-----:|:-----:|:-----:|:-----:|:------:|
-| 1 | st | `intfloat/multilingual-e5-large-instruct` | 2024 | | **0.900** | 0.917 | 0.872 | 0.911 | **0.975** | 0.46 |
-| 2 | st | `intfloat/multilingual-e5-large` | 2023 | | 0.881 | 0.880 | 0.864 | 0.899 | 0.964 | 0.52 |
-| 3 | st | `intfloat/multilingual-e5-base` | 2023 | | 0.876 | 0.883 | 0.858 | 0.889 | 0.958 | 0.41 |
-| 4 | st | `sentence-transformers/LaBSE` | 2022 | | 0.800 | 0.786 | 0.777 | 0.837 | 0.934 | 0.47 |
-| 5 | st | `Metric-AI/armenian-text-embeddings-1` | 2024 | | 0.798 | 0.794 | 0.777 | 0.821 | 0.910 | 0.32 |
-| 6 | st | `intfloat/e5-large-v2` | 2023 | | 0.776 | 0.754 | 0.767 | 0.808 | 0.833 | 0.37 |
-| 7 | flag | `BAAI/bge-m3` | 2024 | | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | **0.27** |
-| 8 | st | `BAAI/bge-m3` | 2024 | | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | 0.45 |
-| 9 | st | `intfloat/e5-large` | 2022 | | 0.751 | 0.723 | 0.729 | 0.803 | 0.863 | 0.39 |
-| 10 | st | `paraphrase-multilingual-mpnet-base-v2` | 2021 | | 0.709 | 0.719 | 0.657 | 0.750 | 0.762 | 0.42 |
-| 11 | st | `distiluse-base-multilingual-cased` | 2020 | | 0.708 | 0.766 | 0.618 | 0.739 | 0.749 | 0.37 |
-| 12 | st | `paraphrase-multilingual-MiniLM-L12-v2` | 2021 | | 0.668 | 0.753 | 0.549 | 0.703 | 0.752 | 0.38 |
-| 13 | openai | `text-embedding-3-large` | 2024 | $$ | 0.342 | 0.622 | 0.168 | 0.222 | 0.665 | 0.01 |
-| 14 | st | `all-MiniLM-L6-v2` | 2021 | | 0.141 | 0.084 | 0.105 | 0.233 | 0.460 | 0.32 |
+| # | Backend | Model | Year | Paid | Cross-lang | EN↔RU | EN↔HY | RU↔HY | HY↔HY | Abbrev | s/text |
+|---|---------|-------|:----:|:----:|:----------:|:-----:|:-----:|:-----:|:-----:|:------:|:------:|
+| 1 | st | `intfloat/multilingual-e5-large-instruct` | 2024 | | **0.900** | 0.916 | 0.872 | 0.911 | **0.975** | **0.975** | 0.48 |
+| 2 | jina | `jina-embeddings-v3` | 2024 | $$ | 0.881 | 0.899 | 0.860 | 0.884 | 0.913 | 0.899 | **0.05** |
+| 3 | st | `intfloat/multilingual-e5-large` | 2023 | | 0.881 | 0.880 | 0.864 | 0.899 | 0.964 | 0.940 | 0.59 |
+| 4 | st | `intfloat/multilingual-e5-base` | 2023 | | 0.876 | 0.883 | 0.858 | 0.889 | 0.958 | 0.948 | 0.42 |
+| 5 | st | `sentence-transformers/LaBSE` | 2022 | | 0.800 | 0.786 | 0.776 | 0.837 | 0.934 | 0.794 | 0.51 |
+| 6 | st | `Metric-AI/armenian-text-embeddings-1` | 2024 | | 0.797 | 0.794 | 0.777 | 0.821 | 0.910 | 0.875 | 0.30 |
+| 7 | st | `intfloat/e5-large-v2` | 2023 | | 0.776 | 0.754 | 0.767 | 0.808 | 0.833 | 0.920 | 0.39 |
+| 8 | st | `jinaai/jina-embeddings-v3` | 2024 | | 0.771 | 0.821 | 0.700 | 0.792 | 0.826 | 0.928 | 0.66 |
+| 9 | st | `BAAI/bge-m3` | 2024 | | 0.766 | 0.797 | 0.712 | 0.791 | 0.849 | 0.831 | 0.47 |
+| 10 | flag | `BAAI/bge-m3` | 2024 | | 0.766 | 0.797 | 0.712 | 0.791 | 0.849 | 0.831 | 0.31 |
+| 11 | cohere | `embed-multilingual-v3.0` | 2023 | $$ | 0.764 | 0.802 | 0.683 | 0.806 | 0.951 | 0.911 | 0.05 |
+| 12 | st | `intfloat/e5-large` | 2022 | | 0.751 | 0.723 | 0.729 | 0.802 | 0.863 | 0.969 | 0.35 |
+| 13 | voyage | `voyage-multilingual-2` | 2024 | $$ | 0.729 | 0.814 | 0.660 | 0.713 | 0.783 | 0.889 | 0.07 |
+| 14 | st | `Alibaba-NLP/gte-multilingual-base` | 2024 | | 0.724 | 0.802 | 0.655 | 0.716 | 0.737 | 0.899 | 0.40 |
+| 15 | st | `paraphrase-multilingual-mpnet-base-v2` | 2021 | | 0.709 | 0.719 | 0.657 | 0.750 | 0.762 | 0.793 | 0.46 |
+| 16 | st | `distiluse-base-multilingual-cased` | 2020 | | 0.708 | 0.766 | 0.618 | 0.739 | 0.749 | 0.749 | 0.39 |
+| 17 | st | `paraphrase-multilingual-MiniLM-L12-v2` | 2021 | | 0.668 | 0.753 | 0.549 | 0.703 | 0.752 | 0.796 | 0.42 |
+| 18 | cohere | `embed-v4.0` | 2025 | $$ | 0.404 | 0.668 | 0.238 | 0.305 | 0.572 | 0.695 | 0.05 |
+| 19 | openai | `text-embedding-3-large` | 2024 | $$ | 0.338 | 0.622 | 0.168 | 0.222 | 0.667 | 0.774 | 0.06 |
+| 20 | st | `all-MiniLM-L6-v2` | 2021 | | 0.141 | 0.084 | 0.105 | 0.233 | 0.460 | 0.837 | 0.34 |
 
-_250 triplets · st = sentence-transformers · flag = FlagEmbedding · $$ = paid API · Hardware: M2 Max, 32 GB RAM_
+_253 triplets · 783 abbreviation duplets · st = sentence-transformers · flag = FlagEmbedding · $$ = paid API · Hardware: M2 Max, 32 GB RAM_
 
-### Pending models (code ready, awaiting benchmark run)
-
-| Backend | Model | Year | Paid | Notes |
-|---------|-------|:----:|:----:|-------|
-| st | `Alibaba-NLP/gte-multilingual-base` | 2024 | | MTEB leaderboard champion; 70+ languages |
-| st | `jinaai/jina-embeddings-v3` | 2024 | | 89 languages, task-specific LoRA adapters |
-| cohere | `embed-v4.0` | 2025 | $$ | Cohere's latest; 100+ languages |
-| cohere | `embed-multilingual-v3.0` | 2023 | $$ | Cohere's dedicated multilingual model |
-| jina | `jina-embeddings-v3` | 2024 | $$ | Same model as above, via Jina API |
-| voyage | `voyage-multilingual-2` | 2024 | $$ | Voyage AI; strong MTEB multilingual scores |
-
-Rankings are identical to the original 7-triplet benchmark — the small hand-crafted dataset was representative after all. Scores are remarkably stable, confirming the original findings hold at 250 triplets.
+Rankings are identical to the original 7-triplet benchmark — the small hand-crafted dataset was representative after all. Scores are remarkably stable, confirming the original findings hold at 253 triplets.
 
 Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
 
@@ -165,7 +171,7 @@ Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
 
 ## Analysis
 
-[analysis.ipynb](analysis.ipynb) generates four charts from the benchmark results:
+[analysis.ipynb](analysis.ipynb) generates five charts from the benchmark results:
 
 ### Models ranked by cross-lingual score
 
@@ -183,6 +189,10 @@ Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
 
 ![Per language-pair heatmap](results/heatmap.png)
 
+### Abbreviation robustness
+
+![Abbreviation robustness](results/abbrev_scores.png)
+
 ---
 
 ## Key Findings
@@ -191,9 +201,9 @@ Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
 
 `intfloat/multilingual-e5-large-instruct` achieves 0.90 cross-lingual mean and 0.975 HY↔HY consistency. The three multilingual-e5 variants (base, large, large-instruct) all score above 0.87 — significantly better than all other models. The base model offers the best accuracy/cost trade-off for production use.
 
-### 2. OpenAI `text-embedding-3-large` underperforms on Armenian
+### 2. Commercial API models underperform on Armenian
 
-Despite being a flagship commercial model, it scores **0.34 overall** — below all dedicated multilingual models tested. Armenian is a low-resource language; without sufficient HY parallel training data, the model cannot anchor Armenian phrases near their EN/RU counterparts.
+OpenAI `text-embedding-3-large` scores **0.34 overall** and Cohere `embed-v4.0` scores **0.40** — both below all dedicated multilingual models tested, despite being flagship commercial offerings. Armenian is a low-resource language; without sufficient HY parallel training data, these models cannot anchor Armenian phrases near their EN/RU counterparts. Cohere's older `embed-multilingual-v3.0` (0.76) fares much better, suggesting the newer v4 model may have regressed on low-resource languages.
 
 **Lesson:** cost and brand do not predict performance on low-resource languages. Always benchmark for your specific language mix.
 
@@ -208,17 +218,21 @@ EPG data is full of abbreviations like `к/ф` (Russian) and `Գ/Ֆ`, `ֆ/ֆ`, `
 
 Pre-processing to expand abbreviations before embedding would likely improve all scores.
 
-### 4. LaBSE is the best non-e5 fallback
+### 4. Abbreviation robustness benchmark confirms e5 dominance
+
+A dedicated abbreviation test (duplets of `"Title"` vs `"prefix Title"` using `к/ф`, `т/с`, `м/ф` for Russian and `ֆ/ֆ`, `հ/ս`, `մ/ֆ` for Armenian) measures how much an abbreviation prefix shifts the embedding. `e5-large-instruct` leads at **0.975** mean, meaning abbreviations barely move the embedding vector. The entire e5 family scores above 0.94 — well above the 0.90 threshold. Notably, `e5-large (legacy)` and `e5-large-v2` score 0.97 and 0.92 respectively despite being English-centric models, suggesting their strong subword representations handle abbreviation prefixes gracefully. At the bottom, `embed-v4.0 [cohere]` (0.70) and `distiluse` (0.75) are most disrupted by abbreviation prefixes.
+
+### 5. LaBSE is the best non-e5 fallback
 
 Google's Language-agnostic BERT Sentence Embedding scores 0.80 cross-lingual with solid HY performance (0.93). It's the most reliable choice if the intfloat/e5 family is unavailable.
 
-### 5. Armenian-specialized model doesn't win overall
+### 6. Armenian-specialized model doesn't win overall
 
 `Metric-AI/armenian-text-embeddings-1` (based on multilingual-e5) scores 0.91 HY↔HY — below LaBSE (0.93) and the multilingual-e5 variants (0.96–0.98). It also underperforms on EN↔RU alignment. Specialization for one language doesn't guarantee better scores even in that language.
 
-### 6. FlagEmbedding is the fastest local inference path
+### 7. FlagEmbedding is the fastest local inference path
 
-`BAAI/bge-m3` via FlagEmbedding runs at 0.29s/text — 42% faster than the same model through sentence-transformers (0.50s) — with identical embedding quality. Useful for latency-sensitive production deployments.
+`BAAI/bge-m3` via FlagEmbedding runs at 0.31s/text — 35% faster than the same model through sentence-transformers (0.47s) — with identical embedding quality. Useful for latency-sensitive production deployments.
 
 ---
 
@@ -229,8 +243,8 @@ For a production EN+RU+HY IPTV/OTT RecSys:
 | Priority | Model | Rationale |
 |----------|-------|-----------|
 | **Default** | `intfloat/multilingual-e5-base` | Best accuracy/size/speed trade-off |
-| **Max accuracy** | `intfloat/multilingual-e5-large-instruct` | Top scores, +17% latency vs base |
-| **Resource-constrained** | `BAAI/bge-m3` via FlagEmbedding | Fastest local inference, 0.29s/text |
+| **Max accuracy** | `intfloat/multilingual-e5-large-instruct` | Top scores, +16% latency vs base |
+| **Resource-constrained** | `BAAI/bge-m3` via FlagEmbedding | Fastest local inference, 0.31s/text |
 
 **Avoid for HY:** `all-MiniLM-L6-v2` (English-centric), OpenAI `text-embedding-3-large` (Armenian alignment collapses to noise)
 
@@ -290,20 +304,24 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 .
 ├── benchmark.py          # Main evaluation script
 ├── run_benchmark.sh      # Harness to run all models sequentially
-├── analysis.ipynb        # Visualization notebook (4 charts)
+├── analysis.ipynb        # Visualization notebook (5 charts)
 ├── DATASET.md            # Dataset preparation notes
 ├── requirements.txt
 ├── data/
-│   ├── epg_phrases.json          # Test dataset: 7 EN/RU/HY triplets + 4 HY synonym pairs
-│   └── tmdb_armenian_movies.json # 515 Armenian movies from TMDB (HY/RU/EN titles)
+│   ├── epg_phrases.json          # Test dataset: 253 EN/RU/HY triplets + 4 HY synonym pairs
+│   ├── abbrev_duplets.json       # Abbreviation robustness test: plain vs prefixed title duplets
+│   └── tmdb_armenian_movies.json # 523 Armenian movies from TMDB (HY/RU/EN titles)
 ├── scripts/
-│   └── fetch_tmdb_armenian.py    # Fetch Armenian movie titles from TMDB API
+│   ├── fetch_tmdb_armenian.py    # Fetch Armenian movie titles from TMDB API
+│   ├── merge_tmdb_to_phrases.py  # Merge TMDB movies into epg_phrases.json
+│   └── generate_abbrev_dataset.py # Generate abbreviation robustness duplets
 └── results/
     ├── benchmark_results.csv  # Pre-computed results from M2 Max
     ├── scores_ranked.png
     ├── accuracy_vs_speed.png
     ├── cross_lang_vs_hy.png
-    └── heatmap.png
+    ├── heatmap.png
+    └── abbrev_scores.png
 ```
 
 ---
