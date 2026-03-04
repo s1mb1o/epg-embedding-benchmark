@@ -75,7 +75,9 @@ This benchmark measures how well each model handles **semantic alignment** of th
 
 ### Test Dataset
 
-7 representative TV EPG title triplets, covering news, sports, entertainment, and movies:
+250 trilingual title triplets: 7 hand-crafted TV EPG entries covering news, sports, entertainment, and movies, plus 243 real Armenian movie titles from [TMDB](https://www.themoviedb.org/) (see [DATASET.md](DATASET.md)).
+
+Hand-crafted EPG triplets:
 
 | ID | English | Russian | Armenian (հայ.) |
 |----|---------|---------|-----------------|
@@ -116,22 +118,24 @@ MacBook M2 Max, 32 GB RAM — local models run via CPU/Metal; OpenAI uses remote
 
 | # | Backend | Model | Cross-lang | EN↔RU | EN↔HY | RU↔HY | HY↔HY | s/text |
 |---|---------|-------|:----------:|:-----:|:-----:|:-----:|:-----:|:------:|
-| 1 | st | `intfloat/multilingual-e5-large-instruct` | **0.900** | 0.917 | 0.872 | 0.911 | **0.975** | 0.49 |
-| 2 | st | `intfloat/multilingual-e5-large` | 0.881 | 0.880 | 0.864 | 0.899 | 0.964 | 0.55 |
-| 3 | st | `intfloat/multilingual-e5-base` | 0.876 | 0.883 | 0.858 | 0.889 | 0.958 | 0.42 |
-| 4 | st | `sentence-transformers/LaBSE` | 0.800 | 0.786 | 0.777 | 0.837 | 0.934 | 0.50 |
-| 5 | st | `Metric-AI/armenian-text-embeddings-1` | 0.798 | 0.794 | 0.777 | 0.821 | 0.910 | 0.33 |
-| 6 | st | `intfloat/e5-large-v2` | 0.776 | 0.754 | 0.767 | 0.808 | 0.833 | 0.38 |
-| 7 | flag | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | **0.29** |
-| 8 | st | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | 0.50 |
+| 1 | st | `intfloat/multilingual-e5-large-instruct` | **0.900** | 0.917 | 0.872 | 0.911 | **0.975** | 0.46 |
+| 2 | st | `intfloat/multilingual-e5-large` | 0.881 | 0.880 | 0.864 | 0.899 | 0.964 | 0.52 |
+| 3 | st | `intfloat/multilingual-e5-base` | 0.876 | 0.883 | 0.858 | 0.889 | 0.958 | 0.41 |
+| 4 | st | `sentence-transformers/LaBSE` | 0.800 | 0.786 | 0.777 | 0.837 | 0.934 | 0.47 |
+| 5 | st | `Metric-AI/armenian-text-embeddings-1` | 0.798 | 0.794 | 0.777 | 0.821 | 0.910 | 0.32 |
+| 6 | st | `intfloat/e5-large-v2` | 0.776 | 0.754 | 0.767 | 0.808 | 0.833 | 0.37 |
+| 7 | flag | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | **0.27** |
+| 8 | st | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | 0.45 |
 | 9 | st | `intfloat/e5-large` | 0.751 | 0.723 | 0.729 | 0.803 | 0.863 | 0.39 |
-| 10 | st | `paraphrase-multilingual-mpnet-base-v2` | 0.709 | 0.719 | 0.657 | 0.750 | 0.762 | 0.46 |
-| 11 | st | `distiluse-base-multilingual-cased` | 0.708 | 0.766 | 0.618 | 0.739 | 0.749 | 0.46 |
-| 12 | st | `paraphrase-multilingual-MiniLM-L12-v2` | 0.668 | 0.753 | 0.549 | 0.703 | 0.752 | 0.42 |
-| 13 | openai | `text-embedding-3-large` | 0.338 | 0.622 | 0.168 | 0.222 | 0.665 | 0.06 |
-| 14 | st | `all-MiniLM-L6-v2` | 0.141 | 0.084 | 0.105 | 0.233 | 0.460 | 0.34 |
+| 10 | st | `paraphrase-multilingual-mpnet-base-v2` | 0.709 | 0.719 | 0.657 | 0.750 | 0.762 | 0.42 |
+| 11 | st | `distiluse-base-multilingual-cased` | 0.708 | 0.766 | 0.618 | 0.739 | 0.749 | 0.37 |
+| 12 | st | `paraphrase-multilingual-MiniLM-L12-v2` | 0.668 | 0.753 | 0.549 | 0.703 | 0.752 | 0.38 |
+| 13 | openai | `text-embedding-3-large` | 0.342 | 0.622 | 0.168 | 0.222 | 0.665 | 0.01 |
+| 14 | st | `all-MiniLM-L6-v2` | 0.141 | 0.084 | 0.105 | 0.233 | 0.460 | 0.32 |
 
-_st = sentence-transformers · flag = FlagEmbedding · Hardware: M2 Max, 32 GB RAM_
+_250 triplets · st = sentence-transformers · flag = FlagEmbedding · Hardware: M2 Max, 32 GB RAM_
+
+Rankings are identical to the original 7-triplet benchmark — the small hand-crafted dataset was representative after all. Scores are remarkably stable, confirming the original findings hold at 250 triplets.
 
 Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
 
@@ -268,7 +272,7 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 
 Developed as part of building a content recommendation system for an IPTV/OTT platform serving multi-language EPG data in English, Russian, and Armenian. The results directly informed the production model selection.
 
-The test dataset (7 triplets + 4 synonym pairs) is intentionally small — sufficient for a quick draft estimation of model quality, but should be extended with more titles and genres for production-grade evaluation. See [DATASET.md](DATASET.md) for dataset preparation and extension plans. No proprietary EPG data is included.
+The initial test dataset (7 triplets + 4 synonym pairs) is intentionally small — sufficient for a quick draft estimation of model quality, then extended with more titles and genres for production-grade evaluation. See [DATASET.md](DATASET.md) for dataset preparation and extension plans. No proprietary EPG data is included.
 
 ---
 
