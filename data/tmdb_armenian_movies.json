@@ -1,3606 +1,5672 @@
 [
   {
     "id": 1601611,
+    "type": "movie",
     "year": "2026",
+    "genres": [
+      "Documentary",
+      "Horror"
+    ],
     "hy": "Ընտանեկան Հարաման (Undanegan Haraman)",
     "ru": "",
     "en": "Domestic Demon"
   },
   {
     "id": 1609643,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Family"
+    ],
     "hy": "Ժամանակի մեքենա. AI քեզ նոր տարի",
     "ru": "",
     "en": ""
   },
   {
     "id": 1596886,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ի՞նչ-ինչպե՞ս",
     "ru": "",
     "en": "What-how?"
   },
   {
     "id": 1586971,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Documentary",
+      "War"
+    ],
     "hy": "Մենք վերադարձանք",
     "ru": "",
     "en": "I Remember Your Voice"
   },
   {
     "id": 1437217,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Ձմեռվա Երգերը",
     "ru": "",
     "en": "A Winter's Song"
   },
   {
     "id": 1589330,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Family",
+      "Comedy"
+    ],
     "hy": "Թանկարծեք տղաները",
     "ru": "",
     "en": "The Precious Boys"
   },
   {
     "id": 1242949,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Լինում է, չի լինում",
     "ru": "",
     "en": "There Was, There Was Not"
   },
   {
     "id": 1591709,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Mallորվածը",
     "ru": "",
     "en": ""
   },
   {
     "id": 1549062,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy"
+    ],
     "hy": "Գողություն հայկական ձևով",
     "ru": "Ограбление по армянски",
     "en": ""
   },
   {
     "id": 1487998,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Մահարձան",
     "ru": "",
     "en": "Tombstone"
   },
   {
     "id": 1448685,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
     "hy": "Հարիսա",
     "ru": "",
     "en": "Harisa"
   },
   {
     "id": 1513524,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մենակ",
     "ru": "",
     "en": "Alone"
   },
   {
     "id": 1512578,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Դու ինձ դեռ սիրում ես, այդպես չէ՞ Հայրիկ",
     "ru": "",
     "en": "DADDY, YOU STILL LOVE ME, DON’T YOU?"
   },
   {
     "id": 1485105,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Այսպես ասաց քամին",
     "ru": "",
     "en": "Thus Spoke the Wind"
   },
   {
     "id": 1502354,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Ճանապարհ",
     "ru": "",
     "en": "The Way"
   },
   {
     "id": 1439078,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Օրոր Լեռների Համար",
     "ru": "",
     "en": "Lullaby for the Mountains"
   },
   {
     "id": 1451457,
+    "type": "animation_movie",
     "year": "2025",
+    "genres": [
+      "Drama",
+      "Animation"
+    ],
     "hy": "Օձի Ապուր",
     "ru": "",
     "en": "Snake Soup"
   },
   {
     "id": 1423046,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Բարի Օր 2",
     "ru": "",
     "en": "Good Day 2"
   },
   {
     "id": 1588816,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հիմա մեր հերթն է",
     "ru": "Теперь наша очередь.",
     "en": "Now it's our turn"
   },
   {
     "id": 1472214,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Արարատ Կղզի",
     "ru": "Остров Арарат",
     "en": "Island Ararat"
   },
   {
     "id": 1469439,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Ավետյաց Լեռը",
     "ru": "",
     "en": "The Promised Mountain"
   },
   {
     "id": 1451666,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Սիգմա",
     "ru": "",
     "en": "Sigma"
   },
   {
     "id": 1437438,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Մեկ անգամ դպրոցում 2: Վերջին Պահապանը",
     "ru": "",
     "en": "Once Upon a Time in School 2: The Last Guardian"
   },
   {
     "id": 1505300,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Թևավոր Լարեր",
     "ru": "",
     "en": "Fibers"
   },
   {
     "id": 1512562,
+    "type": "movie",
     "year": "2025",
+    "genres": [],
     "hy": "Դորայի Դեղին Կոշիկները",
     "ru": "",
     "en": "DORA’S YELLOW SHOES"
   },
   {
     "id": 1418611,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "History",
+      "Drama"
+    ],
     "hy": "Վերջին Սպարապետը",
     "ru": "",
     "en": "The Last Sparapet"
   },
   {
     "id": 1418530,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Երազելուց Հետո",
     "ru": "После сна",
     "en": "After Dreaming"
   },
   {
     "id": 1406694,
+    "type": "movie",
     "year": "2025",
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
     "hy": "Կռունկ",
     "ru": "",
     "en": "Kroong"
   },
   {
     "id": 1392468,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Mystery",
+      "Drama",
+      "Thriller"
+    ],
     "hy": "Ծափահարության ձայնը",
     "ru": "",
     "en": "Sound of Applause"
   },
   {
     "id": 1314091,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Բնության լույսը",
     "ru": "",
     "en": "Lumen Naturae"
   },
   {
     "id": 1424801,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Բախտի Տերը",
     "ru": "",
     "en": "The Lucky Sister"
   },
   {
     "id": 1512568,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Օջախ Լռության մյուս Կողմից",
     "ru": "",
     "en": "Ojakh, on the Other Side of Silence"
   },
   {
     "id": 1360043,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մեդալի հակառակ կողմը",
     "ru": "",
     "en": "The Reverse Side of the Medal"
   },
   {
     "id": 1451671,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Համբույր",
     "ru": "",
     "en": "Kiss"
   },
   {
     "id": 1369789,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Դեբետ",
     "ru": "",
     "en": "Debet"
   },
   {
     "id": 1425745,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Թուլություն",
     "ru": "",
     "en": "Weakness"
   },
   {
     "id": 1512558,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ներիր ինձ,Մայրիկ",
     "ru": "",
     "en": "Forgive me, mother"
   },
   {
     "id": 1425325,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Թամզարա",
     "ru": "",
     "en": "Tamzara"
   },
   {
     "id": 1204677,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Յաշան ու Լեոնիդ Բրեժնևը",
     "ru": "",
     "en": "Yasha and Leonid Brezhnev"
   },
   {
     "id": 1313526,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Արմատ",
     "ru": "",
     "en": "Armat"
   },
   {
     "id": 1428058,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Երևանիլա.am",
     "ru": "",
     "en": "Yerevanilla.am"
   },
   {
     "id": 1427420,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Կատարյալ Ապուշը",
     "ru": "",
     "en": "Absolutely Idiot"
   },
   {
     "id": 1213609,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "ՅՈՒՇԵՐ",
     "ru": "",
     "en": "TEZETA"
   },
   {
     "id": 1314079,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Ոչ լույս / ոչ մութ",
     "ru": "",
     "en": "NO LIGHT / NO DARKNESS"
   },
   {
     "id": 1355641,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Հայրենիք",
     "ru": "",
     "en": "MOTHERLAND"
   },
   {
     "id": 1398273,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Դեպի Ճամբար Հատուկ Ջոկատ",
     "ru": "",
     "en": "To the camp - Special squad"
   },
   {
     "id": 1313654,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
     "hy": "Իմ Առաջին Հեռախոսը",
     "ru": "",
     "en": "My First Phone"
   },
   {
     "id": 1481342,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "ԱՔՍՈՐ",
     "ru": "",
     "en": ""
   },
   {
     "id": 1427496,
+    "type": "movie",
     "year": "2024",
+    "genres": [],
     "hy": "Երևան Բլյուզ 2 25 տարի անց",
     "ru": "",
     "en": "Yerevan Blues 2"
   },
   {
     "id": 1505278,
+    "type": "movie",
     "year": "2024",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Թեղուտցի Սիլվենը",
     "ru": "",
     "en": "Silven from Teghut"
   },
   {
     "id": 1240455,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Action",
+      "Comedy",
+      "Adventure"
+    ],
     "hy": "Օպերացիա «Մեծապատիվ Մուրացկաններ»",
     "ru": "Операция «Достопочтенные попрошайки»",
     "en": "Operation: Honorable Beggars"
   },
   {
     "id": 1264391,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
     "hy": "Դավիթի Այգին",
     "ru": "",
     "en": "David's Garden"
   },
   {
     "id": 1202592,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Comedy",
+      "Adventure"
+    ],
     "hy": "Գործակալ 044: Օպերացիա Գառնի",
     "ru": "",
     "en": "Agent 044: Operation Garni"
   },
   {
     "id": 1221658,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "Science Fiction"
+    ],
     "hy": "Ռոզալի",
     "ru": "",
     "en": "Rosali"
   },
   {
     "id": 1174788,
+    "type": "movie",
     "year": "2023",
+    "genres": [],
     "hy": "ԱՆԳԼՈՒԽ ՁԻԱՎՈՐՆԵՐ",
     "ru": "",
     "en": "Headless Horsemen"
   },
   {
     "id": 1505772,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սաբոտաժ",
     "ru": "",
     "en": "Sabotage"
   },
   {
     "id": 1208298,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Սևազգեստ կանայք",
     "ru": "Женщины в черном",
     "en": "Women in Black"
   },
   {
     "id": 1117455,
+    "type": "animation_movie",
     "year": "2023",
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Animation"
+    ],
     "hy": "Թռչող Տերեվների Երգը",
     "ru": "",
     "en": "The Song of Flying Leaves"
   },
   {
     "id": 1240474,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Քարտի քաղաք",
     "ru": "Карточный город",
     "en": ""
   },
   {
     "id": 1264404,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Օհան Դուրյան : Գեղեցիկ Դադարից Առաջ",
     "ru": "",
     "en": "Ohan Duryan"
   },
   {
     "id": 1506287,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Խորշ",
     "ru": "",
     "en": "EDGE"
   },
   {
     "id": 1605713,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Horror",
+      "Thriller",
+      "Mystery"
+    ],
     "hy": "Մսատուն(Meat House)",
     "ru": "",
     "en": "Meat House"
   },
   {
     "id": 1416342,
+    "type": "movie",
     "year": "2023",
+    "genres": [],
     "hy": "Նունիկ",
     "ru": "",
     "en": "Nunik"
   },
   {
     "id": 1131202,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "անդեմ",
     "ru": "",
     "en": "Faceless"
   },
   {
     "id": 1240460,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Կրկին Դպրոց",
     "ru": "Снова в школу",
     "en": ""
   },
   {
     "id": 970578,
+    "type": "animation_movie",
     "year": "2023",
+    "genres": [
+      "Animation",
+      "Documentary",
+      "History"
+    ],
     "hy": "Արշալույսի լուսաբացը",
     "ru": "",
     "en": "Aurora's Sunrise"
   },
   {
     "id": 1240133,
+    "type": "movie",
     "year": "2023",
+    "genres": [
+      "Action",
+      "Comedy"
+    ],
     "hy": "ՕԹԹԿ",
     "ru": "ОТТК",
     "en": "OTTK"
   },
   {
     "id": 1425341,
+    "type": "movie",
     "year": "2023",
+    "genres": [],
     "hy": "Գրավիտացիա",
     "ru": "",
     "en": "Gravity"
   },
   {
     "id": 1098284,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Կապույտի Միջով",
     "ru": "",
     "en": "Crossing the Blue"
   },
   {
     "id": 1098833,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Թոնրատուն",
     "ru": "",
     "en": "Tonratun"
   },
   {
     "id": 1425048,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Իշխանություն 2",
     "ru": "",
     "en": "Authority 2"
   },
   {
     "id": 1505284,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Ծանրաբեռնված երթուղային",
     "ru": "",
     "en": "Minibus at Peak Hours"
   },
   {
     "id": 1221969,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Անքնություն",
     "ru": "",
     "en": "Insomnia"
   },
   {
     "id": 1351636,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Documentary",
+      "History"
+    ],
     "hy": "Չտեսնված երկիր",
     "ru": "",
     "en": "Invisible Republic"
   },
   {
     "id": 1505286,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Տարօրինակ մի տեղ",
     "ru": "",
     "en": "A Peculiar Place"
   },
   {
     "id": 1451155,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Ուղիղ Եթեր",
     "ru": "",
     "en": "Live Stream"
   },
   {
     "id": 1007336,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Քար",
     "ru": "Камни",
     "en": "The Stones"
   },
   {
     "id": 998757,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Ամերիկացի",
     "ru": "",
     "en": "Amerikatsi"
   },
   {
     "id": 1073702,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Նկարչի երեք գերեզմանները",
     "ru": "",
     "en": "Three Graves of the Artist"
   },
   {
     "id": 1423543,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Պոլլի",
     "ru": "",
     "en": "Polli"
   },
   {
     "id": 1221650,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Action",
+      "Science Fiction"
+    ],
     "hy": "Վիշապ",
     "ru": "",
     "en": "Vishap"
   },
   {
     "id": 1472349,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "War"
+    ],
     "hy": "Արյան Կանչ",
     "ru": "",
     "en": "Call of Blood"
   },
   {
     "id": 951168,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "5Երազողները եվ Ձին",
     "ru": "",
     "en": "5 Dreamers and a Horse"
   },
   {
     "id": 1438384,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Վերադարձ",
     "ru": "",
     "en": "Return"
   },
   {
     "id": 1472338,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լիլիթ Անունով Տիկնիկը",
     "ru": "",
     "en": "The Doll Named Lilith"
   },
   {
     "id": 1451661,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Ակնարկ",
     "ru": "",
     "en": "Allusion"
   },
   {
     "id": 1451043,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Շնորհ 4: Իրականության Պատրանք",
     "ru": "",
     "en": "Gift 4: Illusion of Reality"
   },
   {
     "id": 1435157,
+    "type": "movie",
     "year": "2022",
+    "genres": [],
     "hy": "Վայ Գրիգ Գրիգ 2",
     "ru": "",
     "en": "Vay Grig Grig 2"
   },
   {
     "id": 1221642,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Գարուն ա...",
     "ru": "",
     "en": "It's Spring…"
   },
   {
     "id": 1435156,
+    "type": "movie",
     "year": "2022",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Վայ Գրիգ Գրիգ",
     "ru": "",
     "en": "Vay Grig Grig"
   },
   {
     "id": 960537,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "ԲԱՐԻ ԹՌԻՉՔ",
     "ru": "",
     "en": "Bon Voyage"
   },
   {
     "id": 1454088,
+    "type": "movie",
     "year": "2021",
+    "genres": [],
     "hy": "Ընդվզում",
     "ru": "",
     "en": "Uprising"
   },
   {
     "id": 930842,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Մեր Բակը 4",
     "ru": "Наш двор. 25 лет спустя",
     "en": "Our Yard 4"
   },
   {
     "id": 958626,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Զուլալի",
     "ru": "Зулали",
     "en": "Zulali"
   },
   {
     "id": 1451668,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Թույլ Տվեք",
     "ru": "",
     "en": "Let Mearme"
   },
   {
     "id": 1505281,
+    "type": "movie",
     "year": "2021",
+    "genres": [],
     "hy": "Սենյակ",
     "ru": "",
     "en": "Room"
   },
   {
     "id": 1422619,
+    "type": "movie",
     "year": "2021",
+    "genres": [],
     "hy": "Իշխանություն",
     "ru": "",
     "en": "Authority"
   },
   {
     "id": 1416349,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լույսի Կաթիլներ",
     "ru": "",
     "en": "Light Drops"
   },
   {
     "id": 1472344,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "War"
+    ],
     "hy": "Ախպերս ու Ես",
     "ru": "",
     "en": "My Brother and Me"
   },
   {
     "id": 1451450,
+    "type": "movie",
     "year": "2021",
+    "genres": [],
     "hy": "Փոքրիկ Զորավարը 2",
     "ru": "",
     "en": "Little Commander 2"
   },
   {
     "id": 1253603,
+    "type": "movie",
     "year": "2021",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հարսանիք թիկունքում",
     "ru": "",
     "en": "Wedding in the Rearguard"
   },
   {
     "id": 689130,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սողոմոնի Երգերը",
     "ru": "",
     "en": "Songs of Solomon"
   },
   {
     "id": 876493,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Ստորգետնյա",
     "ru": "Под землёй",
     "en": "Storgetnya"
   },
   {
     "id": 790022,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Շապիտո",
     "ru": "Шапито",
     "en": "Chapiteau"
   },
   {
     "id": 743469,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Չնչիկ",
     "ru": "",
     "en": "Chnchik"
   },
   {
     "id": 1418596,
+    "type": "movie",
     "year": "2020",
+    "genres": [],
     "hy": "Կալիոստրո",
     "ru": "",
     "en": "Kaliostro"
   },
   {
     "id": 1451041,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Fantasy"
+    ],
     "hy": "Շնորհ 3: Ֆանտոմ",
     "ru": "",
     "en": "Gift 3: Fantom"
   },
   {
     "id": 946210,
+    "type": "animation_movie",
     "year": "2020",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Օլիմպիկոս",
     "ru": "Приключения царя",
     "en": "Olympicos"
   },
   {
     "id": 823981,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Աշխարհ",
     "ru": "",
     "en": "World"
   },
   {
     "id": 1263262,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Documentary",
+      "TV Movie"
+    ],
     "hy": "«Ռոբերտ Ամիրխանյան․ ՍԻՐՏՆ ԻՄ»",
     "ru": "Роберт Амирханян: Моё сердце",
     "en": "Robert Amirkhanyan: MY HEART"
   },
   {
     "id": 1423537,
+    "type": "movie",
     "year": "2020",
+    "genres": [],
     "hy": "Դասարանցիները",
     "ru": "",
     "en": "The Classmates"
   },
   {
     "id": 1451164,
+    "type": "movie",
     "year": "2020",
+    "genres": [],
     "hy": "Ակնթարթ",
     "ru": "",
     "en": "Moment"
   },
   {
     "id": 1460457,
+    "type": "movie",
     "year": "2020",
+    "genres": [],
     "hy": "Վայրենին",
     "ru": "",
     "en": "Savage"
   },
   {
     "id": 789903,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Նոր տարվա գոճի",
     "ru": "Новогодний поросёнок",
     "en": "Christmas Roast"
   },
   {
     "id": 1435417,
+    "type": "movie",
     "year": "2020",
+    "genres": [],
     "hy": "Խաչվող Ուղիներ",
     "ru": "",
     "en": "Crossing Roads"
   },
   {
     "id": 1427845,
+    "type": "movie",
     "year": "2020",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հիմնավոր մաքրություն",
     "ru": "",
     "en": "General Cleaning"
   },
   {
     "id": 1465578,
+    "type": "animation_movie",
     "year": "2019",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ֆիրդուս",
     "ru": "",
     "en": "Firdus"
   },
   {
     "id": 680772,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Արև, Սարեր ու Սեր",
     "ru": "Горы, солнце и любовь",
     "en": "Mountains, The Sun and Love"
   },
   {
     "id": 645528,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Կանանց Գյուղը",
     "ru": "",
     "en": "Village of Women"
   },
   {
     "id": 719053,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Անհայտ Բաժանորդ",
     "ru": "",
     "en": "Unknown Subscriber"
   },
   {
     "id": 661714,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Crime"
+    ],
     "hy": "Ազնիվ Գողեր",
     "ru": "Честные воры",
     "en": "Honest Thieves"
   },
   {
     "id": 595435,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Վերք",
     "ru": "",
     "en": "Wound"
   },
   {
     "id": 1435415,
+    "type": "movie",
     "year": "2019",
+    "genres": [],
     "hy": "Ա.Կ.Ա.",
     "ru": "",
     "en": "A.K.A."
   },
   {
     "id": 1265499,
+    "type": "movie",
     "year": "2019",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "«Մաեստրո Մանսուրյան»",
     "ru": "",
     "en": "Maestro Mansurian"
   },
   {
     "id": 633881,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Էրկեն Կիշեր",
     "ru": "",
     "en": "Lengthy Night"
   },
   {
     "id": 514886,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Drama",
+      "Action"
+    ],
     "hy": "Սպիտակ",
     "ru": "Спитак",
     "en": "Spitak"
   },
   {
     "id": 778812,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Romance",
+      "Drama"
+    ],
     "hy": "Լյուդվիգ անունով ոզնին",
     "ru": "",
     "en": "Ludwig the Hedgehog"
   },
   {
     "id": 1421389,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Անմոռանալի Օր",
     "ru": "",
     "en": "Unforgettable Day"
   },
   {
     "id": 1451441,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
     "hy": "Ձյունանուշ",
     "ru": "",
     "en": "Snow Maiden"
   },
   {
     "id": 1457663,
+    "type": "movie",
     "year": "2018",
+    "genres": [],
     "hy": "Ժամանակն է",
     "ru": "",
     "en": "It's time"
   },
   {
     "id": 680225,
+    "type": "movie",
     "year": "2018",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Գործակալ 044: Օպերացիա Գեղարդ",
     "ru": "Агент 044: Операция Гегард",
     "en": "Agent 044: Operation Geghard"
   },
   {
     "id": 1451171,
+    "type": "movie",
     "year": "2018",
+    "genres": [],
     "hy": "Արթնացիր",
     "ru": "",
     "en": "Wake Up My Love"
   },
   {
     "id": 543789,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Մեր Երազանքի Ճանապարհը",
     "ru": "",
     "en": "The Path of Our Dream"
   },
   {
     "id": 780325,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Իմ անցյալի դիմանկարը",
     "ru": "",
     "en": ""
   },
   {
     "id": 726218,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Սուպեր Մամա 2",
     "ru": "",
     "en": "Super Mama 2"
   },
   {
     "id": 1457682,
+    "type": "movie",
     "year": "2017",
+    "genres": [],
     "hy": "Փասիանի Որսորդը",
     "ru": "",
     "en": "The Pheasant Hunter"
   },
   {
     "id": 478556,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Եվա",
     "ru": "Ева",
     "en": "Yeva"
   },
   {
     "id": 440791,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Քաղաքի ֆոնի վրա վեց երաժիշտներ",
     "ru": "Шесть музыкантов на фоне города",
     "en": "Six Musicians And The City"
   },
   {
     "id": 1472322,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Ու՞ր ենք գնում",
     "ru": "",
     "en": "Where Are We Going?"
   },
   {
     "id": 618577,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Drama"
+    ],
     "hy": "ԲԱՐԻ ԼՈՒՅՍ",
     "ru": "Доброе утро",
     "en": "Good Morning"
   },
   {
     "id": 473969,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Կյանք ու Կռիվ 2: 25 Տարի Անց",
     "ru": "Линия 2. 25 лет спустя",
     "en": "The Line 2: 25 Years Later"
   },
   {
     "id": 1246339,
+    "type": "movie",
     "year": "2017",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Այրուձի",
     "ru": "",
     "en": "Ayrudzi"
   },
   {
     "id": 473678,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "History",
+      "War",
+      "Drama"
+    ],
     "hy": "Կյանք ու Կռիվ",
     "ru": "Линия",
     "en": "The Line"
   },
   {
     "id": 579082,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "3 Շաբաթ Երևանում",
     "ru": "",
     "en": "3 Weeks in Yerevan"
   },
   {
     "id": 1451151,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Ես և Մենք",
     "ru": "",
     "en": "Me and We"
   },
   {
     "id": 492242,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Դե Տժժա",
     "ru": "",
     "en": "Party Up"
   },
   {
     "id": 1451037,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Շնորհ 2: Խավար Իշխանություն",
     "ru": "",
     "en": "Gift 2: Dark Authority"
   },
   {
     "id": 1560291,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "փակուղի",
     "ru": "",
     "en": "Deadlock"
   },
   {
     "id": 1451159,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Ական",
     "ru": "",
     "en": "Landmine"
   },
   {
     "id": 1451442,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Զգուշացեք Կանայք Են",
     "ru": "",
     "en": "Beware Of Woman"
   },
   {
     "id": 1428005,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Մշո Գեղեն",
     "ru": "",
     "en": "From the Land of Mush"
   },
   {
     "id": 575279,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Առաջին դեմք",
     "ru": "Арачин Демк",
     "en": "Head of State"
   },
   {
     "id": 474006,
+    "type": "movie",
     "year": "2016",
+    "genres": [],
     "hy": "Փախիր կամ Ամուսնացիր",
     "ru": "Беги или женись",
     "en": "Run Away or Get Married"
   },
   {
     "id": 1246607,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Ստվերների թատրոն",
     "ru": "",
     "en": "Shadow Theater"
   },
   {
     "id": 1107671,
+    "type": "movie",
     "year": "2016",
+    "genres": [
+      "Drama",
+      "Fantasy"
+    ],
     "hy": "Վարդապետի Լռությունը",
     "ru": "",
     "en": "Alter Ego"
   },
   {
     "id": 369844,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Տաք Երկիր,Ցուրտ Ձմեռ",
     "ru": "",
     "en": "Hot Country, Cold Winter"
   },
   {
     "id": 404700,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Սիրո Գործակից",
     "ru": "Коэффициент любви",
     "en": "Love Odd"
   },
   {
     "id": 474003,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Հյուսիս-Հարավ",
     "ru": "Не было бы счастья",
     "en": "North-South"
   },
   {
     "id": 1304222,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Սկոտչ և Վիսկի",
     "ru": "",
     "en": "Scotch & Whiskey"
   },
   {
     "id": 1472228,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Thriller"
+    ],
     "hy": "Սպանել 15 րոպեյում",
     "ru": "",
     "en": "Kill in 15 minutes"
   },
   {
     "id": 1325837,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "hy": "Անավարտ Թռիչք",
     "ru": "",
     "en": "An Interrupted Flight"
   },
   {
     "id": 780149,
+    "type": "movie",
     "year": "2015",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Արամմա",
     "ru": "Арамма",
     "en": "Aramma"
   },
   {
     "id": 1064696,
+    "type": "animation_movie",
     "year": "2014",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Անահիտ",
     "ru": "Храбрая принцесса",
     "en": "Anahit"
   },
   {
     "id": 1399246,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Ուրիշի Փոխարեն",
     "ru": "",
     "en": "Instead Of Someone"
   },
   {
     "id": 404540,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Սուպեր Մամա",
     "ru": "Супер мама",
     "en": "Super Mama"
   },
   {
     "id": 1208540,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Horror"
+    ],
     "hy": "Մեռյալ Հովիտ",
     "ru": "",
     "en": "The Dead Forest"
   },
   {
     "id": 1423591,
+    "type": "movie",
     "year": "2014",
+    "genres": [],
     "hy": "Կատատոնիա",
     "ru": "",
     "en": "Catatonia"
   },
   {
     "id": 789304,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Thank You Հայրիկ",
     "ru": "",
     "en": ""
   },
   {
     "id": 508739,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Thank You, Հայրիկ",
     "ru": "Спасибо, папа",
     "en": "Thank You, Dad"
   },
   {
     "id": 329544,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Թևանիկ",
     "ru": "",
     "en": "Tevanik"
   },
   {
     "id": 1493636,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մի Մարդ Ձեզ Սիրում է",
     "ru": "",
     "en": "Somebody Loves You"
   },
   {
     "id": 1460434,
+    "type": "movie",
     "year": "2014",
+    "genres": [],
     "hy": "Հայոց Թագուհիներ",
     "ru": "",
     "en": "Armenian Queens"
   },
   {
     "id": 1451031,
+    "type": "movie",
     "year": "2014",
+    "genres": [],
     "hy": "Շնորհ",
     "ru": "",
     "en": "Gift"
   },
   {
     "id": 714896,
+    "type": "movie",
     "year": "2014",
+    "genres": [],
     "hy": "Ելք Չկա",
     "ru": "Выхода нет",
     "en": "No Exit"
   },
   {
     "id": 1451172,
+    "type": "movie",
     "year": "2014",
+    "genres": [],
     "hy": "Մի Առավոտ",
     "ru": "",
     "en": "One Morning"
   },
   {
     "id": 1063215,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Drama"
+    ],
     "hy": "140 դրամ",
     "ru": "",
     "en": "140 Drams"
   },
   {
     "id": 476593,
+    "type": "movie",
     "year": "2014",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Անվերջ փախուստ հավերժ վերադարձ",
     "ru": "",
     "en": "Endless Escape, Eternal Return"
   },
   {
     "id": 273101,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Քայլ Ձիով",
     "ru": "Ход конём",
     "en": "The Knight's Move"
   },
   {
     "id": 205114,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "hy": "Փարաջանով",
     "ru": "Параджанов",
     "en": "Parajanov"
   },
   {
     "id": 1402564,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Նախաճաշ Երկուսի Համար",
     "ru": "",
     "en": "Breakfast For Two"
   },
   {
     "id": 609342,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Drama",
+      "Mystery"
+    ],
     "hy": "Անունս Վիոլա Է",
     "ru": "",
     "en": "My Name is Viola"
   },
   {
     "id": 473254,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Գարեգին Նժդեհ",
     "ru": "Гарегин Нжде",
     "en": "Garegin Nzhdeh"
   },
   {
     "id": 759580,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լռության Ձայնը",
     "ru": "",
     "en": "The Voice of Silence"
   },
   {
     "id": 1246611,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Հայր մեր, տուր մեզ ազատություն",
     "ru": "",
     "en": "God, Give Us Freedom"
   },
   {
     "id": 881456,
+    "type": "movie",
     "year": "2013",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Ընդհատված մանկություն",
     "ru": "",
     "en": "Broken Childhood"
   },
   {
     "id": 866382,
+    "type": "movie",
     "year": "2013",
+    "genres": [],
     "hy": "Կաուչո",
     "ru": "",
     "en": "Caucho"
   },
   {
     "id": 1399235,
+    "type": "movie",
     "year": "2012",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Չիկագո Ծաղկաձոր Տրանզիտ",
     "ru": "",
     "en": "Chicago Tsaghkadzor Transit"
   },
   {
     "id": 404536,
+    "type": "movie",
     "year": "2012",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Պոկեր.AM",
     "ru": "Покер по правилам любви",
     "en": "Poker.AM"
   },
   {
     "id": 1425305,
+    "type": "movie",
     "year": "2012",
+    "genres": [],
     "hy": "Հովիվը",
     "ru": "",
     "en": "Narekatsi"
   },
   {
     "id": 1472222,
+    "type": "movie",
     "year": "2012",
+    "genres": [],
     "hy": "Պատիժ",
     "ru": "",
     "en": "Punishment"
   },
   {
     "id": 272124,
+    "type": "movie",
     "year": "2012",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Ես Եմ",
     "ru": "Это я",
     "en": "It's Me"
   },
   {
     "id": 135219,
+    "type": "movie",
     "year": "2012",
+    "genres": [
+      "War",
+      "Drama"
+    ],
     "hy": "Եթե Բոլորը",
     "ru": "",
     "en": "If Only Everyone"
   },
   {
     "id": 404569,
+    "type": "movie",
     "year": "2011",
+    "genres": [
+      "Adventure",
+      "Comedy"
+    ],
     "hy": "Ալա Բալա Նիցա",
     "ru": "Ала Бала Ница",
     "en": "Ala Bala Nica"
   },
   {
     "id": 952375,
+    "type": "movie",
     "year": "2011",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Վանա Ծովուն Արշալույսը",
     "ru": "",
     "en": "Sunrise over Lake Van"
   },
   {
     "id": 1423575,
+    "type": "movie",
     "year": "2011",
+    "genres": [],
     "hy": "Մոխրաման",
     "ru": "",
     "en": "Ashtray"
   },
   {
     "id": 1424828,
+    "type": "movie",
     "year": "2011",
+    "genres": [],
     "hy": "Փեսացուն Կրկեսից",
     "ru": "",
     "en": "Husband from the Circus"
   },
   {
     "id": 779106,
+    "type": "movie",
     "year": "2011",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Բարի Գնալուստ",
     "ru": "",
     "en": "Welcome Papa"
   },
   {
     "id": 404544,
+    "type": "movie",
     "year": "2010",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Պահանջվում է Միլիոնատեր",
     "ru": "Требуется миллионер",
     "en": "A Millionaire Wanted"
   },
   {
     "id": 1246621,
+    "type": "movie",
     "year": "2010",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Խաչագողի հիշատակարանը",
     "ru": "",
     "en": "The Diary of the Cross Stealer"
   },
   {
     "id": 1423579,
+    "type": "movie",
     "year": "2010",
+    "genres": [],
     "hy": "Արտիստը",
     "ru": "",
     "en": "The Artist"
   },
   {
     "id": 1407226,
+    "type": "animation_movie",
     "year": "2010",
+    "genres": [
+      "Drama",
+      "War",
+      "Animation"
+    ],
     "hy": "Սասնա Ծռեր",
     "ru": "",
     "en": "Daredevils of Sassoun"
   },
   {
     "id": 302966,
+    "type": "movie",
     "year": "2010",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "hy": "Երեք երեկո",
     "ru": "Три вечера",
     "en": "Three Evenings"
   },
   {
     "id": 1427962,
+    "type": "animation_movie",
     "year": "2009",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Հայրենս",
     "ru": "",
     "en": "Hayrens"
   },
   {
     "id": 207058,
+    "type": "movie",
     "year": "2009",
+    "genres": [
+      "Drama",
+      "Documentary"
+    ],
     "hy": "Սահման",
     "ru": "",
     "en": "Border"
   },
   {
     "id": 1416362,
+    "type": "movie",
     "year": "2009",
+    "genres": [],
     "hy": "Սպանված Աղավնի",
     "ru": "",
     "en": "The Slain Pigeon"
   },
   {
     "id": 834910,
+    "type": "movie",
     "year": "2009",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Տաքսի Էլի Լավ Ա",
     "ru": "",
     "en": "Taxi Eli Lav A"
   },
   {
     "id": 723395,
+    "type": "movie",
     "year": "2008",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Տխուր փողոցի լուսաբացը",
     "ru": "",
     "en": "The Dawn of the Sad Street"
   },
   {
     "id": 879256,
+    "type": "animation_movie",
     "year": "2008",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Փոքրիկ տրոլների կյանքից",
     "ru": "",
     "en": "From the Life of the Little Trolls"
   },
   {
     "id": 1427964,
+    "type": "animation_movie",
     "year": "2007",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Բոժո",
     "ru": "",
     "en": "Bozho"
   },
   {
     "id": 1424810,
+    "type": "movie",
     "year": "2007",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Կարիճի Գերուհին",
     "ru": "",
     "en": "The Scorpion's Mistress"
   },
   {
     "id": 1425032,
+    "type": "movie",
     "year": "2007",
+    "genres": [],
     "hy": "Ոչինչ Չի Մնա",
     "ru": "",
     "en": "Nothing Will Remain"
   },
   {
     "id": 1409995,
+    "type": "movie",
     "year": "2007",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Բարի Գալուստ",
     "ru": "Добро пожаловать в Соединенные Штаты Америки",
     "en": "Welcome To The United States Of America"
   },
   {
     "id": 663069,
+    "type": "movie",
     "year": "2007",
+    "genres": [],
     "hy": "Քրմուհին",
     "ru": "",
     "en": "The Priestess"
   },
   {
     "id": 242292,
+    "type": "movie",
     "year": "2006",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Մեծ Պատմություն Փոքր Քաղաքում",
     "ru": "Большая история в маленьком городе",
     "en": "Big Story in a Small City"
   },
   {
     "id": 1472230,
+    "type": "movie",
     "year": "2006",
+    "genres": [],
     "hy": "Չգրված Օրենք",
     "ru": "",
     "en": "Unwritten Law"
   },
   {
     "id": 715113,
+    "type": "movie",
     "year": "2006",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Մեր Բակը 3",
     "ru": "Наш двор 3",
     "en": "Our Yard 3"
   },
   {
     "id": 1421891,
+    "type": "movie",
     "year": "2005",
+    "genres": [],
     "hy": "Մարիամ",
     "ru": "",
     "en": "Mariam"
   },
   {
     "id": 1438399,
+    "type": "movie",
     "year": "2005",
+    "genres": [],
     "hy": "Որոգայթ",
     "ru": "",
     "en": "Trap"
   },
   {
     "id": 1246133,
+    "type": "movie",
     "year": "2005",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Պատարագ",
     "ru": "",
     "en": "Patarag. Armenian Lithurgy"
   },
   {
     "id": 455557,
+    "type": "movie",
     "year": "2003",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Վավերագրող",
     "ru": "",
     "en": "Documentarist"
   },
   {
     "id": 910856,
+    "type": "animation_movie",
     "year": "2002",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Բանական Կյանքի Նշաններ",
     "ru": "Признаки разумной жизни",
     "en": "Signs of Intelligent Life"
   },
   {
     "id": 341359,
+    "type": "movie",
     "year": "2001",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լռության Սիմֆոնիան",
     "ru": "",
     "en": "Symphony of Silence"
   },
   {
     "id": 779109,
+    "type": "movie",
     "year": "2001",
+    "genres": [],
     "hy": "Ուրախ ավտոբուս",
     "ru": "Весёлый автобус",
     "en": "The Merry Bus"
   },
   {
     "id": 1422006,
+    "type": "movie",
     "year": "2001",
+    "genres": [],
     "hy": "Հերոստրատ",
     "ru": "",
     "en": "Herostrate"
   },
   {
     "id": 1246052,
+    "type": "movie",
     "year": "2001",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Քաջարան․ քարի մետամորֆոզը",
     "ru": "",
     "en": "Kajaran: Metamorphosis of Stone"
   },
   {
     "id": 910840,
+    "type": "animation_movie",
     "year": "2000",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ես նույնպես Հայ եմ",
     "ru": "Я тоже армянин",
     "en": "I Am Armenian Too"
   },
   {
     "id": 1425731,
+    "type": "movie",
     "year": "2000",
+    "genres": [],
     "hy": "Բանդա",
     "ru": "",
     "en": "Banda"
   },
   {
     "id": 1463863,
+    "type": "movie",
     "year": "2000",
+    "genres": [
+      "Crime"
+    ],
     "hy": "Ընտրություն",
     "ru": "",
     "en": "Choice"
   },
   {
     "id": 1464951,
+    "type": "animation_movie",
     "year": "1999",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Մեր Բակը 2.5",
     "ru": "Наш двор 2.5",
     "en": "Our Yard 2.5"
   },
   {
     "id": 1427991,
+    "type": "movie",
     "year": "1999",
+    "genres": [],
     "hy": "Տերևաթափ Անթարեսի Վրա",
     "ru": "",
     "en": "Leaf Fall on Antares"
   },
   {
     "id": 1489277,
+    "type": "movie",
     "year": "1999",
+    "genres": [],
     "hy": "Արմենիկում ՈՒփսա ֆիլմ",
     "ru": "",
     "en": "Armenicum UPSA"
   },
   {
     "id": 1047593,
+    "type": "movie",
     "year": "1998",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Երևան Բլյուզ",
     "ru": "",
     "en": "Yerevan Blues"
   },
   {
     "id": 715109,
+    "type": "movie",
     "year": "1998",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Մեր Բակը 2",
     "ru": "Наш двор 2",
     "en": "Our Yard 2"
   },
   {
     "id": 653794,
+    "type": "animation_movie",
     "year": "1997",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Վիկտորիա",
     "ru": "Победа",
     "en": "Victoria"
   },
   {
     "id": 587191,
+    "type": "movie",
     "year": "1997",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Տէր Ողորմեա",
     "ru": "",
     "en": "Kyrie Eleison"
   },
   {
     "id": 1409340,
+    "type": "movie",
     "year": "1997",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Խաթաբալադա",
     "ru": "",
     "en": "Khatabalada"
   },
   {
     "id": 1026353,
+    "type": "movie",
     "year": "1997",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Տեր Ողորմեա",
     "ru": "Господи, помилуй!",
     "en": "Lord Have Mercy"
   },
   {
     "id": 704637,
+    "type": "movie",
     "year": "1996",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Մեր Բակը",
     "ru": "Наш двор",
     "en": "Our Yard"
   },
   {
     "id": 1460431,
+    "type": "movie",
     "year": "1996",
+    "genres": [],
     "hy": "Սև և Սպիտակ",
     "ru": "",
     "en": "Black & White"
   },
   {
     "id": 937497,
+    "type": "movie",
     "year": "1995",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Գողը",
     "ru": "",
     "en": "The Thief"
   },
   {
     "id": 755741,
+    "type": "animation_movie",
     "year": "1994",
+    "genres": [
+      "Animation"
+    ],
     "hy": "ԸՆՏՐՈՒԹՅՈՒՆՆԵՐ",
     "ru": "Выборы",
     "en": "Elections"
   },
   {
     "id": 396112,
+    "type": "animation_movie",
     "year": "1994",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Կացին",
     "ru": "Топор",
     "en": "The Axe"
   },
   {
     "id": 1036861,
+    "type": "movie",
     "year": "1993",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Կիսանդրի",
     "ru": "",
     "en": "Bust"
   },
   {
     "id": 1246290,
+    "type": "animation_movie",
     "year": "1993",
+    "genres": [
+      "Animation",
+      "History"
+    ],
     "hy": "ՀԱՅՈՅ ԱՅԲՈՒԲԵՆ",
     "ru": "",
     "en": "Armenian Alphabet"
   },
   {
     "id": 587185,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Ձայն Բարբառոյ",
     "ru": "Глас вопиющий",
     "en": "The Voice in the Wilderness"
   },
   {
     "id": 1239611,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Ընկեր Փանջունի",
     "ru": "Товарищ Панджуни",
     "en": "Comrade Panjuni"
   },
   {
     "id": 1460415,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Դաս",
     "ru": "Урок",
     "en": "The Lesson"
   },
   {
     "id": 237422,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ավետիք",
     "ru": "",
     "en": "Avetik"
   },
   {
     "id": 877803,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Որտե՞ղ էիր, մարդ աստծո",
     "ru": "Где ты был, человек Божий?",
     "en": "Where Were You, Man of God?"
   },
   {
     "id": 677606,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սիսեռ",
     "ru": "",
     "en": "Chickpeas"
   },
   {
     "id": 200148,
+    "type": "movie",
     "year": "1992",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Վերջը",
     "ru": "Конец",
     "en": "End"
   },
   {
     "id": 651192,
+    "type": "animation_movie",
     "year": "1991",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ամեն ինչ լավ է.",
     "ru": "Всё хорошо!",
     "en": "Everything is Fine"
   },
   {
     "id": 1038391,
+    "type": "movie",
     "year": "1991",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Պատանդներ",
     "ru": "Загнанные",
     "en": "Hostages"
   },
   {
     "id": 1113664,
+    "type": "movie",
     "year": "1991",
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
     "hy": "Անիծվածները",
     "ru": "Проклятые",
     "en": "The Damned Ones"
   },
   {
     "id": 383898,
+    "type": "movie",
     "year": "1991",
+    "genres": [
+      "Documentary",
+      "Drama"
+    ],
     "hy": "Վերադարձ ավետյաց երկիր",
     "ru": "Возвращение на обетованную землю",
     "en": "Return to the Promised Land"
   },
   {
     "id": 537023,
+    "type": "movie",
     "year": "1990",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Տաքի կարոտ",
     "ru": "Тоска по теплу",
     "en": "Warmth-Sickness"
   },
   {
     "id": 586858,
+    "type": "movie",
     "year": "1990",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Կարոտ",
     "ru": "Тоска",
     "en": "Yearning"
   },
   {
     "id": 1131419,
+    "type": "animation_movie",
     "year": "1990",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Քեզ, Հայաստան",
     "ru": "Тебе, Армения",
     "en": "For You, Armenia"
   },
   {
     "id": 1313260,
+    "type": "animation_movie",
     "year": "1990",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Պարտիա",
     "ru": "Партия",
     "en": "Match"
   },
   {
     "id": 619167,
+    "type": "movie",
     "year": "1990",
+    "genres": [
+      "Drama"
+    ],
     "hy": "ՔԱՄԻՆ ՈՒՆԱՅՆՈՒԹՅԱՆ",
     "ru": "Ветер забвения",
     "en": "Wind of Oblivion"
   },
   {
     "id": 1457778,
+    "type": "animation_movie",
     "year": "1990",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Խորհուրդներ Ամերիկացի Ճանապարհորդին",
     "ru": "Советы американскому путешественнику",
     "en": "Old Country Advice to the American Traveller"
   },
   {
     "id": 1052622,
+    "type": "movie",
     "year": "1989",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Շնչառություն",
     "ru": "Дыхание",
     "en": "Breath"
   },
   {
     "id": 651194,
+    "type": "animation_movie",
     "year": "1989",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Սեղմակոճակ",
     "ru": "Кнопка",
     "en": "The Button"
   },
   {
     "id": 345126,
+    "type": "movie",
     "year": "1989",
+    "genres": [
+      "Science Fiction",
+      "Comedy"
+    ],
     "hy": "Գաղտնի խորհրդականը",
     "ru": "Тайный советник",
     "en": "Secret Advisor"
   },
   {
     "id": 641955,
+    "type": "movie",
     "year": "1989",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Աճպարար",
     "ru": "",
     "en": "Magician"
   },
   {
     "id": 1090027,
+    "type": "animation_movie",
     "year": "1988",
+    "genres": [
+      "Animation",
+      "War"
+    ],
     "hy": "Առնետ",
     "ru": "Крыса",
     "en": "The Rat"
   },
   {
     "id": 1087492,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Հրաժեշտի հինգ նամակ",
     "ru": "Пять писем прощания",
     "en": "Five Letters of Farewell"
   },
   {
     "id": 1421995,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "History",
+      "Music",
+      "TV Movie"
+    ],
     "hy": "Արշակ 2",
     "ru": "Аршак II",
     "en": "Arshak 2"
   },
   {
     "id": 1087080,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մենավոր ընկուզենին",
     "ru": "Одинокая орешина",
     "en": "The Lonely Nut-Tree"
   },
   {
     "id": 537020,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "նվիրվածություն",
     "ru": "Преданность",
     "en": "Devotion"
   },
   {
     "id": 1401045,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ճանապարհ դեպի Սասունցի Դավիթ",
     "ru": "Дорога к Давиду Сасунскому",
     "en": "Road to Sasuntsi Davit"
   },
   {
     "id": 1457775,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ամենացուրտ ձմեռը 1854-ից ի վեր",
     "ru": "Самая холодная зима с 1854 года",
     "en": "The Coldest Winter Since 1854"
   },
   {
     "id": 1250035,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Խաչմերուկի դեղատունը՝",
     "ru": "Аптека на перекрестке",
     "en": "Pharmacy at the Crossroads"
   },
   {
     "id": 292639,
+    "type": "movie",
     "year": "1988",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Սպիտակ քաղաք",
     "ru": "Белый городок",
     "en": "White Town"
   },
   {
     "id": 462186,
+    "type": "animation_movie",
     "year": "1988",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Քամի",
     "ru": "Ветер",
     "en": "Wind"
   },
   {
     "id": 1311641,
+    "type": "movie",
     "year": "1987",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Քառյակ",
     "ru": "",
     "en": "Quartet"
   },
   {
     "id": 1398865,
+    "type": "animation_movie",
     "year": "1987",
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
     "hy": "Եվ ամեն երեկո",
     "ru": "...И каждый вечер!",
     "en": "...And Every Evening!"
   },
   {
     "id": 343160,
+    "type": "animation_movie",
     "year": "1987",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Սովորական վտանգավոր արկածներ",
     "ru": "Обыкновенное опасное приключение",
     "en": "Ordinary Dangerous Adventure"
   },
   {
     "id": 1427967,
+    "type": "animation_movie",
     "year": "1987",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Մկների Ժողովը",
     "ru": "Собрание мышей",
     "en": "The Council of Mice"
   },
   {
     "id": 284773,
+    "type": "movie",
     "year": "1987",
+    "genres": [],
     "hy": "Կոնդ",
     "ru": "",
     "en": "Kond"
   },
   {
     "id": 1064404,
+    "type": "movie",
     "year": "1987",
+    "genres": [],
     "hy": "Դժբախտ պատահար",
     "ru": "",
     "en": ""
   },
   {
     "id": 306292,
+    "type": "animation_movie",
     "year": "1987",
+    "genres": [
+      "Animation",
+      "Science Fiction"
+    ],
     "hy": "Դաս",
     "ru": "Урок",
     "en": "The Lesson"
   },
   {
     "id": 204441,
+    "type": "movie",
     "year": "1987",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Կղզիներ",
     "ru": "Острова",
     "en": "Islands"
   },
   {
     "id": 1424842,
+    "type": "animation_movie",
     "year": "1986",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ոսկու կարասը",
     "ru": "Кувшин золота",
     "en": "The Pot of Gold"
   },
   {
     "id": 1111372,
+    "type": "movie",
     "year": "1986",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Վերջին կիրակին",
     "ru": "Последнее воскресенье",
     "en": "The Last Sunday"
   },
   {
     "id": 1404622,
+    "type": "movie",
     "year": "1986",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Վարսահարդար",
     "ru": "Парикмахер, у дяди которого дрессированный тигр отгрыз голову",
     "en": "Hairdresser"
   },
   {
     "id": 438501,
+    "type": "animation_movie",
     "year": "1986",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Հսկան, որը երազում էր ջութակ նվագել",
     "ru": "Великан, который мечтал играть на скрипке",
     "en": "The Giant Who Dreamed of Playing Violin"
   },
   {
     "id": 1018679,
+    "type": "movie",
     "year": "1986",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Օտար խաղեր",
     "ru": "Чужие игры",
     "en": "Strange Games"
   },
   {
     "id": 1611182,
+    "type": "animation_movie",
     "year": "1986",
+    "genres": [
+      "Animation",
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Արձագանք",
     "ru": "",
     "en": "Echo"
   },
   {
     "id": 1049883,
+    "type": "movie",
     "year": "1986",
+    "genres": [],
     "hy": "Քանի դեռ ապրում ենք",
     "ru": "Пока живем...",
     "en": "While We Live"
   },
   {
     "id": 1067534,
+    "type": "movie",
     "year": "1985",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ապրիլ",
     "ru": "Апрель",
     "en": "April"
   },
   {
     "id": 1064589,
+    "type": "movie",
     "year": "1985",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Խնձորի այգին",
     "ru": "Яблоневый сад",
     "en": "The Apple Orchard"
   },
   {
     "id": 1421193,
+    "type": "movie",
     "year": "1985",
+    "genres": [
+      "Family",
+      "Adventure"
+    ],
     "hy": "Մենք դեռ կհանդիպենք",
     "ru": "Мы ещё встретимся",
     "en": "We'll Meet Again"
   },
   {
     "id": 1463929,
+    "type": "movie",
     "year": "1985",
+    "genres": [
+      "War"
+    ],
     "hy": "Ու՞ր ես գնում զինվոր",
     "ru": "Куда идёшь, солдат?",
     "en": "Where Are You Going, Soldier?"
   },
   {
     "id": 412788,
+    "type": "movie",
     "year": "1985",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ճերմակ անուրջներ",
     "ru": "Белые грёзы",
     "en": "White Dreams"
   },
   {
     "id": 1609871,
+    "type": "animation_movie",
     "year": "1985",
+    "genres": [
+      "Animation",
+      "Adventure"
+    ],
     "hy": "Ո՞Վ Է ՔՈ ԸՆԿԵՐԸ",
     "ru": "Кто твой друг ?",
     "en": ""
   },
   {
     "id": 306051,
+    "type": "animation_movie",
     "year": "1985",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Բարեկենդանը",
     "ru": "Ишь ты, масленица!",
     "en": "Wow, Butter Week!"
   },
   {
     "id": 204345,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Մեր Մանկության Տանգոն",
     "ru": "Танго нашего детства",
     "en": "The Tango of Our Childhood"
   },
   {
     "id": 1129955,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
     "hy": "Հող և Ոսկի",
     "ru": "Земля и золото",
     "en": "Land and Gold"
   },
   {
     "id": 637071,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
     "hy": "Մի Կաթիլ Մեղրը",
     "ru": "Капля Мёда",
     "en": "A Drop of Honey"
   },
   {
     "id": 196649,
+    "type": "animation_movie",
     "year": "1984",
+    "genres": [
+      "Animation",
+      "Family"
+    ],
     "hy": "Կապույտ ծովում, սպիտակ փրփուրի մեջ...",
     "ru": "В синем море, в белой пене...",
     "en": "In the Blue Sea, in the White Foam..."
   },
   {
     "id": 550855,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Romance",
+      "Comedy",
+      "TV Movie"
+    ],
     "hy": "Անուշ մայրիկը",
     "ru": "Мама Ануш",
     "en": "Mother Anoush"
   },
   {
     "id": 536637,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Հրդեհ",
     "ru": "Пожар",
     "en": "Fire"
   },
   {
     "id": 1587495,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Գիշերվա մեջ առկայծող կրակը",
     "ru": "",
     "en": "The Flickering Fire in the Night"
   },
   {
     "id": 1604881,
+    "type": "movie",
     "year": "1984",
+    "genres": [],
     "hy": "Հնարամիտ գյուղացին",
     "ru": "",
     "en": "The Resourceful Peasant"
   },
   {
     "id": 1286209,
+    "type": "animation_movie",
     "year": "1984",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ոսկե պայտ",
     "ru": "Золотая подкова",
     "en": "A Golden Horseshoe"
   },
   {
     "id": 1065807,
+    "type": "movie",
     "year": "1984",
+    "genres": [
+      "Adventure"
+    ],
     "hy": "Հեծյալը, որին սպասում էին",
     "ru": "Всадник, которого ждут",
     "en": "An Expected Rider"
   },
   {
     "id": 1405557,
+    "type": "movie",
     "year": "1983",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Այվազովսկին և Հայաստանը",
     "ru": "",
     "en": "Aivazovsky and Armenia"
   },
   {
     "id": 1457767,
+    "type": "movie",
     "year": "1983",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Տերը",
     "ru": "Хозяин",
     "en": "Master"
   },
   {
     "id": 1085319,
+    "type": "movie",
     "year": "1983",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Գոտեմարտ",
     "ru": "Схватка",
     "en": "Fighting"
   },
   {
     "id": 1471195,
+    "type": "movie",
     "year": "1983",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Քոչարի",
     "ru": "",
     "en": "Kochari"
   },
   {
     "id": 200140,
+    "type": "movie",
     "year": "1983",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Մեր դարը",
     "ru": "Наш век",
     "en": "Our Century"
   },
   {
     "id": 1066783,
+    "type": "movie",
     "year": "1983",
+    "genres": [],
     "hy": "Սիրամարգի ճիչը",
     "ru": "",
     "en": "Cry of a Peacock"
   },
   {
     "id": 1239514,
+    "type": "animation_movie",
     "year": "1983",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ամենահարմար, ամենաամուր, ամենագեղեցիկ տնակը",
     "ru": "Самый удобный, самый прочный, самый красивый домик",
     "en": "The Most Comfortable, Solid and Beautiful Home"
   },
   {
     "id": 622527,
+    "type": "movie",
     "year": "1982",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Երջանկության մեխանիկան",
     "ru": "Механика счастья",
     "en": "The Mechanics of Happiness"
   },
   {
     "id": 1457780,
+    "type": "animation_movie",
     "year": "1982",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Գյուտարար Գորտը",
     "ru": "Лягушонок-изобретатель",
     "en": "The Inventive Frog"
   },
   {
     "id": 1074058,
+    "type": "movie",
     "year": "1982",
+    "genres": [
+      "Music"
+    ],
     "hy": "Ատամնաբույժն արևելյան",
     "ru": "",
     "en": "Eastern Dentist"
   },
   {
     "id": 694678,
+    "type": "movie",
     "year": "1982",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հին օրերի երգը",
     "ru": "Песнь прошедших дней",
     "en": "The Song of the Old Days"
   },
   {
     "id": 536538,
+    "type": "movie",
     "year": "1982",
+    "genres": [
+      "War",
+      "Adventure",
+      "Drama"
+    ],
     "hy": "Ձնծաղիկներ և էդելվեյսներ",
     "ru": "Подснежники и эдельвейсы",
     "en": "Snowdrops and Edelweiss"
   },
   {
     "id": 1368019,
+    "type": "animation_movie",
     "year": "1982",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Բնության պսակը",
     "ru": "Венец природы",
     "en": "The Crown of Nature"
   },
   {
     "id": 1240312,
+    "type": "animation_movie",
     "year": "1982",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Հայելու Հեքիաթը",
     "ru": "Сказка о зеркале",
     "en": "Mirror's Tale"
   },
   {
     "id": 1298415,
+    "type": "movie",
     "year": "1981",
+    "genres": [],
     "hy": "Յոթ սարից այն կողմ",
     "ru": "Там, за семью горами",
     "en": "Beyond The Seven Mountains"
   },
   {
     "id": 1610568,
+    "type": "animation_movie",
     "year": "1981",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Հազար ու մի հնարք",
     "ru": "Тысяча и один трюк",
     "en": ""
   },
   {
     "id": 1295484,
+    "type": "movie",
     "year": "1981",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ծերունին և քամին",
     "ru": "",
     "en": "Old Man and Wind"
   },
   {
     "id": 1287730,
+    "type": "animation_movie",
     "year": "1981",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Անընկճելին",
     "ru": "Неподатливый",
     "en": "The Invincible"
   },
   {
     "id": 470077,
+    "type": "movie",
     "year": "1980",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Խոշոր շահւմ",
     "ru": "Крупный выигрыш",
     "en": "The Big Win"
   },
   {
     "id": 651191,
+    "type": "animation_movie",
     "year": "1980",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Քաջ Նազար",
     "ru": "Храбрый Назар",
     "en": "Brave Nazar"
   },
   {
     "id": 453723,
+    "type": "movie",
     "year": "1980",
+    "genres": [
+      "Drama",
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Կտոր մը երկինք",
     "ru": "Пощечина",
     "en": "A Piece of Sky"
   },
   {
     "id": 778825,
+    "type": "movie",
     "year": "1980",
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
     "hy": "Թթենի",
     "ru": "Шелковица",
     "en": "The Mulberry Tree"
   },
   {
     "id": 1305439,
+    "type": "movie",
     "year": "1980",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Լեգենդ ծաղրածուի մասին",
     "ru": "Легенда о скоморохе",
     "en": "The Legend of the Clown"
   },
   {
     "id": 578317,
+    "type": "movie",
     "year": "1980",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Վերադարձ կյանք",
     "ru": "Возвращение к жизни",
     "en": "Return to Life"
   },
   {
     "id": 1240301,
+    "type": "animation_movie",
     "year": "1980",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ձախորդ Փանոս",
     "ru": "",
     "en": "Unlucky Panos"
   },
   {
     "id": 1085097,
+    "type": "movie",
     "year": "1979",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ապրեցեք երկար",
     "ru": "Живите долго",
     "en": "Live Long"
   },
   {
     "id": 1424857,
+    "type": "animation_movie",
     "year": "1979",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Կախարդական ծիածան",
     "ru": "Волшебная радуга",
     "en": "A Magic Rainbow"
   },
   {
     "id": 1325064,
+    "type": "movie",
     "year": "1979",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Օգոստոս",
     "ru": "",
     "en": "August"
   },
   {
     "id": 395886,
+    "type": "movie",
     "year": "1979",
+    "genres": [
+      "Mystery",
+      "Crime",
+      "TV Movie"
+    ],
     "hy": "Երկնագույն առյուծ",
     "ru": "Голубой лев",
     "en": "Blue Lion"
   },
   {
     "id": 1421154,
+    "type": "movie",
     "year": "1979",
+    "genres": [
+      "Adventure"
+    ],
     "hy": "Աստղային ամառ",
     "ru": "Звёздное лето",
     "en": "The Starry Summer"
   },
   {
     "id": 910867,
+    "type": "animation_movie",
     "year": "1979",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Առաջինը",
     "ru": "Первый",
     "en": "First"
   },
   {
     "id": 306290,
+    "type": "animation_movie",
     "year": "1979",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Կիկոս",
     "ru": "Кикос",
     "en": "Kikos"
   },
   {
     "id": 1423222,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
     "hy": "Հուսո աստղ - Մաս 2: Մխիթար Սպարապետ",
     "ru": "",
     "en": "Star Of Hope - Part Two: Mkhitar Sparapet"
   },
   {
     "id": 1423217,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
     "hy": "Հուսո աստղ - Մաս 1: Դավիթ Բեկ",
     "ru": "Звезда надежды",
     "en": "Star Of Hope - Part One: David Bek"
   },
   {
     "id": 456059,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
     "hy": "Հուսո աստղ",
     "ru": "Звезда надежды",
     "en": "Star of Hope"
   },
   {
     "id": 1048587,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Եվս հինգ օր",
     "ru": "Ещё пять дней",
     "en": "Another Five Days"
   },
   {
     "id": 496540,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Music"
+    ],
     "hy": "Բաղդասարը բաժանվում է կնոջից",
     "ru": "Багдасар разводится с женой",
     "en": "Baghdasar Divorces from His Wife"
   },
   {
     "id": 1421129,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Եվ այնժամ դու կվերադառնաս",
     "ru": "И тогда ты вернешься...",
     "en": "And Then You'll Be Back..."
   },
   {
     "id": 1311592,
+    "type": "movie",
     "year": "1978",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Սգավոր Ձյունը",
     "ru": "Снег в трауре",
     "en": "The Mountain"
   },
   {
     "id": 1597619,
+    "type": "movie",
     "year": "1977",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Քարե հովիտ",
     "ru": "",
     "en": "Stone Valley"
   },
   {
     "id": 802084,
+    "type": "animation_movie",
     "year": "1977",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Որսորդները",
     "ru": "Охотники",
     "en": "The Hunters"
   },
   {
     "id": 1065477,
+    "type": "movie",
     "year": "1977",
+    "genres": [],
     "hy": "Այս կանաչ, կարմիր աշխարհը",
     "ru": "Этот зелёный, красный мир",
     "en": "This Green, Red World"
   },
   {
     "id": 285382,
+    "type": "movie",
     "year": "1977",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Նահապետ",
     "ru": "Наапет",
     "en": "Life Triumphs"
   },
   {
     "id": 279201,
+    "type": "movie",
     "year": "1977",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Աշնան արև",
     "ru": "Осеннее солнце",
     "en": "Autumn Sun"
   },
   {
     "id": 1421335,
+    "type": "animation_movie",
     "year": "1977",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Կար չկար մի ոզնի կար",
     "ru": "Жил-был ёжик",
     "en": "There Was a Hedgehog"
   },
   {
     "id": 1286775,
+    "type": "animation_movie",
     "year": "1977",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Նապաստակաորս",
     "ru": "Охота на зайца",
     "en": "The Lucky Bunny"
   },
   {
     "id": 1021802,
+    "type": "movie",
     "year": "1976",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սպիտակ Ափեր",
     "ru": "Белые берега",
     "en": "White Coasts"
   },
   {
     "id": 1100910,
+    "type": "movie",
     "year": "1976",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Մարդն «Օլիմպոսից»",
     "ru": "Человек из «Олимпа»",
     "en": "The Man from Olympus"
   },
   {
     "id": 1066777,
+    "type": "movie",
     "year": "1976",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Շեկ ինքնաթիռ",
     "ru": "Рыжий самолёт",
     "en": "Ginger Plane"
   },
   {
     "id": 716400,
+    "type": "movie",
     "year": "1976",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Իմ սիրտը լեռներում է",
     "ru": "В горах мое сердце",
     "en": "My Heart Is in the Highlands"
   },
   {
     "id": 1418493,
+    "type": "animation_movie",
     "year": "1976",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Գտնված Երազ",
     "ru": "",
     "en": "Found Dream"
   },
   {
     "id": 1281338,
+    "type": "animation_movie",
     "year": "1976",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Գտնված Երազ",
     "ru": "Найденный сон",
     "en": "Found Dream"
   },
   {
     "id": 1427978,
+    "type": "movie",
     "year": "1976",
+    "genres": [
+      "Family"
+    ],
     "hy": "Նվագախումբն անցավ փողոցով",
     "ru": "Оркестр прошел по улице",
     "en": "The Band Passed the Street"
   },
   {
     "id": 438510,
+    "type": "animation_movie",
     "year": "1976",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Անբան աղվեսը",
     "ru": "Лис, который ничего не умел",
     "en": "The Lazy Fox"
   },
   {
     "id": 1257286,
+    "type": "animation_movie",
     "year": "1976",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Որպեսզի դա չպատահի",
     "ru": "Чтоб этого не случилось",
     "en": "To Prevent This from Happening"
   },
   {
     "id": 865729,
+    "type": "movie",
     "year": "1976",
+    "genres": [],
     "hy": "Երկունք",
     "ru": "Рождение",
     "en": "Birth"
   },
   {
     "id": 1325188,
+    "type": "movie",
     "year": "1975",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Կարծր ապար",
     "ru": "Твёрдая порода",
     "en": "Hard Rock"
   },
   {
     "id": 1094597,
+    "type": "movie",
     "year": "1975",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Այստեղ, այս խաչմերուկում",
     "ru": "Здесь, на этом перекрёстке",
     "en": "Here, on this Crossroads"
   },
   {
     "id": 300494,
+    "type": "movie",
     "year": "1975",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Հարսնացուն հյուսիսից",
     "ru": "Невеста с Севера",
     "en": "A Bride from the North"
   },
   {
     "id": 1084022,
+    "type": "movie",
     "year": "1975",
+    "genres": [
+      "Family",
+      "Romance"
+    ],
     "hy": "Տեղ արևի տակ",
     "ru": "Место под солнцем",
     "en": "A Place Under the Sun"
   },
   {
     "id": 1280836,
+    "type": "animation_movie",
     "year": "1975",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Շունն ու կատուն",
     "ru": "Пёс и кот",
     "en": "The Dog and the Cat"
   },
   {
     "id": 1417135,
+    "type": "animation_movie",
     "year": "1975",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ծույլը",
     "ru": "Лентяй",
     "en": "The Lazy One"
   },
   {
     "id": 910831,
+    "type": "animation_movie",
     "year": "1975",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Աղվեսագիրք",
     "ru": "Лисья книга",
     "en": "The Fox Book"
   },
   {
     "id": 968155,
+    "type": "movie",
     "year": "1974",
+    "genres": [
+      "Romance"
+    ],
     "hy": "Երջանկության Արցունքները",
     "ru": "",
     "en": "Tears of Happiness"
   },
   {
     "id": 1534310,
+    "type": "movie",
     "year": "1974",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Քաոս",
     "ru": "Хаос",
     "en": "Chaos"
   },
   {
     "id": 357959,
+    "type": "movie",
     "year": "1974",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հնձան",
     "ru": "Кислый виноград",
     "en": "Sour Grapes"
   },
   {
     "id": 533364,
+    "type": "movie",
     "year": "1974",
+    "genres": [
+      "Action",
+      "Adventure",
+      "History"
+    ],
     "hy": "Կամոյի վերջին սխրանքը",
     "ru": "Последний подвиг Камо",
     "en": "Kamo's Last Feat"
   },
   {
     "id": 1040023,
+    "type": "movie",
     "year": "1974",
+    "genres": [],
     "hy": "Դեղին թոնիր",
     "ru": "",
     "en": "Yellow Tonir"
   },
   {
     "id": 1464858,
+    "type": "animation_movie",
     "year": "1974",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Հեքիաթ ձնեմարդ Դարբուլկայի մասին",
     "ru": "Сказка про снежного человечка Дарбульку",
     "en": "The Tale of the Snowman Darbulka"
   },
   {
     "id": 910879,
+    "type": "animation_movie",
     "year": "1974",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ինչպես արջուկները կերակրեցին կետաձկանը",
     "ru": "Как медвежата китов кормили",
     "en": "How the Bears Fed the Whale"
   },
   {
     "id": 282228,
+    "type": "movie",
     "year": "1974",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Երեւանյան օրերի խրոնիկա",
     "ru": "",
     "en": "Chronicle of Erevan Days"
   },
   {
     "id": 1618014,
+    "type": "movie",
     "year": "1974",
+    "genres": [],
     "hy": "ՍՊՈՐՏ ՍՊՈՐՏ ՍՊՈՐՏ",
     "ru": "СПОРТ СПОРТ СПОРТ",
     "en": ""
   },
   {
     "id": 1417148,
+    "type": "movie",
     "year": "1974",
+    "genres": [],
     "hy": "Աբու Հասանի Մաշիկները",
     "ru": "",
     "en": "Abu-Hasan's Slippers"
   },
   {
     "id": 143024,
+    "type": "movie",
     "year": "1973",
+    "genres": [
+      "Romance",
+      "Comedy"
+    ],
     "hy": "Տղամարդիկ",
     "ru": "Мужчины",
     "en": "The Men"
   },
   {
     "id": 910871,
+    "type": "animation_movie",
     "year": "1973",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Անընկճելին",
     "ru": "Непобедимый",
     "en": "Invincible"
   },
   {
     "id": 283662,
+    "type": "movie",
     "year": "1973",
+    "genres": [
+      "Drama",
+      "Family"
+    ],
     "hy": "Հայրիկ",
     "ru": "Айрик",
     "en": "The Father"
   },
   {
     "id": 1594636,
+    "type": "movie",
     "year": "1973",
+    "genres": [],
     "hy": "Սխալ արտահայտություն",
     "ru": "НЕПРАВИЛЬНОЕ ВЫРАЖЕНИЕ",
     "en": "A wrong statement"
   },
   {
     "id": 1287699,
+    "type": "animation_movie",
     "year": "1973",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Կախարդական Լավաշ",
     "ru": "Волшебный лаваш",
     "en": "Magic Lavash"
   },
   {
     "id": 1197628,
+    "type": "animation_movie",
     "year": "1973",
+    "genres": [
+      "Animation",
+      "Drama"
+    ],
     "hy": "Լիլիթ",
     "ru": "Лилит",
     "en": "Lilith"
   },
   {
     "id": 532135,
+    "type": "movie",
     "year": "1973",
+    "genres": [
+      "War",
+      "Drama"
+    ],
     "hy": "Լուսաբացից մեկ ժամ առաջ",
     "ru": "За час до рассвета",
     "en": "An Hour Before Dawn"
   },
   {
     "id": 1224222,
+    "type": "animation_movie",
     "year": "1972",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Լուր դա լուր",
     "ru": "Лур-да-Лур",
     "en": "Lur-da-Lur"
   },
   {
     "id": 1086372,
+    "type": "movie",
     "year": "1972",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Վերադարձ",
     "ru": "Возвращение",
     "en": "Return"
   },
   {
     "id": 689526,
+    "type": "movie",
     "year": "1971",
+    "genres": [
+      "Comedy",
+      "TV Movie"
+    ],
     "hy": "Խաթաբալա",
     "ru": "Армянские фрески",
     "en": "Troubles"
   },
   {
     "id": 1022949,
+    "type": "movie",
     "year": "1971",
+    "genres": [],
     "hy": "Ախթամար",
     "ru": "Ахтамар",
     "en": "Akhtamar"
   },
   {
     "id": 936804,
+    "type": "movie",
     "year": "1971",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Աղքատի պատիվը",
     "ru": "Честь бедняка",
     "en": "Honor of the Poor"
   },
   {
     "id": 782915,
+    "type": "movie",
     "year": "1971",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հեղնար Աղբյուր",
     "ru": "Родник Эгнар",
     "en": "The Spring Heghnar"
   },
   {
     "id": 1520011,
+    "type": "movie",
     "year": "1971",
+    "genres": [
+      "Adventure",
+      "War"
+    ],
     "hy": "Անցյալի արձագանքները",
     "ru": "Отзвуки прошлого",
     "en": "Echoes of the Past"
   },
   {
     "id": 1390926,
+    "type": "animation_movie",
     "year": "1971",
+    "genres": [
+      "Animation",
+      "Comedy"
+    ],
     "hy": "Պույ-Պույ Մկնիկը",
     "ru": "",
     "en": "Puy-Puy Mouse"
   },
   {
     "id": 1359151,
+    "type": "movie",
     "year": "1970",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Մորգանի խնամին",
     "ru": "Кум Моргана",
     "en": "Morgan's Relative"
   },
   {
     "id": 1421103,
+    "type": "movie",
     "year": "1970",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մենանվագ",
     "ru": "Соло",
     "en": "Solo"
   },
   {
     "id": 1557000,
+    "type": "animation_movie",
     "year": "1970",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Շերտավոր վագրեր",
     "ru": "Тигры полосатые",
     "en": "Tigers Change the Rules"
   },
   {
     "id": 631041,
+    "type": "movie",
     "year": "1970",
+    "genres": [
+      "Comedy",
+      "Romance",
+      "Music"
+    ],
     "hy": "Կարինե",
     "ru": "Каринэ",
     "en": "Karine"
   },
   {
     "id": 1556987,
+    "type": "animation_movie",
     "year": "1970",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Ջութակը ջունգլիներում",
     "ru": "Скрипка в джунглях",
     "en": "The Violin in the Jungle"
   },
   {
     "id": 1059341,
+    "type": "animation_movie",
     "year": "1970",
+    "genres": [
+      "Animation",
+      "Fantasy"
+    ],
     "hy": "Փարվանա",
     "ru": "Легенда об озере Парвана",
     "en": "The Legend of Lake Parvana"
   },
   {
     "id": 1284582,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Action",
+      "Drama"
+    ],
     "hy": "Պայթյուն կեսգիշերից հետո",
     "ru": "Взрыв после полуночи",
     "en": "Explosion After Midnight"
   },
   {
     "id": 26302,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Նռան գույնը",
     "ru": "Цвет граната",
     "en": "The Color of Pomegranates"
   },
   {
     "id": 290893,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
     "hy": "Մենք ենք, մեր սարերը",
     "ru": "Мы и наши горы",
     "en": "We Are, Our Mountains"
   },
   {
     "id": 559627,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սարոյան եղբայրներ",
     "ru": "Братья Сароян",
     "en": "Saroyan Brothers"
   },
   {
     "id": 1417376,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "TV Movie",
+      "History"
+    ],
     "hy": "Գարուն ա, ձուն ա արել",
     "ru": "Весна, выпал снег...",
     "en": "It Has Snowed in Spring"
   },
   {
     "id": 1419693,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ծաղրածուն",
     "ru": "Клоун",
     "en": "The Clown"
   },
   {
     "id": 183725,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "մենք",
     "ru": "Мы",
     "en": "We"
   },
   {
     "id": 1066430,
+    "type": "movie",
     "year": "1969",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Չախ-Չախ թագավորը",
     "ru": "Царь Чах-Чах",
     "en": "King Chakh-Chakh"
   },
   {
     "id": 1040502,
+    "type": "movie",
     "year": "1968",
+    "genres": [],
     "hy": "Հանդիպում ցուցահանդեսում",
     "ru": "Встреча на выставке",
     "en": "Meeting At The Exhibition"
   },
   {
     "id": 1040016,
+    "type": "movie",
     "year": "1968",
+    "genres": [],
     "hy": "Տապը",
     "ru": "",
     "en": "Heat"
   },
   {
     "id": 804415,
+    "type": "movie",
     "year": "1968",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ապրում էր մի մարդ",
     "ru": "Жил человек",
     "en": "There Lived Once a Man"
   },
   {
     "id": 1457772,
+    "type": "animation_movie",
     "year": "1968",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Մի Կաթիլ Մեղրը",
     "ru": "Капля мёда",
     "en": "The Drop of Honey"
   },
   {
     "id": 809928,
+    "type": "movie",
     "year": "1968",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Բարեկենդանը",
     "ru": "Барекендан",
     "en": "Barekendan"
   },
   {
     "id": 290891,
+    "type": "movie",
     "year": "1967",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Եռանկյունի",
     "ru": "Треугольник",
     "en": "Triangle"
   },
   {
     "id": 1287508,
+    "type": "movie",
     "year": "1967",
+    "genres": [],
     "hy": "Յոթ երգ Հայաստանի մասին",
     "ru": "",
     "en": "Seven Songs About Armenia"
   },
   {
     "id": 258738,
+    "type": "movie",
     "year": "1967",
+    "genres": [
+      "Documentary",
+      "History"
+    ],
     "hy": "Հակոբ Հովնաթանյան",
     "ru": "Акоп Овнатанян",
     "en": "Hakob Hovnatanyan"
   },
   {
     "id": 944246,
+    "type": "movie",
     "year": "1966",
+    "genres": [],
     "hy": "Մեր քաղաքի մարդիկ",
     "ru": "Люди нашего города (Киноальманах)",
     "en": "People Of Our City"
   },
   {
     "id": 1416894,
+    "type": "movie",
     "year": "1966",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լալվարի Որսկանը",
     "ru": "Охотник из Лалвара",
     "en": "The Hunter of Lalwar"
   },
   {
     "id": 142833,
+    "type": "movie",
     "year": "1966",
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
     "hy": "Բարև, ես եմ",
     "ru": "Здравствуй, это я!",
     "en": "Hello, It's Me!"
   },
   {
     "id": 1093885,
+    "type": "movie",
     "year": "1966",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Վերջին նետումը",
     "ru": "Последний бросок",
     "en": "The Last Throw"
   },
   {
     "id": 1530541,
+    "type": "movie",
     "year": "1965",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Դժվար անցում",
     "ru": "Трудный переход",
     "en": "Difficult Transition"
   },
   {
     "id": 183707,
+    "type": "movie",
     "year": "1964",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Լեռնային պարեկ",
     "ru": "Горный патруль",
     "en": "Mountain Vigil"
   },
   {
     "id": 1609458,
+    "type": "movie",
     "year": "1964",
+    "genres": [],
     "hy": "Տերտերին ուխտը",
     "ru": "Попранный обет",
     "en": ""
   },
   {
     "id": 1609456,
+    "type": "movie",
     "year": "1964",
+    "genres": [],
     "hy": "Կեղծ լրտեսը",
     "ru": "Мнимый доносчик",
     "en": ""
   },
   {
     "id": 1609455,
+    "type": "movie",
     "year": "1964",
+    "genres": [],
     "hy": "Քաղաքավարության վնասները",
     "ru": "Издержки вежливости",
     "en": ""
   },
   {
     "id": 1369680,
+    "type": "movie",
     "year": "1964",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Շառլ Ազնավուրը Հայաստանում",
     "ru": "",
     "en": "Charles Aznavour in Armenia"
   },
   {
     "id": 1157497,
+    "type": "movie",
     "year": "1964",
+    "genres": [
+      "Comedy",
+      "TV Movie"
+    ],
     "hy": "Շրթներկ №4",
     "ru": "Губная помада №4",
     "en": "Lipstick №4"
   },
   {
     "id": 1387185,
+    "type": "movie",
     "year": "1963",
+    "genres": [],
     "hy": "Չորսը նույն մորթու մեջ",
     "ru": "Четверо в одной шкуре",
     "en": ""
   },
   {
     "id": 290608,
+    "type": "movie",
     "year": "1962",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Տժվժիկ",
     "ru": "Печёнка",
     "en": "Tjvjik"
   },
   {
     "id": 279204,
+    "type": "movie",
     "year": "1962",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Տերն ու ծառան",
     "ru": "Хозяин и слуга",
     "en": "Master and Servant"
   },
   {
     "id": 1101192,
+    "type": "movie",
     "year": "1962",
+    "genres": [
+      "Drama",
+      "TV Movie"
+    ],
     "hy": "Քայլեր",
     "ru": "Шаги",
     "en": "Steps / Qayler"
   },
   {
     "id": 804785,
+    "type": "movie",
     "year": "1961",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Արևածագից առաջ",
     "ru": "Перед восходом солнца",
     "en": "Before the Dawn"
   },
   {
     "id": 1089949,
+    "type": "movie",
     "year": "1961",
+    "genres": [],
     "hy": "Կոչված են ապրելու",
     "ru": "",
     "en": "Kochvatz en aprelu"
   },
   {
     "id": 536159,
+    "type": "movie",
     "year": "1960",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Նվագախմբի տղաները",
     "ru": "Парни музкоманды",
     "en": "Guys from the Army Band"
   },
   {
     "id": 1463938,
+    "type": "movie",
     "year": "1960",
+    "genres": [
+      "War"
+    ],
     "hy": "Հյուսիսային ծիածան",
     "ru": "",
     "en": "North Rainbow"
   },
   {
     "id": 693788,
+    "type": "movie",
     "year": "1960",
+    "genres": [
+      "Drama",
+      "TV Movie",
+      "Music"
+    ],
     "hy": "Սայաթ-Նովա",
     "ru": "Саят-Нова",
     "en": "Sayat-Nova"
   },
   {
     "id": 535687,
+    "type": "movie",
     "year": "1959",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Ինչու է աղմկում գետը",
     "ru": "О чём шумит река",
     "en": "Why Does The River Roar?"
   },
   {
     "id": 1427982,
+    "type": "movie",
     "year": "1959",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Փլուզում",
     "ru": "Обвал",
     "en": "Collapse"
   },
   {
     "id": 403649,
+    "type": "movie",
     "year": "1958",
+    "genres": [
+      "Romance"
+    ],
     "hy": "Առաջին Սիրո Երգը",
     "ru": "Песня первой любви",
     "en": "The Song of First Love"
   },
   {
     "id": 1060203,
+    "type": "movie",
     "year": "1957",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ում է ժպտում կյանքը",
     "ru": "Кому улыбается жизнь",
     "en": "Who Does Life Smile At?"
   },
   {
     "id": 1416185,
+    "type": "movie",
     "year": "1957",
+    "genres": [
+      "Romance"
+    ],
     "hy": "Մոր Սիրտը",
     "ru": "Сердце матери",
     "en": "Mother's Heart"
   },
   {
     "id": 1086640,
+    "type": "movie",
     "year": "1955",
+    "genres": [
+      "Comedy",
+      "Romance"
+    ],
     "hy": "Հասցեատիրոջ որոնումները",
     "ru": "В поисках адресата",
     "en": "Looking for the Addressee"
   },
   {
     "id": 688110,
+    "type": "movie",
     "year": "1955",
+    "genres": [
+      "Comedy",
+      "Family"
+    ],
     "hy": "Ոսկե ցլիկ",
     "ru": "Золотой бычок",
     "en": "Golden Bull Calf"
   },
   {
     "id": 781625,
+    "type": "movie",
     "year": "1954",
+    "genres": [],
     "hy": "Մանրունք",
     "ru": "",
     "en": "Manrunq"
   },
   {
     "id": 1071313,
+    "type": "movie",
     "year": "1950",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Երկրորդ քարավան",
     "ru": "Второй караван",
     "en": "The Second Caravan"
   },
   {
     "id": 1531379,
+    "type": "movie",
     "year": "1949",
+    "genres": [
+      "Comedy",
+      "Music"
+    ],
     "hy": "Արարատյան դաշտի աղջիկը",
     "ru": "Девушка Араратской долины",
     "en": "The Girl of Ararat Valley"
   },
   {
     "id": 1048362,
+    "type": "movie",
     "year": "1947",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Անահիտ",
     "ru": "Анаит",
     "en": "Anahit"
   },
   {
     "id": 283012,
+    "type": "movie",
     "year": "1944",
+    "genres": [
+      "Drama",
+      "War",
+      "History"
+    ],
     "hy": "Դավիթ Բեկ",
     "ru": "Давид-Бек",
     "en": "David Bek"
   },
   {
     "id": 1095999,
+    "type": "movie",
     "year": "1942",
+    "genres": [],
     "hy": "Dustre / Դուստրը",
     "ru": "",
     "en": "The Daughter"
   },
   {
     "id": 1040532,
+    "type": "movie",
     "year": "1941",
+    "genres": [
+      "War",
+      "Drama"
+    ],
     "hy": "Հայրենասերների ընտանիքը",
     "ru": "Семья патриотов",
     "en": "Family of Patriots"
   },
   {
     "id": 1416177,
+    "type": "movie",
     "year": "1941",
+    "genres": [],
     "hy": "Արյան Դեմ Արյուն",
     "ru": "Кровь за кровь",
     "en": "Blood For Blood"
   },
   {
     "id": 806591,
+    "type": "movie",
     "year": "1940",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Քաջ Նազար",
     "ru": "",
     "en": "Nazar the Brave"
   },
   {
     "id": 1049418,
+    "type": "movie",
     "year": "1939",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Սևանի ձկնորսները",
     "ru": "Севанские рыбаки",
     "en": "Sevan's Fishermen"
   },
   {
     "id": 1456162,
+    "type": "movie",
     "year": "1939",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Լեռնային արշավ",
     "ru": "Горный марш",
     "en": "Mountainous March"
   },
   {
     "id": 1456502,
+    "type": "movie",
     "year": "1939",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լեռնային հեղեղ",
     "ru": "Горный поток",
     "en": "Mountain Torrent"
   },
   {
     "id": 782206,
+    "type": "movie",
     "year": "1938",
+    "genres": [
+      "War",
+      "Drama"
+    ],
     "hy": "Զանգեզուր",
     "ru": "Зангезур",
     "en": "Zangezur"
   },
   {
     "id": 253770,
+    "type": "animation_movie",
     "year": "1938",
+    "genres": [
+      "Animation"
+    ],
     "hy": "Շունն ու կատուն",
     "ru": "Пёс и кот",
     "en": "The Dog and the Cat"
   },
   {
     "id": 782211,
+    "type": "movie",
     "year": "1937",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Կարո",
     "ru": "Каро",
     "en": "Karo"
   },
   {
     "id": 380723,
+    "type": "movie",
     "year": "1935",
+    "genres": [
+      "Drama",
+      "Comedy"
+    ],
     "hy": "Պեպո",
     "ru": "Пэпо",
     "en": "Pepo"
   },
   {
     "id": 1426773,
+    "type": "movie",
     "year": "1933",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Լույս և ստվերներ",
     "ru": "",
     "en": "Light and Shadows"
   },
   {
     "id": 1425231,
+    "type": "movie",
     "year": "1933",
+    "genres": [
+      "History",
+      "Drama"
+    ],
     "hy": "Արևի զավակը",
     "ru": "",
     "en": "A Child of Sun"
   },
   {
     "id": 1429178,
+    "type": "movie",
     "year": "1932",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Մեքսիկական դիպլոմատներ",
     "ru": "",
     "en": "Mexican Diplomats"
   },
   {
     "id": 1428605,
+    "type": "movie",
     "year": "1932",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Մի դեպք Սեն Լուի քաղաքում",
     "ru": "",
     "en": "An Event in Saint-Louis"
   },
   {
     "id": 1423418,
+    "type": "movie",
     "year": "1931",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Գողը",
     "ru": "Вор",
     "en": "The Thief"
   },
   {
     "id": 1425855,
+    "type": "movie",
     "year": "1931",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Անուշ",
     "ru": "Ануш",
     "en": "Anoush"
   },
   {
     "id": 1097658,
+    "type": "movie",
     "year": "1930",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Yerkir Nairi / Երկիր Նաիրի",
     "ru": "",
     "en": "Land of Nairi"
   },
   {
     "id": 1422298,
+    "type": "movie",
     "year": "1930",
+    "genres": [],
     "hy": "Կիմը հերթապահ",
     "ru": "",
     "en": "Kim on Duty"
   },
   {
     "id": 313076,
+    "type": "movie",
     "year": "1929",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "Տունը հրաբխի վրա",
     "ru": "Дом на вулкане",
     "en": "The House on the Volcano"
   },
   {
     "id": 1425688,
+    "type": "movie",
     "year": "1929",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Կոլխոզային գարուն",
     "ru": "Колхозная весна",
     "en": "Spring in Kolkhoz"
   },
   {
     "id": 1105979,
+    "type": "movie",
     "year": "1929",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Տասնվեցերորդը",
     "ru": "Шестнадцатый",
     "en": "The Sixteenth"
   },
   {
     "id": 289389,
+    "type": "movie",
     "year": "1928",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Խասփուշ",
     "ru": "Хаз-пуш: Персия при Каджарах",
     "en": "Khaspush"
   },
   {
     "id": 1423496,
+    "type": "movie",
     "year": "1928",
+    "genres": [],
     "hy": "Ղուլը",
     "ru": "",
     "en": "A Slave of St. George"
   },
   {
     "id": 1424548,
+    "type": "movie",
     "year": "1928",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Հինգն էլ խնձորին",
     "ru": "Пять в яблочко",
     "en": "Five Right in the Target"
   },
   {
     "id": 289388,
+    "type": "movie",
     "year": "1927",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Խաս-փուշ",
     "ru": "Злой дух",
     "en": "The Power of Evil"
   },
   {
     "id": 272089,
+    "type": "movie",
     "year": "1926",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Զարե",
     "ru": "Зарэ",
     "en": "Zare"
   },
   {
     "id": 272092,
+    "type": "movie",
     "year": "1926",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Շոր և Շորշոր",
     "ru": "Шор и Шоршор",
     "en": "Shor and Shorshor"
   },
   {
     "id": 36277,
+    "type": "movie",
     "year": "1926",
+    "genres": [
+      "History",
+      "Drama"
+    ],
     "hy": "Նամուս",
     "ru": "Намус",
     "en": "Honor"
   },
   {
     "id": 1507017,
+    "type": "movie",
     "year": "1924",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Խորհրդային Հայաստան",
     "ru": "",
     "en": "Soviet Armenia"
   },
   {
     "id": 1645876,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Փոքրիկ հողագործը",
     "ru": "",
-    "en": ""
+    "en": "The Little Farmer"
   },
   {
     "id": 1631033,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "18-րդ գարունը",
     "ru": "",
     "en": "18th spring"
   },
   {
     "id": 1630422,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Սև աստղային հրեշտակ",
     "ru": "",
     "en": "Black Star Angel"
   },
   {
     "id": 1627815,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ամենագեղեցիկը",
     "ru": "",
     "en": "The Prettiest"
   },
   {
     "id": 1618813,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Ձին",
     "ru": "",
     "en": "The Horse"
   },
   {
     "id": 1618810,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Դիմակայություն",
     "ru": "",
     "en": "Resistance"
   },
   {
     "id": 1592820,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Բարի հետք",
     "ru": "",
     "en": "A kind trace"
   },
   {
     "id": 1505427,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Thriller"
+    ],
     "hy": "շարունակական միջոց",
     "ru": "",
     "en": "Ongoing Remedy"
   },
   {
     "id": 1505306,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Թունելից 13 կմ հեռավորության վրա",
     "ru": "",
     "en": "13 Kilometers Away From The Tunnel"
   },
   {
     "id": 1493644,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Երեք Ոսկե Կանոն",
-    "ru": "",
+    "ru": "Три золотых принципа",
     "en": "Three Golden Rules"
   },
   {
     "id": 1493639,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Պատահար Հուլիսին",
     "ru": "",
     "en": "Accident in July"
   },
   {
     "id": 1493110,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Երուսաղեմի Հայկական Պարտեզը",
     "ru": "",
     "en": "The Armenian Garden of Jerusalem"
   },
   {
     "id": 1482555,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama",
+      "History"
+    ],
     "hy": "բարև",
     "ru": "",
     "en": "Hello"
   },
   {
     "id": 1471157,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "History",
+      "Drama"
+    ],
     "hy": "Արտավազդ II Հռոմի և Պարթևաստանի միջև",
     "ru": "",
     "en": "Artavazd II  Between Rome and Parthia"
   },
   {
     "id": 1460396,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Արա Հարությունյանի Կոմիտասը",
     "ru": "",
     "en": "Ara Harutyunyan's Komitas"
   },
   {
     "id": 1423552,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Սիմոր",
     "ru": "",
     "en": "Seymour"
   },
   {
     "id": 1418614,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Բեմ",
     "ru": "",
     "en": "The Stage"
   },
   {
     "id": 1363929,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Թիթեռի կամքը",
     "ru": "",
     "en": "Butterfly's Will"
   },
   {
     "id": 1339133,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Պատերազմի դեպքերը",
     "ru": "",
     "en": "The Faces of War"
   },
   {
     "id": 1337574,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama",
+      "War"
+    ],
     "hy": "Վերածնվածը",
     "ru": "",
     "en": "Revival"
   },
   {
     "id": 1336540,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "Արցախ, հավերժի սահմանին",
     "ru": "",
     "en": "Artsakh. On the Edge of Eternity"
   },
   {
     "id": 1329717,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Դիմակահանդես",
     "ru": "",
     "en": "Masquerade"
   },
   {
     "id": 1314093,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Տուն",
     "ru": "",
     "en": "Home"
   },
   {
     "id": 1314074,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Բեռ",
     "ru": "",
     "en": "Burden"
   },
   {
     "id": 1314065,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Ձուն",
     "ru": "",
     "en": "The Egg"
   },
   {
     "id": 1290665,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama"
+    ],
     "hy": "Կտավը",
     "ru": "",
     "en": "The Canvas"
   },
   {
     "id": 1263293,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "«ԵՐԳՆ ՈՒ ԵՍ»",
     "ru": "",
     "en": "THE SONG AND I"
   },
   {
     "id": 1263291,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Documentary"
+    ],
     "hy": "«Գուրգեն Մուշեղյան․ ՏԱՐԱԾՈՒԹՅԱՆ ՀԱՐՄՈՆԻԱ»",
     "ru": "",
     "en": "Gurgen Musheghyan: THE HARMONY OF SPACE"
   },
   {
     "id": 1240481,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Կոկո",
     "ru": "Коко",
     "en": ""
   },
   {
     "id": 1240476,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Comedy"
+    ],
     "hy": "Լոսի սոսը Վեգասում",
     "ru": "Сос Лос в Вегасе",
     "en": ""
   },
   {
     "id": 1240467,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama",
+      "Music"
+    ],
     "hy": "Մանանա",
     "ru": "Манана",
     "en": ""
   },
   {
     "id": 1240110,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Բեմ",
     "ru": "За кулисами",
     "en": "The Backstage"
   },
   {
     "id": 1239603,
+    "type": "movie",
     "year": "",
+    "genres": [
+      "Drama"
+    ],
     "hy": "Ավլոս",
     "ru": "Авлос",
     "en": "Avlos"
   },
   {
     "id": 1151558,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Երկու անհայտով հավասարում",
     "ru": "",
     "en": "Equation with Two Variables"
   },
   {
     "id": 1150452,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Ավթոնա",
     "ru": "",
     "en": "Avt'une"
   },
   {
     "id": 688112,
+    "type": "movie",
     "year": "",
+    "genres": [],
     "hy": "Խիո",
+    "ru": "",
+    "en": ""
+  },
+  {
+    "id": 310432,
+    "type": "series",
+    "year": "2025",
+    "genres": [
+      "Soap"
+    ],
+    "hy": "Գնդապետ SoS",
+    "ru": "",
+    "en": ""
+  },
+  {
+    "id": 305634,
+    "type": "series",
+    "year": "2025",
+    "genres": [
+      "Drama"
+    ],
+    "hy": "Ռաունդ",
+    "ru": "Раунд",
+    "en": ""
+  },
+  {
+    "id": 306131,
+    "type": "series",
+    "year": "2024",
+    "genres": [
+      "Crime"
+    ],
+    "hy": "Կայսրության Թևերը",
+    "ru": "",
+    "en": "Empire Wings"
+  },
+  {
+    "id": 284690,
+    "type": "series",
+    "year": "2016",
+    "genres": [],
+    "hy": "Դեպի Եվրատեսիլ",
+    "ru": "",
+    "en": "Depi Evratesil"
+  },
+  {
+    "id": 113736,
+    "type": "series",
+    "year": "2015",
+    "genres": [
+      "Crime",
+      "Mystery"
+    ],
+    "hy": "Հատուկ բաժին",
+    "ru": "",
+    "en": "Special Division"
+  },
+  {
+    "id": 91050,
+    "type": "series",
+    "year": "2013",
+    "genres": [],
+    "hy": "Ազիզյանները",
+    "ru": "Азизяны",
+    "en": "Azizyans"
+  },
+  {
+    "id": 304683,
+    "type": "series",
+    "year": "1992",
+    "genres": [
+      "Drama"
+    ],
+    "hy": "Որտե՞ղ էիր, մարդ աստծո",
+    "ru": "Где ты был, человек божий?",
+    "en": "Where Were You, Man of God?"
+  },
+  {
+    "id": 7866,
+    "type": "series",
+    "year": "",
+    "genres": [],
+    "hy": "Ո՞վ է ուզում դառնալ միլիոնատեր",
     "ru": "",
     "en": ""
   }

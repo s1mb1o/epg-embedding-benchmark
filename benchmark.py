@@ -6,6 +6,10 @@ Usage example:
     python benchmark.py --api flag --model BAAI/bge-m3
     python benchmark.py --api openai --model text-embedding-3-large --skip-synonyms
     python benchmark.py --api st --model jinaai/jina-embeddings-v3 --trust-remote-code
+    python benchmark.py --api st --model Alibaba-NLP/gte-multilingual-base --trust-remote-code
+    python benchmark.py --api cohere --model embed-v4.0
+    python benchmark.py --api jina --model jina-embeddings-v3
+    python benchmark.py --api voyage --model voyage-multilingual-2
 """
 
 from __future__ import annotations
@@ -27,6 +31,9 @@ DEFAULT_MODELS: Dict[str, str] = {
     "ollama": "nomic-embed-text",
     "openai": "text-embedding-3-large",
     "flag": "BAAI/bge-m3",
+    "cohere": "embed-v4.0",
+    "jina": "jina-embeddings-v3",
+    "voyage": "voyage-multilingual-2",
 }
 
 
@@ -123,6 +130,8 @@ class EmbeddingClient:
     _st_model: object = None
     _flag_models: Dict[str, object] = field(default_factory=dict, init=False)
     _openai_client: object = None
+    _cohere_client: object = None
+    _voyage_client: object = None
     _cache: Dict[str, np.ndarray] = field(default_factory=dict, init=False)
     _dimension: int | None = None
 
@@ -153,6 +162,12 @@ class EmbeddingClient:
             return self._embed_ollama(texts)
         if self.api == "flag":
             return self._embed_flag_embedding(texts)
+        if self.api == "cohere":
+            return self._embed_cohere(texts)
+        if self.api == "jina":
+            return self._embed_jina(texts)
+        if self.api == "voyage":
+            return self._embed_voyage(texts)
         raise EmbeddingError(f"Unsupported API '{self.api}'")
 
     def _embed_sentence_transformer(self, texts: Sequence[str]) -> np.ndarray:
@@ -243,6 +258,92 @@ class EmbeddingClient:
         embeddings = np.asarray(dense_vectors, dtype=np.float32)
         return _l2_normalize(embeddings)
 
+    def _embed_cohere(self, texts: Sequence[str]) -> np.ndarray:
+        try:
+            import cohere
+        except ImportError as exc:
+            raise EmbeddingError("cohere package is required for --api cohere (pip install cohere)") from exc
+
+        api_key = os.environ.get("COHERE_API_KEY")
+        if not api_key:
+            raise EmbeddingError("COHERE_API_KEY environment variable is not set")
+
+        if self._cohere_client is None:
+            self._cohere_client = cohere.Client(api_key=api_key)
+
+        # Cohere allows max 96 texts per call
+        batch_size = 96
+        all_vectors: List[list] = []
+        for i in range(0, len(texts), batch_size):
+            batch = list(texts[i:i + batch_size])
+            resp = self._cohere_client.embed(
+                texts=batch,
+                model=self.model_name,
+                input_type="search_document",
+            )
+            all_vectors.extend(resp.embeddings)
+        stacked = np.array(all_vectors, dtype=np.float32)
+        return _l2_normalize(stacked)
+
+    def _embed_jina(self, texts: Sequence[str]) -> np.ndarray:
+        try:
+            import requests
+        except ImportError as exc:
+            raise EmbeddingError("requests package is required for --api jina") from exc
+
+        api_key = os.environ.get("JINA_API_KEY")
+        if not api_key:
+            raise EmbeddingError("JINA_API_KEY environment variable is not set")
+
+        headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}",
+        }
+        payload = {
+            "input": list(texts),
+            "model": self.model_name,
+            "task": "retrieval.passage",
+        }
+        try:
+            response = requests.post(
+                "https://api.jina.ai/v1/embeddings",
+                headers=headers, json=payload, timeout=120,
+            )
+        except requests.RequestException as exc:
+            raise EmbeddingError(f"Failed to reach Jina API: {exc}") from exc
+
+        if response.status_code != 200:
+            raise EmbeddingError(f"Jina API returned status {response.status_code}: {response.text}")
+
+        data = response.json()
+        vectors = [item["embedding"] for item in data["data"]]
+        stacked = np.array(vectors, dtype=np.float32)
+        return _l2_normalize(stacked)
+
+    def _embed_voyage(self, texts: Sequence[str]) -> np.ndarray:
+        try:
+            import voyageai
+        except ImportError as exc:
+            raise EmbeddingError("voyageai package is required for --api voyage (pip install voyageai)") from exc
+
+        api_key = os.environ.get("VOYAGE_API_KEY")
+        if not api_key:
+            raise EmbeddingError("VOYAGE_API_KEY environment variable is not set")
+
+        if self._voyage_client is None:
+            self._voyage_client = voyageai.Client(api_key=api_key)
+
+        # Voyage allows max 128 texts per call
+        batch_size = 128
+        all_vectors: List[list] = []
+        for i in range(0, len(texts), batch_size):
+            batch = list(texts[i:i + batch_size])
+            result = self._voyage_client.embed(batch, model=self.model_name, input_type="document")
+            all_vectors.extend(result.embeddings)
+        stacked = np.array(all_vectors, dtype=np.float32)
+        return _l2_normalize(stacked)
+
+
 def cosine_similarity(vec_a: np.ndarray, vec_b: np.ndarray) -> float:
     """Compute cosine similarity between two vectors."""
     if vec_a.shape != vec_b.shape:
@@ -260,7 +361,7 @@ def build_arg_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--api",
-        choices=("st", "ollama", "openai", "flag"),
+        choices=("st", "ollama", "openai", "flag", "cohere", "jina", "voyage"),
         required=True,
         help="Embedding backend to use",
     )
@@ -496,10 +597,11 @@ def main(argv: Sequence[str]) -> int:
     api = args.api
     model_name = args.model or DEFAULT_MODELS[api]
 
-    if api == "st" and model_name == "jinaai/jina-embeddings-v3" and not args.trust_remote_code:
+    _trust_remote_code_models = {"jinaai/jina-embeddings-v3", "Alibaba-NLP/gte-multilingual-base"}
+    if api == "st" and model_name in _trust_remote_code_models and not args.trust_remote_code:
         parser.error(
-            "Model 'jinaai/jina-embeddings-v3' requires trust_remote_code; "
-            "invoke with trust_remote_code enabled or use '--api flag --model BAAI/bge-m3'."
+            f"Model '{model_name}' requires trust_remote_code; "
+            "invoke with --trust-remote-code."
         )
     phrases = iterate_phrases(args)
     if not phrases:

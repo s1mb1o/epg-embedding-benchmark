@@ -13,5 +13,11 @@ peft>=0.10.0  # undeclared FlagEmbedding dependency (flag_reranker imports it)
 # OpenAI backend (--api openai) — requires OPENAI_API_KEY env var
 openai>=1.40.0
 
-# Ollama backend (--api ollama) — requires local `ollama serve`
+# Ollama / Jina backends (--api ollama, --api jina) — Jina requires JINA_API_KEY env var
 requests>=2.31.0
+
+# Cohere backend (--api cohere) — requires COHERE_API_KEY env var
+cohere>=5.0.0
+
+# Voyage AI backend (--api voyage) — requires VOYAGE_API_KEY env var
+voyageai>=0.3.0

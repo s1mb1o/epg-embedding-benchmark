@@ -8,6 +8,14 @@
 #        # require passing --trust-remote-code; this script handles it.
 #        # Optional for OpenAI results
 #        export OPENAI_API_KEY=...
+#        # Optional for Cohere results
+#        export COHERE_API_KEY=...
+#        # Optional for Jina API results
+#        export JINA_API_KEY=...
+#        # Optional for Voyage AI results
+#        export VOYAGE_API_KEY=...
+#        # Optional for Google Vertex AI results
+#        export GOOGLE_CLOUD_PROJECT=your-project-id
 #        # Optional for Ollama results
 #        export TEST_EMB_OLLAMA=1  # requires `ollama serve`
 #   2. Execute from the repo root (script autodetects paths):
@@ -47,7 +55,8 @@ RUNS+=("st intfloat/e5-large")
 RUNS+=("st Metric-AI/armenian-text-embeddings-1")
 RUNS+=("st BAAI/bge-m3")
 RUNS+=("st all-MiniLM-L6-v2")
-#RUNS+=("st jinaai/jina-embeddings-v3 --trust-remote-code")
+RUNS+=("st Alibaba-NLP/gte-multilingual-base --trust-remote-code")
+RUNS+=("st jinaai/jina-embeddings-v3 --trust-remote-code")
 
 # Known missing / experimental repos (uncomment if available upstream)
 # RUNS+=("st ai-community/bge-m3")  # NOTE: repository currently not published
@@ -66,6 +75,22 @@ fi
 # OpenAI only when API key is present
 if [[ -n "${OPENAI_API_KEY:-}" ]]; then
   RUNS+=("openai text-embedding-3-large")
+fi
+
+# Cohere only when API key is present
+if [[ -n "${COHERE_API_KEY:-}" ]]; then
+  RUNS+=("cohere embed-v4.0")
+  RUNS+=("cohere embed-multilingual-v3.0")
+fi
+
+# Jina API only when API key is present
+if [[ -n "${JINA_API_KEY:-}" ]]; then
+  RUNS+=("jina jina-embeddings-v3")
+fi
+
+# Voyage AI only when API key is present
+if [[ -n "${VOYAGE_API_KEY:-}" ]]; then
+  RUNS+=("voyage voyage-multilingual-2")
 fi
 
 if [[ ${#RUNS[@]} -eq 0 ]]; then
