@@ -15,5 +15,8 @@ cache/
 # Credentials
 CREDENTIALS.md
 
+# Local commands cheatsheet
+COMMANDS.md
+
 # OS
 .DS_Store

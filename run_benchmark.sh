@@ -31,6 +31,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PYTHON_BIN=${PYTHON_BIN:-python3}
 SCRIPT_PATH="$SCRIPT_DIR/benchmark.py"
 CSV_FILE="$SCRIPT_DIR/results/benchmark_results.csv"
+ABBREV_FILE="$SCRIPT_DIR/data/abbrev_duplets.json"
 
 if [[ ! -f "$SCRIPT_PATH" ]]; then
   echo "benchmark.py not found next to run_benchmark.sh" >&2
@@ -110,10 +111,15 @@ for entry in "${RUNS[@]}"; do
   printf '\033[32m%s\033[0m\n' "$running_msg"
   echo "----------------------------------------------------------------"
 
+  abbrev_flag=""
+  if [[ -f "$ABBREV_FILE" ]]; then
+    abbrev_flag="--abbrev $ABBREV_FILE"
+  fi
+
   if [[ -n "${extra:-}" ]]; then
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $extra
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $abbrev_flag $extra
   else
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE"
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $abbrev_flag
   fi
 
   echo

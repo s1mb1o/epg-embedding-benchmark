@@ -387,6 +387,10 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--csv-file",
         help="Append a CSV result row to this file (created with header if missing)",
     )
+    parser.add_argument(
+        "--abbrev",
+        help="Path to abbreviation duplets JSON for abbreviation robustness test",
+    )
     return parser
 
 
@@ -423,6 +427,66 @@ def load_synonyms_from_json(path: str) -> Sequence[Dict[str, str]]:
             raise ValueError(f"Synonym entry at index {idx} must provide keys: {sorted(required_keys)}")
         validated.append(entry)
     return validated
+
+
+def load_abbrev_duplets(path: str) -> List[Dict[str, str]]:
+    import json
+    with open(path, "r", encoding="utf-8") as handle:
+        payload = json.load(handle)
+    if not isinstance(payload, dict) or "duplets" not in payload:
+        raise ValueError("Abbreviation JSON must contain a 'duplets' key")
+    duplets = payload["duplets"]
+    required_keys = {"plain", "abbreviated", "lang"}
+    validated = []
+    for idx, entry in enumerate(duplets):
+        if not isinstance(entry, dict) or not required_keys.issubset(entry):
+            raise ValueError(f"Duplet at index {idx} must provide keys: {sorted(required_keys)}")
+        validated.append(entry)
+    return validated
+
+
+def evaluate_abbreviations(
+    client: EmbeddingClient, duplets: List[Dict[str, str]]
+) -> Dict[str, float]:
+    texts: List[str] = []
+    for d in duplets:
+        texts.append(d["plain"])
+        texts.append(d["abbreviated"])
+
+    start = perf_counter()
+    matrix = client.embed_batch(texts)
+    duration = perf_counter() - start
+
+    total_texts = len(texts)
+    per_text = duration / total_texts if total_texts else 0.0
+    print(
+        f"abbrev api={client.api} | model={client.model_name} | dim={client._dimension or 0} | texts={total_texts} "
+        f"| total_time={duration:.4f}s | per_text={per_text:.4f}s"
+    )
+
+    scores_by_lang: Dict[str, List[float]] = {}
+
+    for i, d in enumerate(duplets):
+        vec_plain = matrix[i * 2]
+        vec_abbrev = matrix[i * 2 + 1]
+        sim = cosine_similarity(vec_plain, vec_abbrev)
+        lang = d["lang"]
+        scores_by_lang.setdefault(lang, []).append(sim)
+
+    result: Dict[str, float] = {}
+    all_scores: List[float] = []
+    for lang in ("ru", "hy"):
+        scores = scores_by_lang.get(lang, [])
+        mean = sum(scores) / len(scores) if scores else 0.0
+        result[f"abbrev_{lang}_mean"] = mean
+        all_scores.extend(scores)
+        if scores:
+            print(f"{'abbrev_' + lang + '_mean':<30} {len(scores):>4} pairs   {mean:8.4f}")
+
+    overall = sum(all_scores) / len(all_scores) if all_scores else 0.0
+    result["abbrev_mean"] = overall
+    print(f"{'abbrev_mean':<30} {len(all_scores):>4} pairs   {overall:8.4f}")
+    return result
 
 
 def iterate_phrases(args: argparse.Namespace) -> Sequence[Dict[str, str]]:
@@ -565,18 +629,25 @@ def _append_csv_row(
     hy_hy_mean: float,
     total_time_s: float,
     time_per_text_s: float,
+    abbrev_scores: Dict[str, float] | None = None,
 ) -> None:
     """Append a single result row to *csv_path*, writing the header if the file is new or empty."""
     header = [
         "backend", "model", "cross_lang_mean",
         "en_ru_mean", "en_hy_mean", "ru_hy_mean",
         "hy_hy_mean", "total_time_s", "time_per_text_s",
+        "abbrev_ru_mean", "abbrev_hy_mean", "abbrev_mean",
     ]
     write_header = not os.path.exists(csv_path) or os.path.getsize(csv_path) == 0
     with open(csv_path, "a", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh)
         if write_header:
             writer.writerow(header)
+
+        abbrev_ru = abbrev_scores.get("abbrev_ru_mean") if abbrev_scores else None
+        abbrev_hy = abbrev_scores.get("abbrev_hy_mean") if abbrev_scores else None
+        abbrev_all = abbrev_scores.get("abbrev_mean") if abbrev_scores else None
+
         writer.writerow([
             backend,
             model,
@@ -587,6 +658,9 @@ def _append_csv_row(
             f"{hy_hy_mean:.4f}",
             f"{total_time_s:.4f}",
             f"{time_per_text_s:.4f}",
+            f"{abbrev_ru:.4f}" if abbrev_ru is not None else "",
+            f"{abbrev_hy:.4f}" if abbrev_hy is not None else "",
+            f"{abbrev_all:.4f}" if abbrev_all is not None else "",
         ])
 
 
@@ -634,12 +708,19 @@ def main(argv: Sequence[str]) -> int:
     if not args.skip_synonyms:
         hy_hy_mean = report_hy_synonyms(client, iterate_synonyms(args))
 
+    abbrev_scores = None
+    if args.abbrev:
+        duplets = load_abbrev_duplets(args.abbrev)
+        if duplets:
+            abbrev_scores = evaluate_abbreviations(client, duplets)
+
     if args.csv_file:
         _append_csv_row(
             args.csv_file, api, model_name,
             cross_lang_mean,
             scores["en_ru_mean"], scores["en_hy_mean"], scores["ru_hy_mean"],
             hy_hy_mean, total_time, per_text,
+            abbrev_scores=abbrev_scores,
         )
 
     return 0

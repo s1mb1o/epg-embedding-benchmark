@@ -1,0 +1,5500 @@
+{
+  "description": "EPG abbreviation robustness test — duplets of titles with and without content-type prefixes",
+  "abbreviations": {
+    "movie": {
+      "ru": "к/ф",
+      "hy": "ֆ/ֆ"
+    },
+    "animation_movie": {
+      "ru": "м/ф",
+      "hy": "մ/ֆ"
+    },
+    "series": {
+      "ru": "т/с",
+      "hy": "հ/ս"
+    }
+  },
+  "duplets": [
+    {
+      "id": "tmdb_1601611_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ընտանեկան Հարաման (Undanegan Haraman)",
+      "abbreviated": "ֆ/ֆ Ընտանեկան Հարաման (Undanegan Haraman)"
+    },
+    {
+      "id": "tmdb_1609643_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ժամանակի մեքենա. AI քեզ նոր տարի",
+      "abbreviated": "ֆ/ֆ Ժամանակի մեքենա. AI քեզ նոր տարի"
+    },
+    {
+      "id": "tmdb_1596886_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ի՞նչ-ինչպե՞ս",
+      "abbreviated": "ֆ/ֆ Ի՞նչ-ինչպե՞ս"
+    },
+    {
+      "id": "tmdb_1586971_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենք վերադարձանք",
+      "abbreviated": "ֆ/ֆ Մենք վերադարձանք"
+    },
+    {
+      "id": "tmdb_1437217_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձմեռվա Երգերը",
+      "abbreviated": "ֆ/ֆ Ձմեռվա Երգերը"
+    },
+    {
+      "id": "tmdb_1589330_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թանկարծեք տղաները",
+      "abbreviated": "ֆ/ֆ Թանկարծեք տղաները"
+    },
+    {
+      "id": "tmdb_1242949_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լինում է, չի լինում",
+      "abbreviated": "ֆ/ֆ Լինում է, չի լինում"
+    },
+    {
+      "id": "tmdb_1591709_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Mallորվածը",
+      "abbreviated": "ֆ/ֆ Mallորվածը"
+    },
+    {
+      "id": "tmdb_1549062_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ограбление по армянски",
+      "abbreviated": "к/ф Ограбление по армянски"
+    },
+    {
+      "id": "tmdb_1549062_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գողություն հայկական ձևով",
+      "abbreviated": "ֆ/ֆ Գողություն հայկական ձևով"
+    },
+    {
+      "id": "tmdb_1487998_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մահարձան",
+      "abbreviated": "ֆ/ֆ Մահարձան"
+    },
+    {
+      "id": "tmdb_1448685_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հարիսա",
+      "abbreviated": "ֆ/ֆ Հարիսա"
+    },
+    {
+      "id": "tmdb_1513524_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենակ",
+      "abbreviated": "ֆ/ֆ Մենակ"
+    },
+    {
+      "id": "tmdb_1512578_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դու ինձ դեռ սիրում ես, այդպես չէ՞ Հայրիկ",
+      "abbreviated": "ֆ/ֆ Դու ինձ դեռ սիրում ես, այդպես չէ՞ Հայրիկ"
+    },
+    {
+      "id": "tmdb_1485105_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Այսպես ասաց քամին",
+      "abbreviated": "ֆ/ֆ Այսպես ասաց քամին"
+    },
+    {
+      "id": "tmdb_1502354_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ճանապարհ",
+      "abbreviated": "ֆ/ֆ Ճանապարհ"
+    },
+    {
+      "id": "tmdb_1439078_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օրոր Լեռների Համար",
+      "abbreviated": "ֆ/ֆ Օրոր Լեռների Համար"
+    },
+    {
+      "id": "tmdb_1451457_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Օձի Ապուր",
+      "abbreviated": "մ/ֆ Օձի Ապուր"
+    },
+    {
+      "id": "tmdb_1423046_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարի Օր 2",
+      "abbreviated": "ֆ/ֆ Բարի Օր 2"
+    },
+    {
+      "id": "tmdb_1588816_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Теперь наша очередь.",
+      "abbreviated": "к/ф Теперь наша очередь."
+    },
+    {
+      "id": "tmdb_1588816_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հիմա մեր հերթն է",
+      "abbreviated": "ֆ/ֆ Հիմա մեր հերթն է"
+    },
+    {
+      "id": "tmdb_1472214_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Остров Арарат",
+      "abbreviated": "к/ф Остров Арарат"
+    },
+    {
+      "id": "tmdb_1472214_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արարատ Կղզի",
+      "abbreviated": "ֆ/ֆ Արարատ Կղզի"
+    },
+    {
+      "id": "tmdb_1469439_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ավետյաց Լեռը",
+      "abbreviated": "ֆ/ֆ Ավետյաց Լեռը"
+    },
+    {
+      "id": "tmdb_1451666_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սիգմա",
+      "abbreviated": "ֆ/ֆ Սիգմա"
+    },
+    {
+      "id": "tmdb_1437438_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեկ անգամ դպրոցում 2: Վերջին Պահապանը",
+      "abbreviated": "ֆ/ֆ Մեկ անգամ դպրոցում 2: Վերջին Պահապանը"
+    },
+    {
+      "id": "tmdb_1505300_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թևավոր Լարեր",
+      "abbreviated": "ֆ/ֆ Թևավոր Լարեր"
+    },
+    {
+      "id": "tmdb_1512562_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դորայի Դեղին Կոշիկները",
+      "abbreviated": "ֆ/ֆ Դորայի Դեղին Կոշիկները"
+    },
+    {
+      "id": "tmdb_1418611_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերջին Սպարապետը",
+      "abbreviated": "ֆ/ֆ Վերջին Սպարապետը"
+    },
+    {
+      "id": "tmdb_1418530_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "После сна",
+      "abbreviated": "к/ф После сна"
+    },
+    {
+      "id": "tmdb_1418530_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երազելուց Հետո",
+      "abbreviated": "ֆ/ֆ Երազելուց Հետո"
+    },
+    {
+      "id": "tmdb_1406694_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կռունկ",
+      "abbreviated": "ֆ/ֆ Կռունկ"
+    },
+    {
+      "id": "tmdb_1392468_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ծափահարության ձայնը",
+      "abbreviated": "ֆ/ֆ Ծափահարության ձայնը"
+    },
+    {
+      "id": "tmdb_1314091_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բնության լույսը",
+      "abbreviated": "ֆ/ֆ Բնության լույսը"
+    },
+    {
+      "id": "tmdb_1424801_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բախտի Տերը",
+      "abbreviated": "ֆ/ֆ Բախտի Տերը"
+    },
+    {
+      "id": "tmdb_1512568_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օջախ Լռության մյուս Կողմից",
+      "abbreviated": "ֆ/ֆ Օջախ Լռության մյուս Կողմից"
+    },
+    {
+      "id": "tmdb_1360043_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեդալի հակառակ կողմը",
+      "abbreviated": "ֆ/ֆ Մեդալի հակառակ կողմը"
+    },
+    {
+      "id": "tmdb_1451671_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Համբույր",
+      "abbreviated": "ֆ/ֆ Համբույր"
+    },
+    {
+      "id": "tmdb_1369789_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դեբետ",
+      "abbreviated": "ֆ/ֆ Դեբետ"
+    },
+    {
+      "id": "tmdb_1425745_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թուլություն",
+      "abbreviated": "ֆ/ֆ Թուլություն"
+    },
+    {
+      "id": "tmdb_1512558_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ներիր ինձ,Մայրիկ",
+      "abbreviated": "ֆ/ֆ Ներիր ինձ,Մայրիկ"
+    },
+    {
+      "id": "tmdb_1425325_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թամզարա",
+      "abbreviated": "ֆ/ֆ Թամզարա"
+    },
+    {
+      "id": "tmdb_1204677_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Յաշան ու Լեոնիդ Բրեժնևը",
+      "abbreviated": "ֆ/ֆ Յաշան ու Լեոնիդ Բրեժնևը"
+    },
+    {
+      "id": "tmdb_1313526_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արմատ",
+      "abbreviated": "ֆ/ֆ Արմատ"
+    },
+    {
+      "id": "tmdb_1428058_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երևանիլա.am",
+      "abbreviated": "ֆ/ֆ Երևանիլա.am"
+    },
+    {
+      "id": "tmdb_1427420_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կատարյալ Ապուշը",
+      "abbreviated": "ֆ/ֆ Կատարյալ Ապուշը"
+    },
+    {
+      "id": "tmdb_1213609_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ՅՈՒՇԵՐ",
+      "abbreviated": "ֆ/ֆ ՅՈՒՇԵՐ"
+    },
+    {
+      "id": "tmdb_1314079_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ոչ լույս / ոչ մութ",
+      "abbreviated": "ֆ/ֆ Ոչ լույս / ոչ մութ"
+    },
+    {
+      "id": "tmdb_1355641_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հայրենիք",
+      "abbreviated": "ֆ/ֆ Հայրենիք"
+    },
+    {
+      "id": "tmdb_1398273_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դեպի Ճամբար Հատուկ Ջոկատ",
+      "abbreviated": "ֆ/ֆ Դեպի Ճամբար Հատուկ Ջոկատ"
+    },
+    {
+      "id": "tmdb_1313654_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Իմ Առաջին Հեռախոսը",
+      "abbreviated": "ֆ/ֆ Իմ Առաջին Հեռախոսը"
+    },
+    {
+      "id": "tmdb_1481342_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ԱՔՍՈՐ",
+      "abbreviated": "ֆ/ֆ ԱՔՍՈՐ"
+    },
+    {
+      "id": "tmdb_1427496_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երևան Բլյուզ 2 25 տարի անց",
+      "abbreviated": "ֆ/ֆ Երևան Բլյուզ 2 25 տարի անց"
+    },
+    {
+      "id": "tmdb_1505278_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թեղուտցի Սիլվենը",
+      "abbreviated": "ֆ/ֆ Թեղուտցի Սիլվենը"
+    },
+    {
+      "id": "tmdb_1240455_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Операция «Достопочтенные попрошайки»",
+      "abbreviated": "к/ф Операция «Достопочтенные попрошайки»"
+    },
+    {
+      "id": "tmdb_1240455_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օպերացիա «Մեծապատիվ Մուրացկաններ»",
+      "abbreviated": "ֆ/ֆ Օպերացիա «Մեծապատիվ Մուրացկաններ»"
+    },
+    {
+      "id": "tmdb_1264391_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դավիթի Այգին",
+      "abbreviated": "ֆ/ֆ Դավիթի Այգին"
+    },
+    {
+      "id": "tmdb_1202592_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գործակալ 044: Օպերացիա Գառնի",
+      "abbreviated": "ֆ/ֆ Գործակալ 044: Օպերացիա Գառնի"
+    },
+    {
+      "id": "tmdb_1221658_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ռոզալի",
+      "abbreviated": "ֆ/ֆ Ռոզալի"
+    },
+    {
+      "id": "tmdb_1174788_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ԱՆԳԼՈՒԽ ՁԻԱՎՈՐՆԵՐ",
+      "abbreviated": "ֆ/ֆ ԱՆԳԼՈՒԽ ՁԻԱՎՈՐՆԵՐ"
+    },
+    {
+      "id": "tmdb_1505772_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սաբոտաժ",
+      "abbreviated": "ֆ/ֆ Սաբոտաժ"
+    },
+    {
+      "id": "tmdb_1208298_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Женщины в черном",
+      "abbreviated": "к/ф Женщины в черном"
+    },
+    {
+      "id": "tmdb_1208298_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սևազգեստ կանայք",
+      "abbreviated": "ֆ/ֆ Սևազգեստ կանայք"
+    },
+    {
+      "id": "tmdb_1117455_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Թռչող Տերեվների Երգը",
+      "abbreviated": "մ/ֆ Թռչող Տերեվների Երգը"
+    },
+    {
+      "id": "tmdb_1240474_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Карточный город",
+      "abbreviated": "к/ф Карточный город"
+    },
+    {
+      "id": "tmdb_1240474_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քարտի քաղաք",
+      "abbreviated": "ֆ/ֆ Քարտի քաղաք"
+    },
+    {
+      "id": "tmdb_1264404_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օհան Դուրյան : Գեղեցիկ Դադարից Առաջ",
+      "abbreviated": "ֆ/ֆ Օհան Դուրյան : Գեղեցիկ Դադարից Առաջ"
+    },
+    {
+      "id": "tmdb_1506287_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խորշ",
+      "abbreviated": "ֆ/ֆ Խորշ"
+    },
+    {
+      "id": "tmdb_1605713_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մսատուն(Meat House)",
+      "abbreviated": "ֆ/ֆ Մսատուն(Meat House)"
+    },
+    {
+      "id": "tmdb_1416342_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նունիկ",
+      "abbreviated": "ֆ/ֆ Նունիկ"
+    },
+    {
+      "id": "tmdb_1131202_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "անդեմ",
+      "abbreviated": "ֆ/ֆ անդեմ"
+    },
+    {
+      "id": "tmdb_1240460_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Снова в школу",
+      "abbreviated": "к/ф Снова в школу"
+    },
+    {
+      "id": "tmdb_1240460_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կրկին Դպրոց",
+      "abbreviated": "ֆ/ֆ Կրկին Դպրոց"
+    },
+    {
+      "id": "tmdb_970578_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Արշալույսի լուսաբացը",
+      "abbreviated": "մ/ֆ Արշալույսի լուսաբացը"
+    },
+    {
+      "id": "tmdb_1240133_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "ОТТК",
+      "abbreviated": "к/ф ОТТК"
+    },
+    {
+      "id": "tmdb_1240133_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ՕԹԹԿ",
+      "abbreviated": "ֆ/ֆ ՕԹԹԿ"
+    },
+    {
+      "id": "tmdb_1425341_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գրավիտացիա",
+      "abbreviated": "ֆ/ֆ Գրավիտացիա"
+    },
+    {
+      "id": "tmdb_1098284_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կապույտի Միջով",
+      "abbreviated": "ֆ/ֆ Կապույտի Միջով"
+    },
+    {
+      "id": "tmdb_1098833_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թոնրատուն",
+      "abbreviated": "ֆ/ֆ Թոնրատուն"
+    },
+    {
+      "id": "tmdb_1425048_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Իշխանություն 2",
+      "abbreviated": "ֆ/ֆ Իշխանություն 2"
+    },
+    {
+      "id": "tmdb_1505284_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ծանրաբեռնված երթուղային",
+      "abbreviated": "ֆ/ֆ Ծանրաբեռնված երթուղային"
+    },
+    {
+      "id": "tmdb_1221969_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անքնություն",
+      "abbreviated": "ֆ/ֆ Անքնություն"
+    },
+    {
+      "id": "tmdb_1351636_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չտեսնված երկիր",
+      "abbreviated": "ֆ/ֆ Չտեսնված երկիր"
+    },
+    {
+      "id": "tmdb_1505286_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տարօրինակ մի տեղ",
+      "abbreviated": "ֆ/ֆ Տարօրինակ մի տեղ"
+    },
+    {
+      "id": "tmdb_1451155_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ուղիղ Եթեր",
+      "abbreviated": "ֆ/ֆ Ուղիղ Եթեր"
+    },
+    {
+      "id": "tmdb_1007336_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Камни",
+      "abbreviated": "к/ф Камни"
+    },
+    {
+      "id": "tmdb_1007336_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քար",
+      "abbreviated": "ֆ/ֆ Քար"
+    },
+    {
+      "id": "tmdb_998757_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ամերիկացի",
+      "abbreviated": "ֆ/ֆ Ամերիկացի"
+    },
+    {
+      "id": "tmdb_1073702_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նկարչի երեք գերեզմանները",
+      "abbreviated": "ֆ/ֆ Նկարչի երեք գերեզմանները"
+    },
+    {
+      "id": "tmdb_1423543_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պոլլի",
+      "abbreviated": "ֆ/ֆ Պոլլի"
+    },
+    {
+      "id": "tmdb_1221650_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վիշապ",
+      "abbreviated": "ֆ/ֆ Վիշապ"
+    },
+    {
+      "id": "tmdb_1472349_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արյան Կանչ",
+      "abbreviated": "ֆ/ֆ Արյան Կանչ"
+    },
+    {
+      "id": "tmdb_951168_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "5Երազողները եվ Ձին",
+      "abbreviated": "ֆ/ֆ 5Երազողները եվ Ձին"
+    },
+    {
+      "id": "tmdb_1438384_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերադարձ",
+      "abbreviated": "ֆ/ֆ Վերադարձ"
+    },
+    {
+      "id": "tmdb_1472338_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լիլիթ Անունով Տիկնիկը",
+      "abbreviated": "ֆ/ֆ Լիլիթ Անունով Տիկնիկը"
+    },
+    {
+      "id": "tmdb_1451661_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ակնարկ",
+      "abbreviated": "ֆ/ֆ Ակնարկ"
+    },
+    {
+      "id": "tmdb_1451043_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շնորհ 4: Իրականության Պատրանք",
+      "abbreviated": "ֆ/ֆ Շնորհ 4: Իրականության Պատրանք"
+    },
+    {
+      "id": "tmdb_1435157_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վայ Գրիգ Գրիգ 2",
+      "abbreviated": "ֆ/ֆ Վայ Գրիգ Գրիգ 2"
+    },
+    {
+      "id": "tmdb_1221642_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գարուն ա...",
+      "abbreviated": "ֆ/ֆ Գարուն ա..."
+    },
+    {
+      "id": "tmdb_1435156_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վայ Գրիգ Գրիգ",
+      "abbreviated": "ֆ/ֆ Վայ Գրիգ Գրիգ"
+    },
+    {
+      "id": "tmdb_960537_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ԲԱՐԻ ԹՌԻՉՔ",
+      "abbreviated": "ֆ/ֆ ԲԱՐԻ ԹՌԻՉՔ"
+    },
+    {
+      "id": "tmdb_1454088_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ընդվզում",
+      "abbreviated": "ֆ/ֆ Ընդվզում"
+    },
+    {
+      "id": "tmdb_930842_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наш двор. 25 лет спустя",
+      "abbreviated": "к/ф Наш двор. 25 лет спустя"
+    },
+    {
+      "id": "tmdb_930842_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Բակը 4",
+      "abbreviated": "ֆ/ֆ Մեր Բակը 4"
+    },
+    {
+      "id": "tmdb_958626_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Зулали",
+      "abbreviated": "к/ф Зулали"
+    },
+    {
+      "id": "tmdb_958626_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Զուլալի",
+      "abbreviated": "ֆ/ֆ Զուլալի"
+    },
+    {
+      "id": "tmdb_1451668_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թույլ Տվեք",
+      "abbreviated": "ֆ/ֆ Թույլ Տվեք"
+    },
+    {
+      "id": "tmdb_1505281_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սենյակ",
+      "abbreviated": "ֆ/ֆ Սենյակ"
+    },
+    {
+      "id": "tmdb_1422619_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Իշխանություն",
+      "abbreviated": "ֆ/ֆ Իշխանություն"
+    },
+    {
+      "id": "tmdb_1416349_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լույսի Կաթիլներ",
+      "abbreviated": "ֆ/ֆ Լույսի Կաթիլներ"
+    },
+    {
+      "id": "tmdb_1472344_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ախպերս ու Ես",
+      "abbreviated": "ֆ/ֆ Ախպերս ու Ես"
+    },
+    {
+      "id": "tmdb_1451450_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փոքրիկ Զորավարը 2",
+      "abbreviated": "ֆ/ֆ Փոքրիկ Զորավարը 2"
+    },
+    {
+      "id": "tmdb_1253603_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հարսանիք թիկունքում",
+      "abbreviated": "ֆ/ֆ Հարսանիք թիկունքում"
+    },
+    {
+      "id": "tmdb_689130_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սողոմոնի Երգերը",
+      "abbreviated": "ֆ/ֆ Սողոմոնի Երգերը"
+    },
+    {
+      "id": "tmdb_876493_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Под землёй",
+      "abbreviated": "к/ф Под землёй"
+    },
+    {
+      "id": "tmdb_876493_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ստորգետնյա",
+      "abbreviated": "ֆ/ֆ Ստորգետնյա"
+    },
+    {
+      "id": "tmdb_790022_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шапито",
+      "abbreviated": "к/ф Шапито"
+    },
+    {
+      "id": "tmdb_790022_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շապիտո",
+      "abbreviated": "ֆ/ֆ Շապիտո"
+    },
+    {
+      "id": "tmdb_743469_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չնչիկ",
+      "abbreviated": "ֆ/ֆ Չնչիկ"
+    },
+    {
+      "id": "tmdb_1418596_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կալիոստրո",
+      "abbreviated": "ֆ/ֆ Կալիոստրո"
+    },
+    {
+      "id": "tmdb_1451041_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շնորհ 3: Ֆանտոմ",
+      "abbreviated": "ֆ/ֆ Շնորհ 3: Ֆանտոմ"
+    },
+    {
+      "id": "tmdb_946210_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Приключения царя",
+      "abbreviated": "м/ф Приключения царя"
+    },
+    {
+      "id": "tmdb_946210_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Օլիմպիկոս",
+      "abbreviated": "մ/ֆ Օլիմպիկոս"
+    },
+    {
+      "id": "tmdb_823981_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աշխարհ",
+      "abbreviated": "ֆ/ֆ Աշխարհ"
+    },
+    {
+      "id": "tmdb_1263262_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Роберт Амирханян: Моё сердце",
+      "abbreviated": "к/ф Роберт Амирханян: Моё сердце"
+    },
+    {
+      "id": "tmdb_1263262_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "«Ռոբերտ Ամիրխանյան․ ՍԻՐՏՆ ԻՄ»",
+      "abbreviated": "ֆ/ֆ «Ռոբերտ Ամիրխանյան․ ՍԻՐՏՆ ԻՄ»"
+    },
+    {
+      "id": "tmdb_1423537_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դասարանցիները",
+      "abbreviated": "ֆ/ֆ Դասարանցիները"
+    },
+    {
+      "id": "tmdb_1451164_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ակնթարթ",
+      "abbreviated": "ֆ/ֆ Ակնթարթ"
+    },
+    {
+      "id": "tmdb_1460457_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վայրենին",
+      "abbreviated": "ֆ/ֆ Վայրենին"
+    },
+    {
+      "id": "tmdb_789903_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Новогодний поросёнок",
+      "abbreviated": "к/ф Новогодний поросёнок"
+    },
+    {
+      "id": "tmdb_789903_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նոր տարվա գոճի",
+      "abbreviated": "ֆ/ֆ Նոր տարվա գոճի"
+    },
+    {
+      "id": "tmdb_1435417_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաչվող Ուղիներ",
+      "abbreviated": "ֆ/ֆ Խաչվող Ուղիներ"
+    },
+    {
+      "id": "tmdb_1427845_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հիմնավոր մաքրություն",
+      "abbreviated": "ֆ/ֆ Հիմնավոր մաքրություն"
+    },
+    {
+      "id": "tmdb_1465578_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ֆիրդուս",
+      "abbreviated": "մ/ֆ Ֆիրդուս"
+    },
+    {
+      "id": "tmdb_680772_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Горы, солнце и любовь",
+      "abbreviated": "к/ф Горы, солнце и любовь"
+    },
+    {
+      "id": "tmdb_680772_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արև, Սարեր ու Սեր",
+      "abbreviated": "ֆ/ֆ Արև, Սարեր ու Սեր"
+    },
+    {
+      "id": "tmdb_645528_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կանանց Գյուղը",
+      "abbreviated": "ֆ/ֆ Կանանց Գյուղը"
+    },
+    {
+      "id": "tmdb_719053_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անհայտ Բաժանորդ",
+      "abbreviated": "ֆ/ֆ Անհայտ Բաժանորդ"
+    },
+    {
+      "id": "tmdb_661714_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Честные воры",
+      "abbreviated": "к/ф Честные воры"
+    },
+    {
+      "id": "tmdb_661714_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ազնիվ Գողեր",
+      "abbreviated": "ֆ/ֆ Ազնիվ Գողեր"
+    },
+    {
+      "id": "tmdb_595435_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերք",
+      "abbreviated": "ֆ/ֆ Վերք"
+    },
+    {
+      "id": "tmdb_1435415_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ա.Կ.Ա.",
+      "abbreviated": "ֆ/ֆ Ա.Կ.Ա."
+    },
+    {
+      "id": "tmdb_1265499_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "«Մաեստրո Մանսուրյան»",
+      "abbreviated": "ֆ/ֆ «Մաեստրո Մանսուրյան»"
+    },
+    {
+      "id": "tmdb_633881_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Էրկեն Կիշեր",
+      "abbreviated": "ֆ/ֆ Էրկեն Կիշեր"
+    },
+    {
+      "id": "tmdb_514886_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Спитак",
+      "abbreviated": "к/ф Спитак"
+    },
+    {
+      "id": "tmdb_514886_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սպիտակ",
+      "abbreviated": "ֆ/ֆ Սպիտակ"
+    },
+    {
+      "id": "tmdb_778812_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լյուդվիգ անունով ոզնին",
+      "abbreviated": "ֆ/ֆ Լյուդվիգ անունով ոզնին"
+    },
+    {
+      "id": "tmdb_1421389_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անմոռանալի Օր",
+      "abbreviated": "ֆ/ֆ Անմոռանալի Օր"
+    },
+    {
+      "id": "tmdb_1451441_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձյունանուշ",
+      "abbreviated": "ֆ/ֆ Ձյունանուշ"
+    },
+    {
+      "id": "tmdb_1457663_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ժամանակն է",
+      "abbreviated": "ֆ/ֆ Ժամանակն է"
+    },
+    {
+      "id": "tmdb_680225_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Агент 044: Операция Гегард",
+      "abbreviated": "к/ф Агент 044: Операция Гегард"
+    },
+    {
+      "id": "tmdb_680225_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գործակալ 044: Օպերացիա Գեղարդ",
+      "abbreviated": "ֆ/ֆ Գործակալ 044: Օպերացիա Գեղարդ"
+    },
+    {
+      "id": "tmdb_1451171_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արթնացիր",
+      "abbreviated": "ֆ/ֆ Արթնացիր"
+    },
+    {
+      "id": "tmdb_543789_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Երազանքի Ճանապարհը",
+      "abbreviated": "ֆ/ֆ Մեր Երազանքի Ճանապարհը"
+    },
+    {
+      "id": "tmdb_780325_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Իմ անցյալի դիմանկարը",
+      "abbreviated": "ֆ/ֆ Իմ անցյալի դիմանկարը"
+    },
+    {
+      "id": "tmdb_726218_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սուպեր Մամա 2",
+      "abbreviated": "ֆ/ֆ Սուպեր Մամա 2"
+    },
+    {
+      "id": "tmdb_1457682_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փասիանի Որսորդը",
+      "abbreviated": "ֆ/ֆ Փասիանի Որսորդը"
+    },
+    {
+      "id": "tmdb_478556_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ева",
+      "abbreviated": "к/ф Ева"
+    },
+    {
+      "id": "tmdb_478556_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Եվա",
+      "abbreviated": "ֆ/ֆ Եվա"
+    },
+    {
+      "id": "tmdb_440791_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шесть музыкантов на фоне города",
+      "abbreviated": "к/ф Шесть музыкантов на фоне города"
+    },
+    {
+      "id": "tmdb_440791_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քաղաքի ֆոնի վրա վեց երաժիշտներ",
+      "abbreviated": "ֆ/ֆ Քաղաքի ֆոնի վրա վեց երաժիշտներ"
+    },
+    {
+      "id": "tmdb_1472322_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ու՞ր ենք գնում",
+      "abbreviated": "ֆ/ֆ Ու՞ր ենք գնում"
+    },
+    {
+      "id": "tmdb_618577_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Доброе утро",
+      "abbreviated": "к/ф Доброе утро"
+    },
+    {
+      "id": "tmdb_618577_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ԲԱՐԻ ԼՈՒՅՍ",
+      "abbreviated": "ֆ/ֆ ԲԱՐԻ ԼՈՒՅՍ"
+    },
+    {
+      "id": "tmdb_473969_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Линия 2. 25 лет спустя",
+      "abbreviated": "к/ф Линия 2. 25 лет спустя"
+    },
+    {
+      "id": "tmdb_473969_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կյանք ու Կռիվ 2: 25 Տարի Անց",
+      "abbreviated": "ֆ/ֆ Կյանք ու Կռիվ 2: 25 Տարի Անց"
+    },
+    {
+      "id": "tmdb_1246339_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Այրուձի",
+      "abbreviated": "ֆ/ֆ Այրուձի"
+    },
+    {
+      "id": "tmdb_473678_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Линия",
+      "abbreviated": "к/ф Линия"
+    },
+    {
+      "id": "tmdb_473678_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կյանք ու Կռիվ",
+      "abbreviated": "ֆ/ֆ Կյանք ու Կռիվ"
+    },
+    {
+      "id": "tmdb_579082_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "3 Շաբաթ Երևանում",
+      "abbreviated": "ֆ/ֆ 3 Շաբաթ Երևանում"
+    },
+    {
+      "id": "tmdb_1451151_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ես և Մենք",
+      "abbreviated": "ֆ/ֆ Ես և Մենք"
+    },
+    {
+      "id": "tmdb_492242_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դե Տժժա",
+      "abbreviated": "ֆ/ֆ Դե Տժժա"
+    },
+    {
+      "id": "tmdb_1451037_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շնորհ 2: Խավար Իշխանություն",
+      "abbreviated": "ֆ/ֆ Շնորհ 2: Խավար Իշխանություն"
+    },
+    {
+      "id": "tmdb_1560291_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "փակուղի",
+      "abbreviated": "ֆ/ֆ փակուղի"
+    },
+    {
+      "id": "tmdb_1451159_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ական",
+      "abbreviated": "ֆ/ֆ Ական"
+    },
+    {
+      "id": "tmdb_1451442_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Զգուշացեք Կանայք Են",
+      "abbreviated": "ֆ/ֆ Զգուշացեք Կանայք Են"
+    },
+    {
+      "id": "tmdb_1428005_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մշո Գեղեն",
+      "abbreviated": "ֆ/ֆ Մշո Գեղեն"
+    },
+    {
+      "id": "tmdb_575279_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Арачин Демк",
+      "abbreviated": "к/ф Арачин Демк"
+    },
+    {
+      "id": "tmdb_575279_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Առաջին դեմք",
+      "abbreviated": "ֆ/ֆ Առաջին դեմք"
+    },
+    {
+      "id": "tmdb_474006_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Беги или женись",
+      "abbreviated": "к/ф Беги или женись"
+    },
+    {
+      "id": "tmdb_474006_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փախիր կամ Ամուսնացիր",
+      "abbreviated": "ֆ/ֆ Փախիր կամ Ամուսնացիր"
+    },
+    {
+      "id": "tmdb_1246607_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ստվերների թատրոն",
+      "abbreviated": "ֆ/ֆ Ստվերների թատրոն"
+    },
+    {
+      "id": "tmdb_1107671_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վարդապետի Լռությունը",
+      "abbreviated": "ֆ/ֆ Վարդապետի Լռությունը"
+    },
+    {
+      "id": "tmdb_369844_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տաք Երկիր,Ցուրտ Ձմեռ",
+      "abbreviated": "ֆ/ֆ Տաք Երկիր,Ցուրտ Ձմեռ"
+    },
+    {
+      "id": "tmdb_404700_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Коэффициент любви",
+      "abbreviated": "к/ф Коэффициент любви"
+    },
+    {
+      "id": "tmdb_404700_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սիրո Գործակից",
+      "abbreviated": "ֆ/ֆ Սիրո Գործակից"
+    },
+    {
+      "id": "tmdb_474003_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Не было бы счастья",
+      "abbreviated": "к/ф Не было бы счастья"
+    },
+    {
+      "id": "tmdb_474003_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հյուսիս-Հարավ",
+      "abbreviated": "ֆ/ֆ Հյուսիս-Հարավ"
+    },
+    {
+      "id": "tmdb_1304222_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սկոտչ և Վիսկի",
+      "abbreviated": "ֆ/ֆ Սկոտչ և Վիսկի"
+    },
+    {
+      "id": "tmdb_1472228_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սպանել 15 րոպեյում",
+      "abbreviated": "ֆ/ֆ Սպանել 15 րոպեյում"
+    },
+    {
+      "id": "tmdb_1325837_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անավարտ Թռիչք",
+      "abbreviated": "ֆ/ֆ Անավարտ Թռիչք"
+    },
+    {
+      "id": "tmdb_780149_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Арамма",
+      "abbreviated": "к/ф Арамма"
+    },
+    {
+      "id": "tmdb_780149_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արամմա",
+      "abbreviated": "ֆ/ֆ Արամմա"
+    },
+    {
+      "id": "tmdb_1064696_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Храбрая принцесса",
+      "abbreviated": "м/ф Храбрая принцесса"
+    },
+    {
+      "id": "tmdb_1064696_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Անահիտ",
+      "abbreviated": "մ/ֆ Անահիտ"
+    },
+    {
+      "id": "tmdb_1399246_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ուրիշի Փոխարեն",
+      "abbreviated": "ֆ/ֆ Ուրիշի Փոխարեն"
+    },
+    {
+      "id": "tmdb_404540_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Супер мама",
+      "abbreviated": "к/ф Супер мама"
+    },
+    {
+      "id": "tmdb_404540_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սուպեր Մամա",
+      "abbreviated": "ֆ/ֆ Սուպեր Մամա"
+    },
+    {
+      "id": "tmdb_1208540_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեռյալ Հովիտ",
+      "abbreviated": "ֆ/ֆ Մեռյալ Հովիտ"
+    },
+    {
+      "id": "tmdb_1423591_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կատատոնիա",
+      "abbreviated": "ֆ/ֆ Կատատոնիա"
+    },
+    {
+      "id": "tmdb_789304_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Thank You Հայրիկ",
+      "abbreviated": "ֆ/ֆ Thank You Հայրիկ"
+    },
+    {
+      "id": "tmdb_508739_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Спасибо, папа",
+      "abbreviated": "к/ф Спасибо, папа"
+    },
+    {
+      "id": "tmdb_508739_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Thank You, Հայրիկ",
+      "abbreviated": "ֆ/ֆ Thank You, Հայրիկ"
+    },
+    {
+      "id": "tmdb_329544_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թևանիկ",
+      "abbreviated": "ֆ/ֆ Թևանիկ"
+    },
+    {
+      "id": "tmdb_1493636_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մի Մարդ Ձեզ Սիրում է",
+      "abbreviated": "ֆ/ֆ Մի Մարդ Ձեզ Սիրում է"
+    },
+    {
+      "id": "tmdb_1460434_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հայոց Թագուհիներ",
+      "abbreviated": "ֆ/ֆ Հայոց Թագուհիներ"
+    },
+    {
+      "id": "tmdb_1451031_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շնորհ",
+      "abbreviated": "ֆ/ֆ Շնորհ"
+    },
+    {
+      "id": "tmdb_714896_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Выхода нет",
+      "abbreviated": "к/ф Выхода нет"
+    },
+    {
+      "id": "tmdb_714896_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ելք Չկա",
+      "abbreviated": "ֆ/ֆ Ելք Չկա"
+    },
+    {
+      "id": "tmdb_1451172_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մի Առավոտ",
+      "abbreviated": "ֆ/ֆ Մի Առավոտ"
+    },
+    {
+      "id": "tmdb_1063215_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "140 դրամ",
+      "abbreviated": "ֆ/ֆ 140 դրամ"
+    },
+    {
+      "id": "tmdb_476593_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անվերջ փախուստ հավերժ վերադարձ",
+      "abbreviated": "ֆ/ֆ Անվերջ փախուստ հավերժ վերադարձ"
+    },
+    {
+      "id": "tmdb_273101_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ход конём",
+      "abbreviated": "к/ф Ход конём"
+    },
+    {
+      "id": "tmdb_273101_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քայլ Ձիով",
+      "abbreviated": "ֆ/ֆ Քայլ Ձիով"
+    },
+    {
+      "id": "tmdb_205114_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Параджанов",
+      "abbreviated": "к/ф Параджанов"
+    },
+    {
+      "id": "tmdb_205114_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փարաջանով",
+      "abbreviated": "ֆ/ֆ Փարաջանով"
+    },
+    {
+      "id": "tmdb_1402564_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նախաճաշ Երկուսի Համար",
+      "abbreviated": "ֆ/ֆ Նախաճաշ Երկուսի Համար"
+    },
+    {
+      "id": "tmdb_609342_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անունս Վիոլա Է",
+      "abbreviated": "ֆ/ֆ Անունս Վիոլա Է"
+    },
+    {
+      "id": "tmdb_473254_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Гарегин Нжде",
+      "abbreviated": "к/ф Гарегин Нжде"
+    },
+    {
+      "id": "tmdb_473254_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գարեգին Նժդեհ",
+      "abbreviated": "ֆ/ֆ Գարեգին Նժդեհ"
+    },
+    {
+      "id": "tmdb_759580_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լռության Ձայնը",
+      "abbreviated": "ֆ/ֆ Լռության Ձայնը"
+    },
+    {
+      "id": "tmdb_1246611_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հայր մեր, տուր մեզ ազատություն",
+      "abbreviated": "ֆ/ֆ Հայր մեր, տուր մեզ ազատություն"
+    },
+    {
+      "id": "tmdb_881456_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ընդհատված մանկություն",
+      "abbreviated": "ֆ/ֆ Ընդհատված մանկություն"
+    },
+    {
+      "id": "tmdb_866382_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կաուչո",
+      "abbreviated": "ֆ/ֆ Կաուչո"
+    },
+    {
+      "id": "tmdb_1399235_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չիկագո Ծաղկաձոր Տրանզիտ",
+      "abbreviated": "ֆ/ֆ Չիկագո Ծաղկաձոր Տրանզիտ"
+    },
+    {
+      "id": "tmdb_404536_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Покер по правилам любви",
+      "abbreviated": "к/ф Покер по правилам любви"
+    },
+    {
+      "id": "tmdb_404536_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պոկեր.AM",
+      "abbreviated": "ֆ/ֆ Պոկեր.AM"
+    },
+    {
+      "id": "tmdb_1425305_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հովիվը",
+      "abbreviated": "ֆ/ֆ Հովիվը"
+    },
+    {
+      "id": "tmdb_1472222_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պատիժ",
+      "abbreviated": "ֆ/ֆ Պատիժ"
+    },
+    {
+      "id": "tmdb_272124_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Это я",
+      "abbreviated": "к/ф Это я"
+    },
+    {
+      "id": "tmdb_272124_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ես Եմ",
+      "abbreviated": "ֆ/ֆ Ես Եմ"
+    },
+    {
+      "id": "tmdb_135219_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Եթե Բոլորը",
+      "abbreviated": "ֆ/ֆ Եթե Բոլորը"
+    },
+    {
+      "id": "tmdb_404569_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ала Бала Ница",
+      "abbreviated": "к/ф Ала Бала Ница"
+    },
+    {
+      "id": "tmdb_404569_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ալա Բալա Նիցա",
+      "abbreviated": "ֆ/ֆ Ալա Բալա Նիցա"
+    },
+    {
+      "id": "tmdb_952375_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վանա Ծովուն Արշալույսը",
+      "abbreviated": "ֆ/ֆ Վանա Ծովուն Արշալույսը"
+    },
+    {
+      "id": "tmdb_1423575_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մոխրաման",
+      "abbreviated": "ֆ/ֆ Մոխրաման"
+    },
+    {
+      "id": "tmdb_1424828_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փեսացուն Կրկեսից",
+      "abbreviated": "ֆ/ֆ Փեսացուն Կրկեսից"
+    },
+    {
+      "id": "tmdb_779106_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարի Գնալուստ",
+      "abbreviated": "ֆ/ֆ Բարի Գնալուստ"
+    },
+    {
+      "id": "tmdb_404544_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Требуется миллионер",
+      "abbreviated": "к/ф Требуется миллионер"
+    },
+    {
+      "id": "tmdb_404544_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պահանջվում է Միլիոնատեր",
+      "abbreviated": "ֆ/ֆ Պահանջվում է Միլիոնատեր"
+    },
+    {
+      "id": "tmdb_1246621_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաչագողի հիշատակարանը",
+      "abbreviated": "ֆ/ֆ Խաչագողի հիշատակարանը"
+    },
+    {
+      "id": "tmdb_1423579_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արտիստը",
+      "abbreviated": "ֆ/ֆ Արտիստը"
+    },
+    {
+      "id": "tmdb_1407226_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Սասնա Ծռեր",
+      "abbreviated": "մ/ֆ Սասնա Ծռեր"
+    },
+    {
+      "id": "tmdb_302966_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Три вечера",
+      "abbreviated": "к/ф Три вечера"
+    },
+    {
+      "id": "tmdb_302966_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երեք երեկո",
+      "abbreviated": "ֆ/ֆ Երեք երեկո"
+    },
+    {
+      "id": "tmdb_1427962_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Հայրենս",
+      "abbreviated": "մ/ֆ Հայրենս"
+    },
+    {
+      "id": "tmdb_207058_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սահման",
+      "abbreviated": "ֆ/ֆ Սահման"
+    },
+    {
+      "id": "tmdb_1416362_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սպանված Աղավնի",
+      "abbreviated": "ֆ/ֆ Սպանված Աղավնի"
+    },
+    {
+      "id": "tmdb_834910_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տաքսի Էլի Լավ Ա",
+      "abbreviated": "ֆ/ֆ Տաքսի Էլի Լավ Ա"
+    },
+    {
+      "id": "tmdb_723395_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տխուր փողոցի լուսաբացը",
+      "abbreviated": "ֆ/ֆ Տխուր փողոցի լուսաբացը"
+    },
+    {
+      "id": "tmdb_879256_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Փոքրիկ տրոլների կյանքից",
+      "abbreviated": "մ/ֆ Փոքրիկ տրոլների կյանքից"
+    },
+    {
+      "id": "tmdb_1427964_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Բոժո",
+      "abbreviated": "մ/ֆ Բոժո"
+    },
+    {
+      "id": "tmdb_1424810_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կարիճի Գերուհին",
+      "abbreviated": "ֆ/ֆ Կարիճի Գերուհին"
+    },
+    {
+      "id": "tmdb_1425032_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ոչինչ Չի Մնա",
+      "abbreviated": "ֆ/ֆ Ոչինչ Չի Մնա"
+    },
+    {
+      "id": "tmdb_1409995_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Добро пожаловать в Соединенные Штаты Америки",
+      "abbreviated": "к/ф Добро пожаловать в Соединенные Штаты Америки"
+    },
+    {
+      "id": "tmdb_1409995_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարի Գալուստ",
+      "abbreviated": "ֆ/ֆ Բարի Գալուստ"
+    },
+    {
+      "id": "tmdb_663069_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քրմուհին",
+      "abbreviated": "ֆ/ֆ Քրմուհին"
+    },
+    {
+      "id": "tmdb_242292_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Большая история в маленьком городе",
+      "abbreviated": "к/ф Большая история в маленьком городе"
+    },
+    {
+      "id": "tmdb_242292_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեծ Պատմություն Փոքր Քաղաքում",
+      "abbreviated": "ֆ/ֆ Մեծ Պատմություն Փոքր Քաղաքում"
+    },
+    {
+      "id": "tmdb_1472230_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չգրված Օրենք",
+      "abbreviated": "ֆ/ֆ Չգրված Օրենք"
+    },
+    {
+      "id": "tmdb_715113_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наш двор 3",
+      "abbreviated": "к/ф Наш двор 3"
+    },
+    {
+      "id": "tmdb_715113_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Բակը 3",
+      "abbreviated": "ֆ/ֆ Մեր Բակը 3"
+    },
+    {
+      "id": "tmdb_1421891_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մարիամ",
+      "abbreviated": "ֆ/ֆ Մարիամ"
+    },
+    {
+      "id": "tmdb_1438399_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Որոգայթ",
+      "abbreviated": "ֆ/ֆ Որոգայթ"
+    },
+    {
+      "id": "tmdb_1246133_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պատարագ",
+      "abbreviated": "ֆ/ֆ Պատարագ"
+    },
+    {
+      "id": "tmdb_455557_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վավերագրող",
+      "abbreviated": "ֆ/ֆ Վավերագրող"
+    },
+    {
+      "id": "tmdb_910856_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Признаки разумной жизни",
+      "abbreviated": "м/ф Признаки разумной жизни"
+    },
+    {
+      "id": "tmdb_910856_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Բանական Կյանքի Նշաններ",
+      "abbreviated": "մ/ֆ Բանական Կյանքի Նշաններ"
+    },
+    {
+      "id": "tmdb_341359_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լռության Սիմֆոնիան",
+      "abbreviated": "ֆ/ֆ Լռության Սիմֆոնիան"
+    },
+    {
+      "id": "tmdb_779109_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Весёлый автобус",
+      "abbreviated": "к/ф Весёлый автобус"
+    },
+    {
+      "id": "tmdb_779109_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ուրախ ավտոբուս",
+      "abbreviated": "ֆ/ֆ Ուրախ ավտոբուս"
+    },
+    {
+      "id": "tmdb_1422006_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հերոստրատ",
+      "abbreviated": "ֆ/ֆ Հերոստրատ"
+    },
+    {
+      "id": "tmdb_1246052_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քաջարան․ քարի մետամորֆոզը",
+      "abbreviated": "ֆ/ֆ Քաջարան․ քարի մետամորֆոզը"
+    },
+    {
+      "id": "tmdb_910840_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Я тоже армянин",
+      "abbreviated": "м/ф Я тоже армянин"
+    },
+    {
+      "id": "tmdb_910840_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ես նույնպես Հայ եմ",
+      "abbreviated": "մ/ֆ Ես նույնպես Հայ եմ"
+    },
+    {
+      "id": "tmdb_1425731_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բանդա",
+      "abbreviated": "ֆ/ֆ Բանդա"
+    },
+    {
+      "id": "tmdb_1463863_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ընտրություն",
+      "abbreviated": "ֆ/ֆ Ընտրություն"
+    },
+    {
+      "id": "tmdb_1464951_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Наш двор 2.5",
+      "abbreviated": "м/ф Наш двор 2.5"
+    },
+    {
+      "id": "tmdb_1464951_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Մեր Բակը 2.5",
+      "abbreviated": "մ/ֆ Մեր Բակը 2.5"
+    },
+    {
+      "id": "tmdb_1427991_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տերևաթափ Անթարեսի Վրա",
+      "abbreviated": "ֆ/ֆ Տերևաթափ Անթարեսի Վրա"
+    },
+    {
+      "id": "tmdb_1489277_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արմենիկում ՈՒփսա ֆիլմ",
+      "abbreviated": "ֆ/ֆ Արմենիկում ՈՒփսա ֆիլմ"
+    },
+    {
+      "id": "tmdb_1047593_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երևան Բլյուզ",
+      "abbreviated": "ֆ/ֆ Երևան Բլյուզ"
+    },
+    {
+      "id": "tmdb_715109_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наш двор 2",
+      "abbreviated": "к/ф Наш двор 2"
+    },
+    {
+      "id": "tmdb_715109_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Բակը 2",
+      "abbreviated": "ֆ/ֆ Մեր Բակը 2"
+    },
+    {
+      "id": "tmdb_653794_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Победа",
+      "abbreviated": "м/ф Победа"
+    },
+    {
+      "id": "tmdb_653794_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Վիկտորիա",
+      "abbreviated": "մ/ֆ Վիկտորիա"
+    },
+    {
+      "id": "tmdb_587191_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տէր Ողորմեա",
+      "abbreviated": "ֆ/ֆ Տէր Ողորմեա"
+    },
+    {
+      "id": "tmdb_1409340_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաթաբալադա",
+      "abbreviated": "ֆ/ֆ Խաթաբալադա"
+    },
+    {
+      "id": "tmdb_1026353_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Господи, помилуй!",
+      "abbreviated": "к/ф Господи, помилуй!"
+    },
+    {
+      "id": "tmdb_1026353_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տեր Ողորմեա",
+      "abbreviated": "ֆ/ֆ Տեր Ողորմեա"
+    },
+    {
+      "id": "tmdb_704637_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наш двор",
+      "abbreviated": "к/ф Наш двор"
+    },
+    {
+      "id": "tmdb_704637_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Բակը",
+      "abbreviated": "ֆ/ֆ Մեր Բակը"
+    },
+    {
+      "id": "tmdb_1460431_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սև և Սպիտակ",
+      "abbreviated": "ֆ/ֆ Սև և Սպիտակ"
+    },
+    {
+      "id": "tmdb_937497_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գողը",
+      "abbreviated": "ֆ/ֆ Գողը"
+    },
+    {
+      "id": "tmdb_755741_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Выборы",
+      "abbreviated": "м/ф Выборы"
+    },
+    {
+      "id": "tmdb_755741_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "ԸՆՏՐՈՒԹՅՈՒՆՆԵՐ",
+      "abbreviated": "մ/ֆ ԸՆՏՐՈՒԹՅՈՒՆՆԵՐ"
+    },
+    {
+      "id": "tmdb_396112_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Топор",
+      "abbreviated": "м/ф Топор"
+    },
+    {
+      "id": "tmdb_396112_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կացին",
+      "abbreviated": "մ/ֆ Կացին"
+    },
+    {
+      "id": "tmdb_1036861_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կիսանդրի",
+      "abbreviated": "ֆ/ֆ Կիսանդրի"
+    },
+    {
+      "id": "tmdb_1246290_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "ՀԱՅՈՅ ԱՅԲՈՒԲԵՆ",
+      "abbreviated": "մ/ֆ ՀԱՅՈՅ ԱՅԲՈՒԲԵՆ"
+    },
+    {
+      "id": "tmdb_587185_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Глас вопиющий",
+      "abbreviated": "к/ф Глас вопиющий"
+    },
+    {
+      "id": "tmdb_587185_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձայն Բարբառոյ",
+      "abbreviated": "ֆ/ֆ Ձայն Բարբառոյ"
+    },
+    {
+      "id": "tmdb_1239611_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Товарищ Панджуни",
+      "abbreviated": "к/ф Товарищ Панджуни"
+    },
+    {
+      "id": "tmdb_1239611_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ընկեր Փանջունի",
+      "abbreviated": "ֆ/ֆ Ընկեր Փանջունի"
+    },
+    {
+      "id": "tmdb_1460415_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Урок",
+      "abbreviated": "к/ф Урок"
+    },
+    {
+      "id": "tmdb_1460415_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դաս",
+      "abbreviated": "ֆ/ֆ Դաս"
+    },
+    {
+      "id": "tmdb_237422_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ավետիք",
+      "abbreviated": "ֆ/ֆ Ավետիք"
+    },
+    {
+      "id": "tmdb_877803_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Где ты был, человек Божий?",
+      "abbreviated": "к/ф Где ты был, человек Божий?"
+    },
+    {
+      "id": "tmdb_877803_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Որտե՞ղ էիր, մարդ աստծո",
+      "abbreviated": "ֆ/ֆ Որտե՞ղ էիր, մարդ աստծո"
+    },
+    {
+      "id": "tmdb_677606_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սիսեռ",
+      "abbreviated": "ֆ/ֆ Սիսեռ"
+    },
+    {
+      "id": "tmdb_200148_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Конец",
+      "abbreviated": "к/ф Конец"
+    },
+    {
+      "id": "tmdb_200148_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերջը",
+      "abbreviated": "ֆ/ֆ Վերջը"
+    },
+    {
+      "id": "tmdb_651192_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Всё хорошо!",
+      "abbreviated": "м/ф Всё хорошо!"
+    },
+    {
+      "id": "tmdb_651192_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ամեն ինչ լավ է.",
+      "abbreviated": "մ/ֆ Ամեն ինչ լավ է."
+    },
+    {
+      "id": "tmdb_1038391_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Загнанные",
+      "abbreviated": "к/ф Загнанные"
+    },
+    {
+      "id": "tmdb_1038391_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պատանդներ",
+      "abbreviated": "ֆ/ֆ Պատանդներ"
+    },
+    {
+      "id": "tmdb_1113664_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Проклятые",
+      "abbreviated": "к/ф Проклятые"
+    },
+    {
+      "id": "tmdb_1113664_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անիծվածները",
+      "abbreviated": "ֆ/ֆ Անիծվածները"
+    },
+    {
+      "id": "tmdb_383898_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Возвращение на обетованную землю",
+      "abbreviated": "к/ф Возвращение на обетованную землю"
+    },
+    {
+      "id": "tmdb_383898_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերադարձ ավետյաց երկիր",
+      "abbreviated": "ֆ/ֆ Վերադարձ ավետյաց երկիր"
+    },
+    {
+      "id": "tmdb_537023_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Тоска по теплу",
+      "abbreviated": "к/ф Тоска по теплу"
+    },
+    {
+      "id": "tmdb_537023_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տաքի կարոտ",
+      "abbreviated": "ֆ/ֆ Տաքի կարոտ"
+    },
+    {
+      "id": "tmdb_586858_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Тоска",
+      "abbreviated": "к/ф Тоска"
+    },
+    {
+      "id": "tmdb_586858_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կարոտ",
+      "abbreviated": "ֆ/ֆ Կարոտ"
+    },
+    {
+      "id": "tmdb_1131419_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Тебе, Армения",
+      "abbreviated": "м/ф Тебе, Армения"
+    },
+    {
+      "id": "tmdb_1131419_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Քեզ, Հայաստան",
+      "abbreviated": "մ/ֆ Քեզ, Հայաստան"
+    },
+    {
+      "id": "tmdb_1313260_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Партия",
+      "abbreviated": "м/ф Партия"
+    },
+    {
+      "id": "tmdb_1313260_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Պարտիա",
+      "abbreviated": "մ/ֆ Պարտիա"
+    },
+    {
+      "id": "tmdb_619167_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ветер забвения",
+      "abbreviated": "к/ф Ветер забвения"
+    },
+    {
+      "id": "tmdb_619167_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ՔԱՄԻՆ ՈՒՆԱՅՆՈՒԹՅԱՆ",
+      "abbreviated": "ֆ/ֆ ՔԱՄԻՆ ՈՒՆԱՅՆՈՒԹՅԱՆ"
+    },
+    {
+      "id": "tmdb_1457778_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Советы американскому путешественнику",
+      "abbreviated": "м/ф Советы американскому путешественнику"
+    },
+    {
+      "id": "tmdb_1457778_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Խորհուրդներ Ամերիկացի Ճանապարհորդին",
+      "abbreviated": "մ/ֆ Խորհուրդներ Ամերիկացի Ճանապարհորդին"
+    },
+    {
+      "id": "tmdb_1052622_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Дыхание",
+      "abbreviated": "к/ф Дыхание"
+    },
+    {
+      "id": "tmdb_1052622_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շնչառություն",
+      "abbreviated": "ֆ/ֆ Շնչառություն"
+    },
+    {
+      "id": "tmdb_651194_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Кнопка",
+      "abbreviated": "м/ф Кнопка"
+    },
+    {
+      "id": "tmdb_651194_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Սեղմակոճակ",
+      "abbreviated": "մ/ֆ Սեղմակոճակ"
+    },
+    {
+      "id": "tmdb_345126_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Тайный советник",
+      "abbreviated": "к/ф Тайный советник"
+    },
+    {
+      "id": "tmdb_345126_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գաղտնի խորհրդականը",
+      "abbreviated": "ֆ/ֆ Գաղտնի խորհրդականը"
+    },
+    {
+      "id": "tmdb_641955_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աճպարար",
+      "abbreviated": "ֆ/ֆ Աճպարար"
+    },
+    {
+      "id": "tmdb_1090027_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Крыса",
+      "abbreviated": "м/ф Крыса"
+    },
+    {
+      "id": "tmdb_1090027_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Առնետ",
+      "abbreviated": "մ/ֆ Առնետ"
+    },
+    {
+      "id": "tmdb_1087492_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пять писем прощания",
+      "abbreviated": "к/ф Пять писем прощания"
+    },
+    {
+      "id": "tmdb_1087492_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հրաժեշտի հինգ նամակ",
+      "abbreviated": "ֆ/ֆ Հրաժեշտի հինգ նամակ"
+    },
+    {
+      "id": "tmdb_1421995_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Аршак II",
+      "abbreviated": "к/ф Аршак II"
+    },
+    {
+      "id": "tmdb_1421995_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արշակ 2",
+      "abbreviated": "ֆ/ֆ Արշակ 2"
+    },
+    {
+      "id": "tmdb_1087080_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Одинокая орешина",
+      "abbreviated": "к/ф Одинокая орешина"
+    },
+    {
+      "id": "tmdb_1087080_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենավոր ընկուզենին",
+      "abbreviated": "ֆ/ֆ Մենավոր ընկուզենին"
+    },
+    {
+      "id": "tmdb_537020_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Преданность",
+      "abbreviated": "к/ф Преданность"
+    },
+    {
+      "id": "tmdb_537020_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "նվիրվածություն",
+      "abbreviated": "ֆ/ֆ նվիրվածություն"
+    },
+    {
+      "id": "tmdb_1401045_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Дорога к Давиду Сасунскому",
+      "abbreviated": "к/ф Дорога к Давиду Сасунскому"
+    },
+    {
+      "id": "tmdb_1401045_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ճանապարհ դեպի Սասունցի Դավիթ",
+      "abbreviated": "ֆ/ֆ Ճանապարհ դեպի Սասունցի Դավիթ"
+    },
+    {
+      "id": "tmdb_1457775_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Самая холодная зима с 1854 года",
+      "abbreviated": "к/ф Самая холодная зима с 1854 года"
+    },
+    {
+      "id": "tmdb_1457775_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ամենացուրտ ձմեռը 1854-ից ի վեր",
+      "abbreviated": "ֆ/ֆ Ամենացուրտ ձմեռը 1854-ից ի վեր"
+    },
+    {
+      "id": "tmdb_1250035_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Аптека на перекрестке",
+      "abbreviated": "к/ф Аптека на перекрестке"
+    },
+    {
+      "id": "tmdb_1250035_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաչմերուկի դեղատունը՝",
+      "abbreviated": "ֆ/ֆ Խաչմերուկի դեղատունը՝"
+    },
+    {
+      "id": "tmdb_292639_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Белый городок",
+      "abbreviated": "к/ф Белый городок"
+    },
+    {
+      "id": "tmdb_292639_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սպիտակ քաղաք",
+      "abbreviated": "ֆ/ֆ Սպիտակ քաղաք"
+    },
+    {
+      "id": "tmdb_462186_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Ветер",
+      "abbreviated": "м/ф Ветер"
+    },
+    {
+      "id": "tmdb_462186_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Քամի",
+      "abbreviated": "մ/ֆ Քամի"
+    },
+    {
+      "id": "tmdb_1311641_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քառյակ",
+      "abbreviated": "ֆ/ֆ Քառյակ"
+    },
+    {
+      "id": "tmdb_1398865_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "...И каждый вечер!",
+      "abbreviated": "м/ф ...И каждый вечер!"
+    },
+    {
+      "id": "tmdb_1398865_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Եվ ամեն երեկո",
+      "abbreviated": "մ/ֆ Եվ ամեն երեկո"
+    },
+    {
+      "id": "tmdb_343160_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Обыкновенное опасное приключение",
+      "abbreviated": "м/ф Обыкновенное опасное приключение"
+    },
+    {
+      "id": "tmdb_343160_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Սովորական վտանգավոր արկածներ",
+      "abbreviated": "մ/ֆ Սովորական վտանգավոր արկածներ"
+    },
+    {
+      "id": "tmdb_1427967_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Собрание мышей",
+      "abbreviated": "м/ф Собрание мышей"
+    },
+    {
+      "id": "tmdb_1427967_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Մկների Ժողովը",
+      "abbreviated": "մ/ֆ Մկների Ժողովը"
+    },
+    {
+      "id": "tmdb_284773_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կոնդ",
+      "abbreviated": "ֆ/ֆ Կոնդ"
+    },
+    {
+      "id": "tmdb_1064404_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դժբախտ պատահար",
+      "abbreviated": "ֆ/ֆ Դժբախտ պատահար"
+    },
+    {
+      "id": "tmdb_306292_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Урок",
+      "abbreviated": "м/ф Урок"
+    },
+    {
+      "id": "tmdb_306292_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Դաս",
+      "abbreviated": "մ/ֆ Դաս"
+    },
+    {
+      "id": "tmdb_204441_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Острова",
+      "abbreviated": "к/ф Острова"
+    },
+    {
+      "id": "tmdb_204441_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կղզիներ",
+      "abbreviated": "ֆ/ֆ Կղզիներ"
+    },
+    {
+      "id": "tmdb_1424842_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Кувшин золота",
+      "abbreviated": "м/ф Кувшин золота"
+    },
+    {
+      "id": "tmdb_1424842_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ոսկու կարասը",
+      "abbreviated": "մ/ֆ Ոսկու կարասը"
+    },
+    {
+      "id": "tmdb_1111372_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Последнее воскресенье",
+      "abbreviated": "к/ф Последнее воскресенье"
+    },
+    {
+      "id": "tmdb_1111372_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերջին կիրակին",
+      "abbreviated": "ֆ/ֆ Վերջին կիրակին"
+    },
+    {
+      "id": "tmdb_1404622_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Парикмахер, у дяди которого дрессированный тигр отгрыз голову",
+      "abbreviated": "к/ф Парикмахер, у дяди которого дрессированный тигр отгрыз голову"
+    },
+    {
+      "id": "tmdb_1404622_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վարսահարդար",
+      "abbreviated": "ֆ/ֆ Վարսահարդար"
+    },
+    {
+      "id": "tmdb_438501_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Великан, который мечтал играть на скрипке",
+      "abbreviated": "м/ф Великан, который мечтал играть на скрипке"
+    },
+    {
+      "id": "tmdb_438501_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Հսկան, որը երազում էր ջութակ նվագել",
+      "abbreviated": "մ/ֆ Հսկան, որը երազում էր ջութակ նվագել"
+    },
+    {
+      "id": "tmdb_1018679_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Чужие игры",
+      "abbreviated": "к/ф Чужие игры"
+    },
+    {
+      "id": "tmdb_1018679_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օտար խաղեր",
+      "abbreviated": "ֆ/ֆ Օտար խաղեր"
+    },
+    {
+      "id": "tmdb_1611182_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Արձագանք",
+      "abbreviated": "մ/ֆ Արձագանք"
+    },
+    {
+      "id": "tmdb_1049883_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пока живем...",
+      "abbreviated": "к/ф Пока живем..."
+    },
+    {
+      "id": "tmdb_1049883_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քանի դեռ ապրում ենք",
+      "abbreviated": "ֆ/ֆ Քանի դեռ ապրում ենք"
+    },
+    {
+      "id": "tmdb_1067534_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Апрель",
+      "abbreviated": "к/ф Апрель"
+    },
+    {
+      "id": "tmdb_1067534_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ապրիլ",
+      "abbreviated": "ֆ/ֆ Ապրիլ"
+    },
+    {
+      "id": "tmdb_1064589_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Яблоневый сад",
+      "abbreviated": "к/ф Яблоневый сад"
+    },
+    {
+      "id": "tmdb_1064589_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խնձորի այգին",
+      "abbreviated": "ֆ/ֆ Խնձորի այգին"
+    },
+    {
+      "id": "tmdb_1421193_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мы ещё встретимся",
+      "abbreviated": "к/ф Мы ещё встретимся"
+    },
+    {
+      "id": "tmdb_1421193_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենք դեռ կհանդիպենք",
+      "abbreviated": "ֆ/ֆ Մենք դեռ կհանդիպենք"
+    },
+    {
+      "id": "tmdb_1463929_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Куда идёшь, солдат?",
+      "abbreviated": "к/ф Куда идёшь, солдат?"
+    },
+    {
+      "id": "tmdb_1463929_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ու՞ր ես գնում զինվոր",
+      "abbreviated": "ֆ/ֆ Ու՞ր ես գնում զինվոր"
+    },
+    {
+      "id": "tmdb_412788_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Белые грёзы",
+      "abbreviated": "к/ф Белые грёзы"
+    },
+    {
+      "id": "tmdb_412788_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ճերմակ անուրջներ",
+      "abbreviated": "ֆ/ֆ Ճերմակ անուրջներ"
+    },
+    {
+      "id": "tmdb_1609871_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Кто твой друг ?",
+      "abbreviated": "м/ф Кто твой друг ?"
+    },
+    {
+      "id": "tmdb_1609871_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ո՞Վ Է ՔՈ ԸՆԿԵՐԸ",
+      "abbreviated": "մ/ֆ Ո՞Վ Է ՔՈ ԸՆԿԵՐԸ"
+    },
+    {
+      "id": "tmdb_306051_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Ишь ты, масленица!",
+      "abbreviated": "м/ф Ишь ты, масленица!"
+    },
+    {
+      "id": "tmdb_306051_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Բարեկենդանը",
+      "abbreviated": "մ/ֆ Բարեկենդանը"
+    },
+    {
+      "id": "tmdb_204345_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Танго нашего детства",
+      "abbreviated": "к/ф Танго нашего детства"
+    },
+    {
+      "id": "tmdb_204345_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր Մանկության Տանգոն",
+      "abbreviated": "ֆ/ֆ Մեր Մանկության Տանգոն"
+    },
+    {
+      "id": "tmdb_1129955_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Земля и золото",
+      "abbreviated": "к/ф Земля и золото"
+    },
+    {
+      "id": "tmdb_1129955_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հող և Ոսկի",
+      "abbreviated": "ֆ/ֆ Հող և Ոսկի"
+    },
+    {
+      "id": "tmdb_637071_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Капля Мёда",
+      "abbreviated": "к/ф Капля Мёда"
+    },
+    {
+      "id": "tmdb_637071_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մի Կաթիլ Մեղրը",
+      "abbreviated": "ֆ/ֆ Մի Կաթիլ Մեղրը"
+    },
+    {
+      "id": "tmdb_196649_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "В синем море, в белой пене...",
+      "abbreviated": "м/ф В синем море, в белой пене..."
+    },
+    {
+      "id": "tmdb_196649_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կապույտ ծովում, սպիտակ փրփուրի մեջ...",
+      "abbreviated": "մ/ֆ Կապույտ ծովում, սպիտակ փրփուրի մեջ..."
+    },
+    {
+      "id": "tmdb_550855_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мама Ануш",
+      "abbreviated": "к/ф Мама Ануш"
+    },
+    {
+      "id": "tmdb_550855_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անուշ մայրիկը",
+      "abbreviated": "ֆ/ֆ Անուշ մայրիկը"
+    },
+    {
+      "id": "tmdb_536637_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пожар",
+      "abbreviated": "к/ф Пожар"
+    },
+    {
+      "id": "tmdb_536637_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հրդեհ",
+      "abbreviated": "ֆ/ֆ Հրդեհ"
+    },
+    {
+      "id": "tmdb_1587495_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գիշերվա մեջ առկայծող կրակը",
+      "abbreviated": "ֆ/ֆ Գիշերվա մեջ առկայծող կրակը"
+    },
+    {
+      "id": "tmdb_1604881_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հնարամիտ գյուղացին",
+      "abbreviated": "ֆ/ֆ Հնարամիտ գյուղացին"
+    },
+    {
+      "id": "tmdb_1286209_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Золотая подкова",
+      "abbreviated": "м/ф Золотая подкова"
+    },
+    {
+      "id": "tmdb_1286209_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ոսկե պայտ",
+      "abbreviated": "մ/ֆ Ոսկե պայտ"
+    },
+    {
+      "id": "tmdb_1065807_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Всадник, которого ждут",
+      "abbreviated": "к/ф Всадник, которого ждут"
+    },
+    {
+      "id": "tmdb_1065807_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հեծյալը, որին սպասում էին",
+      "abbreviated": "ֆ/ֆ Հեծյալը, որին սպասում էին"
+    },
+    {
+      "id": "tmdb_1405557_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Այվազովսկին և Հայաստանը",
+      "abbreviated": "ֆ/ֆ Այվազովսկին և Հայաստանը"
+    },
+    {
+      "id": "tmdb_1457767_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Хозяин",
+      "abbreviated": "к/ф Хозяин"
+    },
+    {
+      "id": "tmdb_1457767_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տերը",
+      "abbreviated": "ֆ/ֆ Տերը"
+    },
+    {
+      "id": "tmdb_1085319_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Схватка",
+      "abbreviated": "к/ф Схватка"
+    },
+    {
+      "id": "tmdb_1085319_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գոտեմարտ",
+      "abbreviated": "ֆ/ֆ Գոտեմարտ"
+    },
+    {
+      "id": "tmdb_1471195_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քոչարի",
+      "abbreviated": "ֆ/ֆ Քոչարի"
+    },
+    {
+      "id": "tmdb_200140_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наш век",
+      "abbreviated": "к/ф Наш век"
+    },
+    {
+      "id": "tmdb_200140_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր դարը",
+      "abbreviated": "ֆ/ֆ Մեր դարը"
+    },
+    {
+      "id": "tmdb_1066783_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սիրամարգի ճիչը",
+      "abbreviated": "ֆ/ֆ Սիրամարգի ճիչը"
+    },
+    {
+      "id": "tmdb_1239514_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Самый удобный, самый прочный, самый красивый домик",
+      "abbreviated": "м/ф Самый удобный, самый прочный, самый красивый домик"
+    },
+    {
+      "id": "tmdb_1239514_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ամենահարմար, ամենաամուր, ամենագեղեցիկ տնակը",
+      "abbreviated": "մ/ֆ Ամենահարմար, ամենաամուր, ամենագեղեցիկ տնակը"
+    },
+    {
+      "id": "tmdb_622527_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Механика счастья",
+      "abbreviated": "к/ф Механика счастья"
+    },
+    {
+      "id": "tmdb_622527_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երջանկության մեխանիկան",
+      "abbreviated": "ֆ/ֆ Երջանկության մեխանիկան"
+    },
+    {
+      "id": "tmdb_1457780_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лягушонок-изобретатель",
+      "abbreviated": "м/ф Лягушонок-изобретатель"
+    },
+    {
+      "id": "tmdb_1457780_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Գյուտարար Գորտը",
+      "abbreviated": "մ/ֆ Գյուտարար Գորտը"
+    },
+    {
+      "id": "tmdb_1074058_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ատամնաբույժն արևելյան",
+      "abbreviated": "ֆ/ֆ Ատամնաբույժն արևելյան"
+    },
+    {
+      "id": "tmdb_694678_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Песнь прошедших дней",
+      "abbreviated": "к/ф Песнь прошедших дней"
+    },
+    {
+      "id": "tmdb_694678_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հին օրերի երգը",
+      "abbreviated": "ֆ/ֆ Հին օրերի երգը"
+    },
+    {
+      "id": "tmdb_536538_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Подснежники и эдельвейсы",
+      "abbreviated": "к/ф Подснежники и эдельвейсы"
+    },
+    {
+      "id": "tmdb_536538_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձնծաղիկներ և էդելվեյսներ",
+      "abbreviated": "ֆ/ֆ Ձնծաղիկներ և էդելվեյսներ"
+    },
+    {
+      "id": "tmdb_1368019_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Венец природы",
+      "abbreviated": "м/ф Венец природы"
+    },
+    {
+      "id": "tmdb_1368019_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Բնության պսակը",
+      "abbreviated": "մ/ֆ Բնության պսակը"
+    },
+    {
+      "id": "tmdb_1240312_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Сказка о зеркале",
+      "abbreviated": "м/ф Сказка о зеркале"
+    },
+    {
+      "id": "tmdb_1240312_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Հայելու Հեքիաթը",
+      "abbreviated": "մ/ֆ Հայելու Հեքիաթը"
+    },
+    {
+      "id": "tmdb_1298415_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Там, за семью горами",
+      "abbreviated": "к/ф Там, за семью горами"
+    },
+    {
+      "id": "tmdb_1298415_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Յոթ սարից այն կողմ",
+      "abbreviated": "ֆ/ֆ Յոթ սարից այն կողմ"
+    },
+    {
+      "id": "tmdb_1610568_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Тысяча и один трюк",
+      "abbreviated": "м/ф Тысяча и один трюк"
+    },
+    {
+      "id": "tmdb_1610568_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Հազար ու մի հնարք",
+      "abbreviated": "մ/ֆ Հազար ու մի հնարք"
+    },
+    {
+      "id": "tmdb_1295484_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ծերունին և քամին",
+      "abbreviated": "ֆ/ֆ Ծերունին և քամին"
+    },
+    {
+      "id": "tmdb_1287730_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Неподатливый",
+      "abbreviated": "м/ф Неподатливый"
+    },
+    {
+      "id": "tmdb_1287730_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Անընկճելին",
+      "abbreviated": "մ/ֆ Անընկճելին"
+    },
+    {
+      "id": "tmdb_470077_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Крупный выигрыш",
+      "abbreviated": "к/ф Крупный выигрыш"
+    },
+    {
+      "id": "tmdb_470077_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խոշոր շահւմ",
+      "abbreviated": "ֆ/ֆ Խոշոր շահւմ"
+    },
+    {
+      "id": "tmdb_651191_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Храбрый Назар",
+      "abbreviated": "м/ф Храбрый Назар"
+    },
+    {
+      "id": "tmdb_651191_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Քաջ Նազար",
+      "abbreviated": "մ/ֆ Քաջ Նազար"
+    },
+    {
+      "id": "tmdb_453723_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пощечина",
+      "abbreviated": "к/ф Пощечина"
+    },
+    {
+      "id": "tmdb_453723_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կտոր մը երկինք",
+      "abbreviated": "ֆ/ֆ Կտոր մը երկինք"
+    },
+    {
+      "id": "tmdb_778825_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шелковица",
+      "abbreviated": "к/ф Шелковица"
+    },
+    {
+      "id": "tmdb_778825_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թթենի",
+      "abbreviated": "ֆ/ֆ Թթենի"
+    },
+    {
+      "id": "tmdb_1305439_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Легенда о скоморохе",
+      "abbreviated": "к/ф Легенда о скоморохе"
+    },
+    {
+      "id": "tmdb_1305439_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լեգենդ ծաղրածուի մասին",
+      "abbreviated": "ֆ/ֆ Լեգենդ ծաղրածուի մասին"
+    },
+    {
+      "id": "tmdb_578317_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Возвращение к жизни",
+      "abbreviated": "к/ф Возвращение к жизни"
+    },
+    {
+      "id": "tmdb_578317_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերադարձ կյանք",
+      "abbreviated": "ֆ/ֆ Վերադարձ կյանք"
+    },
+    {
+      "id": "tmdb_1240301_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ձախորդ Փանոս",
+      "abbreviated": "մ/ֆ Ձախորդ Փանոս"
+    },
+    {
+      "id": "tmdb_1085097_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Живите долго",
+      "abbreviated": "к/ф Живите долго"
+    },
+    {
+      "id": "tmdb_1085097_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ապրեցեք երկար",
+      "abbreviated": "ֆ/ֆ Ապրեցեք երկար"
+    },
+    {
+      "id": "tmdb_1424857_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Волшебная радуга",
+      "abbreviated": "м/ф Волшебная радуга"
+    },
+    {
+      "id": "tmdb_1424857_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կախարդական ծիածան",
+      "abbreviated": "մ/ֆ Կախարդական ծիածան"
+    },
+    {
+      "id": "tmdb_1325064_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Օգոստոս",
+      "abbreviated": "ֆ/ֆ Օգոստոս"
+    },
+    {
+      "id": "tmdb_395886_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Голубой лев",
+      "abbreviated": "к/ф Голубой лев"
+    },
+    {
+      "id": "tmdb_395886_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երկնագույն առյուծ",
+      "abbreviated": "ֆ/ֆ Երկնագույն առյուծ"
+    },
+    {
+      "id": "tmdb_1421154_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Звёздное лето",
+      "abbreviated": "к/ф Звёздное лето"
+    },
+    {
+      "id": "tmdb_1421154_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աստղային ամառ",
+      "abbreviated": "ֆ/ֆ Աստղային ամառ"
+    },
+    {
+      "id": "tmdb_910867_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Первый",
+      "abbreviated": "м/ф Первый"
+    },
+    {
+      "id": "tmdb_910867_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Առաջինը",
+      "abbreviated": "մ/ֆ Առաջինը"
+    },
+    {
+      "id": "tmdb_306290_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Кикос",
+      "abbreviated": "м/ф Кикос"
+    },
+    {
+      "id": "tmdb_306290_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կիկոս",
+      "abbreviated": "մ/ֆ Կիկոս"
+    },
+    {
+      "id": "tmdb_1423222_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հուսո աստղ - Մաս 2: Մխիթար Սպարապետ",
+      "abbreviated": "ֆ/ֆ Հուսո աստղ - Մաս 2: Մխիթար Սպարապետ"
+    },
+    {
+      "id": "tmdb_1423217_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Звезда надежды",
+      "abbreviated": "к/ф Звезда надежды"
+    },
+    {
+      "id": "tmdb_1423217_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հուսո աստղ - Մաս 1: Դավիթ Բեկ",
+      "abbreviated": "ֆ/ֆ Հուսո աստղ - Մաս 1: Դավիթ Բեկ"
+    },
+    {
+      "id": "tmdb_456059_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Звезда надежды",
+      "abbreviated": "к/ф Звезда надежды"
+    },
+    {
+      "id": "tmdb_456059_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հուսո աստղ",
+      "abbreviated": "ֆ/ֆ Հուսո աստղ"
+    },
+    {
+      "id": "tmdb_1048587_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ещё пять дней",
+      "abbreviated": "к/ф Ещё пять дней"
+    },
+    {
+      "id": "tmdb_1048587_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Եվս հինգ օր",
+      "abbreviated": "ֆ/ֆ Եվս հինգ օր"
+    },
+    {
+      "id": "tmdb_496540_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Багдасар разводится с женой",
+      "abbreviated": "к/ф Багдасар разводится с женой"
+    },
+    {
+      "id": "tmdb_496540_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բաղդասարը բաժանվում է կնոջից",
+      "abbreviated": "ֆ/ֆ Բաղդասարը բաժանվում է կնոջից"
+    },
+    {
+      "id": "tmdb_1421129_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "И тогда ты вернешься...",
+      "abbreviated": "к/ф И тогда ты вернешься..."
+    },
+    {
+      "id": "tmdb_1421129_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Եվ այնժամ դու կվերադառնաս",
+      "abbreviated": "ֆ/ֆ Եվ այնժամ դու կվերադառնաս"
+    },
+    {
+      "id": "tmdb_1311592_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Снег в трауре",
+      "abbreviated": "к/ф Снег в трауре"
+    },
+    {
+      "id": "tmdb_1311592_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սգավոր Ձյունը",
+      "abbreviated": "ֆ/ֆ Սգավոր Ձյունը"
+    },
+    {
+      "id": "tmdb_1597619_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քարե հովիտ",
+      "abbreviated": "ֆ/ֆ Քարե հովիտ"
+    },
+    {
+      "id": "tmdb_802084_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Охотники",
+      "abbreviated": "м/ф Охотники"
+    },
+    {
+      "id": "tmdb_802084_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Որսորդները",
+      "abbreviated": "մ/ֆ Որսորդները"
+    },
+    {
+      "id": "tmdb_1065477_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Этот зелёный, красный мир",
+      "abbreviated": "к/ф Этот зелёный, красный мир"
+    },
+    {
+      "id": "tmdb_1065477_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Այս կանաչ, կարմիր աշխարհը",
+      "abbreviated": "ֆ/ֆ Այս կանաչ, կարմիր աշխարհը"
+    },
+    {
+      "id": "tmdb_285382_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Наапет",
+      "abbreviated": "к/ф Наапет"
+    },
+    {
+      "id": "tmdb_285382_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նահապետ",
+      "abbreviated": "ֆ/ֆ Նահապետ"
+    },
+    {
+      "id": "tmdb_279201_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Осеннее солнце",
+      "abbreviated": "к/ф Осеннее солнце"
+    },
+    {
+      "id": "tmdb_279201_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աշնան արև",
+      "abbreviated": "ֆ/ֆ Աշնան արև"
+    },
+    {
+      "id": "tmdb_1421335_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Жил-был ёжик",
+      "abbreviated": "м/ф Жил-был ёжик"
+    },
+    {
+      "id": "tmdb_1421335_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կար չկար մի ոզնի կար",
+      "abbreviated": "մ/ֆ Կար չկար մի ոզնի կար"
+    },
+    {
+      "id": "tmdb_1286775_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Охота на зайца",
+      "abbreviated": "м/ф Охота на зайца"
+    },
+    {
+      "id": "tmdb_1286775_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Նապաստակաորս",
+      "abbreviated": "մ/ֆ Նապաստակաորս"
+    },
+    {
+      "id": "tmdb_1021802_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Белые берега",
+      "abbreviated": "к/ф Белые берега"
+    },
+    {
+      "id": "tmdb_1021802_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սպիտակ Ափեր",
+      "abbreviated": "ֆ/ֆ Սպիտակ Ափեր"
+    },
+    {
+      "id": "tmdb_1100910_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Человек из «Олимпа»",
+      "abbreviated": "к/ф Человек из «Олимпа»"
+    },
+    {
+      "id": "tmdb_1100910_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մարդն «Օլիմպոսից»",
+      "abbreviated": "ֆ/ֆ Մարդն «Օլիմպոսից»"
+    },
+    {
+      "id": "tmdb_1066777_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Рыжий самолёт",
+      "abbreviated": "к/ф Рыжий самолёт"
+    },
+    {
+      "id": "tmdb_1066777_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շեկ ինքնաթիռ",
+      "abbreviated": "ֆ/ֆ Շեկ ինքնաթիռ"
+    },
+    {
+      "id": "tmdb_716400_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "В горах мое сердце",
+      "abbreviated": "к/ф В горах мое сердце"
+    },
+    {
+      "id": "tmdb_716400_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Իմ սիրտը լեռներում է",
+      "abbreviated": "ֆ/ֆ Իմ սիրտը լեռներում է"
+    },
+    {
+      "id": "tmdb_1418493_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Գտնված Երազ",
+      "abbreviated": "մ/ֆ Գտնված Երազ"
+    },
+    {
+      "id": "tmdb_1281338_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Найденный сон",
+      "abbreviated": "м/ф Найденный сон"
+    },
+    {
+      "id": "tmdb_1281338_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Գտնված Երազ",
+      "abbreviated": "մ/ֆ Գտնված Երազ"
+    },
+    {
+      "id": "tmdb_1427978_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Оркестр прошел по улице",
+      "abbreviated": "к/ф Оркестр прошел по улице"
+    },
+    {
+      "id": "tmdb_1427978_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նվագախումբն անցավ փողոցով",
+      "abbreviated": "ֆ/ֆ Նվագախումբն անցավ փողոցով"
+    },
+    {
+      "id": "tmdb_438510_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лис, который ничего не умел",
+      "abbreviated": "м/ф Лис, который ничего не умел"
+    },
+    {
+      "id": "tmdb_438510_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Անբան աղվեսը",
+      "abbreviated": "մ/ֆ Անբան աղվեսը"
+    },
+    {
+      "id": "tmdb_1257286_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Чтоб этого не случилось",
+      "abbreviated": "м/ф Чтоб этого не случилось"
+    },
+    {
+      "id": "tmdb_1257286_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Որպեսզի դա չպատահի",
+      "abbreviated": "մ/ֆ Որպեսզի դա չպատահի"
+    },
+    {
+      "id": "tmdb_865729_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Рождение",
+      "abbreviated": "к/ф Рождение"
+    },
+    {
+      "id": "tmdb_865729_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երկունք",
+      "abbreviated": "ֆ/ֆ Երկունք"
+    },
+    {
+      "id": "tmdb_1325188_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Твёрдая порода",
+      "abbreviated": "к/ф Твёрдая порода"
+    },
+    {
+      "id": "tmdb_1325188_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կարծր ապար",
+      "abbreviated": "ֆ/ֆ Կարծր ապար"
+    },
+    {
+      "id": "tmdb_1094597_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Здесь, на этом перекрёстке",
+      "abbreviated": "к/ф Здесь, на этом перекрёстке"
+    },
+    {
+      "id": "tmdb_1094597_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Այստեղ, այս խաչմերուկում",
+      "abbreviated": "ֆ/ֆ Այստեղ, այս խաչմերուկում"
+    },
+    {
+      "id": "tmdb_300494_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Невеста с Севера",
+      "abbreviated": "к/ф Невеста с Севера"
+    },
+    {
+      "id": "tmdb_300494_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հարսնացուն հյուսիսից",
+      "abbreviated": "ֆ/ֆ Հարսնացուն հյուսիսից"
+    },
+    {
+      "id": "tmdb_1084022_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Место под солнцем",
+      "abbreviated": "к/ф Место под солнцем"
+    },
+    {
+      "id": "tmdb_1084022_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տեղ արևի տակ",
+      "abbreviated": "ֆ/ֆ Տեղ արևի տակ"
+    },
+    {
+      "id": "tmdb_1280836_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Пёс и кот",
+      "abbreviated": "м/ф Пёс и кот"
+    },
+    {
+      "id": "tmdb_1280836_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Շունն ու կատուն",
+      "abbreviated": "մ/ֆ Շունն ու կատուն"
+    },
+    {
+      "id": "tmdb_1417135_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лентяй",
+      "abbreviated": "м/ф Лентяй"
+    },
+    {
+      "id": "tmdb_1417135_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ծույլը",
+      "abbreviated": "մ/ֆ Ծույլը"
+    },
+    {
+      "id": "tmdb_910831_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лисья книга",
+      "abbreviated": "м/ф Лисья книга"
+    },
+    {
+      "id": "tmdb_910831_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Աղվեսագիրք",
+      "abbreviated": "մ/ֆ Աղվեսագիրք"
+    },
+    {
+      "id": "tmdb_968155_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երջանկության Արցունքները",
+      "abbreviated": "ֆ/ֆ Երջանկության Արցունքները"
+    },
+    {
+      "id": "tmdb_1534310_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Хаос",
+      "abbreviated": "к/ф Хаос"
+    },
+    {
+      "id": "tmdb_1534310_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քաոս",
+      "abbreviated": "ֆ/ֆ Քաոս"
+    },
+    {
+      "id": "tmdb_357959_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Кислый виноград",
+      "abbreviated": "к/ф Кислый виноград"
+    },
+    {
+      "id": "tmdb_357959_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հնձան",
+      "abbreviated": "ֆ/ֆ Հնձան"
+    },
+    {
+      "id": "tmdb_533364_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Последний подвиг Камо",
+      "abbreviated": "к/ф Последний подвиг Камо"
+    },
+    {
+      "id": "tmdb_533364_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կամոյի վերջին սխրանքը",
+      "abbreviated": "ֆ/ֆ Կամոյի վերջին սխրանքը"
+    },
+    {
+      "id": "tmdb_1040023_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դեղին թոնիր",
+      "abbreviated": "ֆ/ֆ Դեղին թոնիր"
+    },
+    {
+      "id": "tmdb_1464858_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Сказка про снежного человечка Дарбульку",
+      "abbreviated": "м/ф Сказка про снежного человечка Дарбульку"
+    },
+    {
+      "id": "tmdb_1464858_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Հեքիաթ ձնեմարդ Դարբուլկայի մասին",
+      "abbreviated": "մ/ֆ Հեքիաթ ձնեմարդ Դարբուլկայի մասին"
+    },
+    {
+      "id": "tmdb_910879_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Как медвежата китов кормили",
+      "abbreviated": "м/ф Как медвежата китов кормили"
+    },
+    {
+      "id": "tmdb_910879_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ինչպես արջուկները կերակրեցին կետաձկանը",
+      "abbreviated": "մ/ֆ Ինչպես արջուկները կերակրեցին կետաձկանը"
+    },
+    {
+      "id": "tmdb_282228_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երեւանյան օրերի խրոնիկա",
+      "abbreviated": "ֆ/ֆ Երեւանյան օրերի խրոնիկա"
+    },
+    {
+      "id": "tmdb_1618014_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "СПОРТ СПОРТ СПОРТ",
+      "abbreviated": "к/ф СПОРТ СПОРТ СПОРТ"
+    },
+    {
+      "id": "tmdb_1618014_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "ՍՊՈՐՏ ՍՊՈՐՏ ՍՊՈՐՏ",
+      "abbreviated": "ֆ/ֆ ՍՊՈՐՏ ՍՊՈՐՏ ՍՊՈՐՏ"
+    },
+    {
+      "id": "tmdb_1417148_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աբու Հասանի Մաշիկները",
+      "abbreviated": "ֆ/ֆ Աբու Հասանի Մաշիկները"
+    },
+    {
+      "id": "tmdb_143024_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мужчины",
+      "abbreviated": "к/ф Мужчины"
+    },
+    {
+      "id": "tmdb_143024_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տղամարդիկ",
+      "abbreviated": "ֆ/ֆ Տղամարդիկ"
+    },
+    {
+      "id": "tmdb_910871_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Непобедимый",
+      "abbreviated": "м/ф Непобедимый"
+    },
+    {
+      "id": "tmdb_910871_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Անընկճելին",
+      "abbreviated": "մ/ֆ Անընկճելին"
+    },
+    {
+      "id": "tmdb_283662_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Айрик",
+      "abbreviated": "к/ф Айрик"
+    },
+    {
+      "id": "tmdb_283662_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հայրիկ",
+      "abbreviated": "ֆ/ֆ Հայրիկ"
+    },
+    {
+      "id": "tmdb_1594636_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "НЕПРАВИЛЬНОЕ ВЫРАЖЕНИЕ",
+      "abbreviated": "к/ф НЕПРАВИЛЬНОЕ ВЫРАЖЕНИЕ"
+    },
+    {
+      "id": "tmdb_1594636_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սխալ արտահայտություն",
+      "abbreviated": "ֆ/ֆ Սխալ արտահայտություն"
+    },
+    {
+      "id": "tmdb_1287699_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Волшебный лаваш",
+      "abbreviated": "м/ф Волшебный лаваш"
+    },
+    {
+      "id": "tmdb_1287699_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Կախարդական Լավաշ",
+      "abbreviated": "մ/ֆ Կախարդական Լավաշ"
+    },
+    {
+      "id": "tmdb_1197628_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лилит",
+      "abbreviated": "м/ф Лилит"
+    },
+    {
+      "id": "tmdb_1197628_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Լիլիթ",
+      "abbreviated": "մ/ֆ Լիլիթ"
+    },
+    {
+      "id": "tmdb_532135_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "За час до рассвета",
+      "abbreviated": "к/ф За час до рассвета"
+    },
+    {
+      "id": "tmdb_532135_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լուսաբացից մեկ ժամ առաջ",
+      "abbreviated": "ֆ/ֆ Լուսաբացից մեկ ժամ առաջ"
+    },
+    {
+      "id": "tmdb_1224222_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Лур-да-Лур",
+      "abbreviated": "м/ф Лур-да-Лур"
+    },
+    {
+      "id": "tmdb_1224222_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Լուր դա լուր",
+      "abbreviated": "մ/ֆ Լուր դա լուր"
+    },
+    {
+      "id": "tmdb_1086372_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Возвращение",
+      "abbreviated": "к/ф Возвращение"
+    },
+    {
+      "id": "tmdb_1086372_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերադարձ",
+      "abbreviated": "ֆ/ֆ Վերադարձ"
+    },
+    {
+      "id": "tmdb_689526_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Армянские фрески",
+      "abbreviated": "к/ф Армянские фрески"
+    },
+    {
+      "id": "tmdb_689526_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաթաբալա",
+      "abbreviated": "ֆ/ֆ Խաթաբալա"
+    },
+    {
+      "id": "tmdb_1022949_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ахтамар",
+      "abbreviated": "к/ф Ахтамар"
+    },
+    {
+      "id": "tmdb_1022949_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ախթամար",
+      "abbreviated": "ֆ/ֆ Ախթամար"
+    },
+    {
+      "id": "tmdb_936804_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Честь бедняка",
+      "abbreviated": "к/ф Честь бедняка"
+    },
+    {
+      "id": "tmdb_936804_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Աղքատի պատիվը",
+      "abbreviated": "ֆ/ֆ Աղքատի պատիվը"
+    },
+    {
+      "id": "tmdb_782915_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Родник Эгнар",
+      "abbreviated": "к/ф Родник Эгнар"
+    },
+    {
+      "id": "tmdb_782915_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հեղնար Աղբյուր",
+      "abbreviated": "ֆ/ֆ Հեղնար Աղբյուր"
+    },
+    {
+      "id": "tmdb_1520011_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Отзвуки прошлого",
+      "abbreviated": "к/ф Отзвуки прошлого"
+    },
+    {
+      "id": "tmdb_1520011_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անցյալի արձագանքները",
+      "abbreviated": "ֆ/ֆ Անցյալի արձագանքները"
+    },
+    {
+      "id": "tmdb_1390926_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Պույ-Պույ Մկնիկը",
+      "abbreviated": "մ/ֆ Պույ-Պույ Մկնիկը"
+    },
+    {
+      "id": "tmdb_1359151_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Кум Моргана",
+      "abbreviated": "к/ф Кум Моргана"
+    },
+    {
+      "id": "tmdb_1359151_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մորգանի խնամին",
+      "abbreviated": "ֆ/ֆ Մորգանի խնամին"
+    },
+    {
+      "id": "tmdb_1421103_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Соло",
+      "abbreviated": "к/ф Соло"
+    },
+    {
+      "id": "tmdb_1421103_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենանվագ",
+      "abbreviated": "ֆ/ֆ Մենանվագ"
+    },
+    {
+      "id": "tmdb_1557000_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Тигры полосатые",
+      "abbreviated": "м/ф Тигры полосатые"
+    },
+    {
+      "id": "tmdb_1557000_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Շերտավոր վագրեր",
+      "abbreviated": "մ/ֆ Շերտավոր վագրեր"
+    },
+    {
+      "id": "tmdb_631041_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Каринэ",
+      "abbreviated": "к/ф Каринэ"
+    },
+    {
+      "id": "tmdb_631041_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կարինե",
+      "abbreviated": "ֆ/ֆ Կարինե"
+    },
+    {
+      "id": "tmdb_1556987_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Скрипка в джунглях",
+      "abbreviated": "м/ф Скрипка в джунглях"
+    },
+    {
+      "id": "tmdb_1556987_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Ջութակը ջունգլիներում",
+      "abbreviated": "մ/ֆ Ջութակը ջունգլիներում"
+    },
+    {
+      "id": "tmdb_1059341_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Легенда об озере Парвана",
+      "abbreviated": "м/ф Легенда об озере Парвана"
+    },
+    {
+      "id": "tmdb_1059341_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Փարվանա",
+      "abbreviated": "մ/ֆ Փարվանա"
+    },
+    {
+      "id": "tmdb_1284582_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Взрыв после полуночи",
+      "abbreviated": "к/ф Взрыв после полуночи"
+    },
+    {
+      "id": "tmdb_1284582_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պայթյուն կեսգիշերից հետո",
+      "abbreviated": "ֆ/ֆ Պայթյուն կեսգիշերից հետո"
+    },
+    {
+      "id": "tmdb_26302_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Цвет граната",
+      "abbreviated": "к/ф Цвет граната"
+    },
+    {
+      "id": "tmdb_26302_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նռան գույնը",
+      "abbreviated": "ֆ/ֆ Նռան գույնը"
+    },
+    {
+      "id": "tmdb_290893_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мы и наши горы",
+      "abbreviated": "к/ф Мы и наши горы"
+    },
+    {
+      "id": "tmdb_290893_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մենք ենք, մեր սարերը",
+      "abbreviated": "ֆ/ֆ Մենք ենք, մեր սարերը"
+    },
+    {
+      "id": "tmdb_559627_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Братья Сароян",
+      "abbreviated": "к/ф Братья Сароян"
+    },
+    {
+      "id": "tmdb_559627_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սարոյան եղբայրներ",
+      "abbreviated": "ֆ/ֆ Սարոյան եղբայրներ"
+    },
+    {
+      "id": "tmdb_1417376_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Весна, выпал снег...",
+      "abbreviated": "к/ф Весна, выпал снег..."
+    },
+    {
+      "id": "tmdb_1417376_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գարուն ա, ձուն ա արել",
+      "abbreviated": "ֆ/ֆ Գարուն ա, ձուն ա արել"
+    },
+    {
+      "id": "tmdb_1419693_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Клоун",
+      "abbreviated": "к/ф Клоун"
+    },
+    {
+      "id": "tmdb_1419693_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ծաղրածուն",
+      "abbreviated": "ֆ/ֆ Ծաղրածուն"
+    },
+    {
+      "id": "tmdb_183725_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мы",
+      "abbreviated": "к/ф Мы"
+    },
+    {
+      "id": "tmdb_183725_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "մենք",
+      "abbreviated": "ֆ/ֆ մենք"
+    },
+    {
+      "id": "tmdb_1066430_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Царь Чах-Чах",
+      "abbreviated": "к/ф Царь Чах-Чах"
+    },
+    {
+      "id": "tmdb_1066430_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չախ-Չախ թագավորը",
+      "abbreviated": "ֆ/ֆ Չախ-Չախ թագավորը"
+    },
+    {
+      "id": "tmdb_1040502_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Встреча на выставке",
+      "abbreviated": "к/ф Встреча на выставке"
+    },
+    {
+      "id": "tmdb_1040502_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հանդիպում ցուցահանդեսում",
+      "abbreviated": "ֆ/ֆ Հանդիպում ցուցահանդեսում"
+    },
+    {
+      "id": "tmdb_1040016_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տապը",
+      "abbreviated": "ֆ/ֆ Տապը"
+    },
+    {
+      "id": "tmdb_804415_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Жил человек",
+      "abbreviated": "к/ф Жил человек"
+    },
+    {
+      "id": "tmdb_804415_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ապրում էր մի մարդ",
+      "abbreviated": "ֆ/ֆ Ապրում էր մի մարդ"
+    },
+    {
+      "id": "tmdb_1457772_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Капля мёда",
+      "abbreviated": "м/ф Капля мёда"
+    },
+    {
+      "id": "tmdb_1457772_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Մի Կաթիլ Մեղրը",
+      "abbreviated": "մ/ֆ Մի Կաթիլ Մեղրը"
+    },
+    {
+      "id": "tmdb_809928_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Барекендан",
+      "abbreviated": "к/ф Барекендан"
+    },
+    {
+      "id": "tmdb_809928_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարեկենդանը",
+      "abbreviated": "ֆ/ֆ Բարեկենդանը"
+    },
+    {
+      "id": "tmdb_290891_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Треугольник",
+      "abbreviated": "к/ф Треугольник"
+    },
+    {
+      "id": "tmdb_290891_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Եռանկյունի",
+      "abbreviated": "ֆ/ֆ Եռանկյունի"
+    },
+    {
+      "id": "tmdb_1287508_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Յոթ երգ Հայաստանի մասին",
+      "abbreviated": "ֆ/ֆ Յոթ երգ Հայաստանի մասին"
+    },
+    {
+      "id": "tmdb_258738_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Акоп Овнатанян",
+      "abbreviated": "к/ф Акоп Овнатанян"
+    },
+    {
+      "id": "tmdb_258738_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հակոբ Հովնաթանյան",
+      "abbreviated": "ֆ/ֆ Հակոբ Հովնաթանյան"
+    },
+    {
+      "id": "tmdb_944246_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Люди нашего города (Киноальманах)",
+      "abbreviated": "к/ф Люди нашего города (Киноальманах)"
+    },
+    {
+      "id": "tmdb_944246_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեր քաղաքի մարդիկ",
+      "abbreviated": "ֆ/ֆ Մեր քաղաքի մարդիկ"
+    },
+    {
+      "id": "tmdb_1416894_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Охотник из Лалвара",
+      "abbreviated": "к/ф Охотник из Лалвара"
+    },
+    {
+      "id": "tmdb_1416894_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լալվարի Որսկանը",
+      "abbreviated": "ֆ/ֆ Լալվարի Որսկանը"
+    },
+    {
+      "id": "tmdb_142833_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Здравствуй, это я!",
+      "abbreviated": "к/ф Здравствуй, это я!"
+    },
+    {
+      "id": "tmdb_142833_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարև, ես եմ",
+      "abbreviated": "ֆ/ֆ Բարև, ես եմ"
+    },
+    {
+      "id": "tmdb_1093885_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Последний бросок",
+      "abbreviated": "к/ф Последний бросок"
+    },
+    {
+      "id": "tmdb_1093885_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերջին նետումը",
+      "abbreviated": "ֆ/ֆ Վերջին նետումը"
+    },
+    {
+      "id": "tmdb_1530541_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Трудный переход",
+      "abbreviated": "к/ф Трудный переход"
+    },
+    {
+      "id": "tmdb_1530541_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դժվար անցում",
+      "abbreviated": "ֆ/ֆ Դժվար անցում"
+    },
+    {
+      "id": "tmdb_183707_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Горный патруль",
+      "abbreviated": "к/ф Горный патруль"
+    },
+    {
+      "id": "tmdb_183707_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լեռնային պարեկ",
+      "abbreviated": "ֆ/ֆ Լեռնային պարեկ"
+    },
+    {
+      "id": "tmdb_1609458_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Попранный обет",
+      "abbreviated": "к/ф Попранный обет"
+    },
+    {
+      "id": "tmdb_1609458_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տերտերին ուխտը",
+      "abbreviated": "ֆ/ֆ Տերտերին ուխտը"
+    },
+    {
+      "id": "tmdb_1609456_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Мнимый доносчик",
+      "abbreviated": "к/ф Мнимый доносчик"
+    },
+    {
+      "id": "tmdb_1609456_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կեղծ լրտեսը",
+      "abbreviated": "ֆ/ֆ Կեղծ լրտեսը"
+    },
+    {
+      "id": "tmdb_1609455_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Издержки вежливости",
+      "abbreviated": "к/ф Издержки вежливости"
+    },
+    {
+      "id": "tmdb_1609455_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քաղաքավարության վնասները",
+      "abbreviated": "ֆ/ֆ Քաղաքավարության վնասները"
+    },
+    {
+      "id": "tmdb_1369680_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շառլ Ազնավուրը Հայաստանում",
+      "abbreviated": "ֆ/ֆ Շառլ Ազնավուրը Հայաստանում"
+    },
+    {
+      "id": "tmdb_1157497_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Губная помада №4",
+      "abbreviated": "к/ф Губная помада №4"
+    },
+    {
+      "id": "tmdb_1157497_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շրթներկ №4",
+      "abbreviated": "ֆ/ֆ Շրթներկ №4"
+    },
+    {
+      "id": "tmdb_1387185_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Четверо в одной шкуре",
+      "abbreviated": "к/ф Четверо в одной шкуре"
+    },
+    {
+      "id": "tmdb_1387185_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Չորսը նույն մորթու մեջ",
+      "abbreviated": "ֆ/ֆ Չորսը նույն մորթու մեջ"
+    },
+    {
+      "id": "tmdb_290608_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Печёнка",
+      "abbreviated": "к/ф Печёнка"
+    },
+    {
+      "id": "tmdb_290608_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տժվժիկ",
+      "abbreviated": "ֆ/ֆ Տժվժիկ"
+    },
+    {
+      "id": "tmdb_279204_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Хозяин и слуга",
+      "abbreviated": "к/ф Хозяин и слуга"
+    },
+    {
+      "id": "tmdb_279204_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տերն ու ծառան",
+      "abbreviated": "ֆ/ֆ Տերն ու ծառան"
+    },
+    {
+      "id": "tmdb_1101192_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шаги",
+      "abbreviated": "к/ф Шаги"
+    },
+    {
+      "id": "tmdb_1101192_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քայլեր",
+      "abbreviated": "ֆ/ֆ Քայլեր"
+    },
+    {
+      "id": "tmdb_804785_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Перед восходом солнца",
+      "abbreviated": "к/ф Перед восходом солнца"
+    },
+    {
+      "id": "tmdb_804785_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արևածագից առաջ",
+      "abbreviated": "ֆ/ֆ Արևածագից առաջ"
+    },
+    {
+      "id": "tmdb_1089949_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կոչված են ապրելու",
+      "abbreviated": "ֆ/ֆ Կոչված են ապրելու"
+    },
+    {
+      "id": "tmdb_536159_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Парни музкоманды",
+      "abbreviated": "к/ф Парни музкоманды"
+    },
+    {
+      "id": "tmdb_536159_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նվագախմբի տղաները",
+      "abbreviated": "ֆ/ֆ Նվագախմբի տղաները"
+    },
+    {
+      "id": "tmdb_1463938_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հյուսիսային ծիածան",
+      "abbreviated": "ֆ/ֆ Հյուսիսային ծիածան"
+    },
+    {
+      "id": "tmdb_693788_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Саят-Нова",
+      "abbreviated": "к/ф Саят-Нова"
+    },
+    {
+      "id": "tmdb_693788_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սայաթ-Նովա",
+      "abbreviated": "ֆ/ֆ Սայաթ-Նովա"
+    },
+    {
+      "id": "tmdb_535687_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "О чём шумит река",
+      "abbreviated": "к/ф О чём шумит река"
+    },
+    {
+      "id": "tmdb_535687_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ինչու է աղմկում գետը",
+      "abbreviated": "ֆ/ֆ Ինչու է աղմկում գետը"
+    },
+    {
+      "id": "tmdb_1427982_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Обвал",
+      "abbreviated": "к/ф Обвал"
+    },
+    {
+      "id": "tmdb_1427982_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փլուզում",
+      "abbreviated": "ֆ/ֆ Փլուզում"
+    },
+    {
+      "id": "tmdb_403649_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Песня первой любви",
+      "abbreviated": "к/ф Песня первой любви"
+    },
+    {
+      "id": "tmdb_403649_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Առաջին Սիրո Երգը",
+      "abbreviated": "ֆ/ֆ Առաջին Սիրո Երգը"
+    },
+    {
+      "id": "tmdb_1060203_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Кому улыбается жизнь",
+      "abbreviated": "к/ф Кому улыбается жизнь"
+    },
+    {
+      "id": "tmdb_1060203_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ում է ժպտում կյանքը",
+      "abbreviated": "ֆ/ֆ Ում է ժպտում կյանքը"
+    },
+    {
+      "id": "tmdb_1416185_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Сердце матери",
+      "abbreviated": "к/ф Сердце матери"
+    },
+    {
+      "id": "tmdb_1416185_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մոր Սիրտը",
+      "abbreviated": "ֆ/ֆ Մոր Սիրտը"
+    },
+    {
+      "id": "tmdb_1086640_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "В поисках адресата",
+      "abbreviated": "к/ф В поисках адресата"
+    },
+    {
+      "id": "tmdb_1086640_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հասցեատիրոջ որոնումները",
+      "abbreviated": "ֆ/ֆ Հասցեատիրոջ որոնումները"
+    },
+    {
+      "id": "tmdb_688110_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Золотой бычок",
+      "abbreviated": "к/ф Золотой бычок"
+    },
+    {
+      "id": "tmdb_688110_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ոսկե ցլիկ",
+      "abbreviated": "ֆ/ֆ Ոսկե ցլիկ"
+    },
+    {
+      "id": "tmdb_781625_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մանրունք",
+      "abbreviated": "ֆ/ֆ Մանրունք"
+    },
+    {
+      "id": "tmdb_1071313_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Второй караван",
+      "abbreviated": "к/ф Второй караван"
+    },
+    {
+      "id": "tmdb_1071313_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երկրորդ քարավան",
+      "abbreviated": "ֆ/ֆ Երկրորդ քարավան"
+    },
+    {
+      "id": "tmdb_1531379_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Девушка Араратской долины",
+      "abbreviated": "к/ф Девушка Араратской долины"
+    },
+    {
+      "id": "tmdb_1531379_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արարատյան դաշտի աղջիկը",
+      "abbreviated": "ֆ/ֆ Արարատյան դաշտի աղջիկը"
+    },
+    {
+      "id": "tmdb_1048362_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Анаит",
+      "abbreviated": "к/ф Анаит"
+    },
+    {
+      "id": "tmdb_1048362_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անահիտ",
+      "abbreviated": "ֆ/ֆ Անահիտ"
+    },
+    {
+      "id": "tmdb_283012_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Давид-Бек",
+      "abbreviated": "к/ф Давид-Бек"
+    },
+    {
+      "id": "tmdb_283012_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դավիթ Բեկ",
+      "abbreviated": "ֆ/ֆ Դավիթ Բեկ"
+    },
+    {
+      "id": "tmdb_1095999_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Dustre / Դուստրը",
+      "abbreviated": "ֆ/ֆ Dustre / Դուստրը"
+    },
+    {
+      "id": "tmdb_1040532_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Семья патриотов",
+      "abbreviated": "к/ф Семья патриотов"
+    },
+    {
+      "id": "tmdb_1040532_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հայրենասերների ընտանիքը",
+      "abbreviated": "ֆ/ֆ Հայրենասերների ընտանիքը"
+    },
+    {
+      "id": "tmdb_1416177_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Кровь за кровь",
+      "abbreviated": "к/ф Кровь за кровь"
+    },
+    {
+      "id": "tmdb_1416177_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արյան Դեմ Արյուն",
+      "abbreviated": "ֆ/ֆ Արյան Դեմ Արյուն"
+    },
+    {
+      "id": "tmdb_806591_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Քաջ Նազար",
+      "abbreviated": "ֆ/ֆ Քաջ Նազար"
+    },
+    {
+      "id": "tmdb_1049418_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Севанские рыбаки",
+      "abbreviated": "к/ф Севанские рыбаки"
+    },
+    {
+      "id": "tmdb_1049418_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սևանի ձկնորսները",
+      "abbreviated": "ֆ/ֆ Սևանի ձկնորսները"
+    },
+    {
+      "id": "tmdb_1456162_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Горный марш",
+      "abbreviated": "к/ф Горный марш"
+    },
+    {
+      "id": "tmdb_1456162_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լեռնային արշավ",
+      "abbreviated": "ֆ/ֆ Լեռնային արշավ"
+    },
+    {
+      "id": "tmdb_1456502_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Горный поток",
+      "abbreviated": "к/ф Горный поток"
+    },
+    {
+      "id": "tmdb_1456502_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լեռնային հեղեղ",
+      "abbreviated": "ֆ/ֆ Լեռնային հեղեղ"
+    },
+    {
+      "id": "tmdb_782206_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Зангезур",
+      "abbreviated": "к/ф Зангезур"
+    },
+    {
+      "id": "tmdb_782206_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Զանգեզուր",
+      "abbreviated": "ֆ/ֆ Զանգեզուր"
+    },
+    {
+      "id": "tmdb_253770_ru",
+      "type": "animation_movie",
+      "lang": "ru",
+      "plain": "Пёс и кот",
+      "abbreviated": "м/ф Пёс и кот"
+    },
+    {
+      "id": "tmdb_253770_hy",
+      "type": "animation_movie",
+      "lang": "hy",
+      "plain": "Շունն ու կատուն",
+      "abbreviated": "մ/ֆ Շունն ու կատուն"
+    },
+    {
+      "id": "tmdb_782211_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Каро",
+      "abbreviated": "к/ф Каро"
+    },
+    {
+      "id": "tmdb_782211_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կարո",
+      "abbreviated": "ֆ/ֆ Կարո"
+    },
+    {
+      "id": "tmdb_380723_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пэпо",
+      "abbreviated": "к/ф Пэпо"
+    },
+    {
+      "id": "tmdb_380723_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պեպո",
+      "abbreviated": "ֆ/ֆ Պեպո"
+    },
+    {
+      "id": "tmdb_1426773_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լույս և ստվերներ",
+      "abbreviated": "ֆ/ֆ Լույս և ստվերներ"
+    },
+    {
+      "id": "tmdb_1425231_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արևի զավակը",
+      "abbreviated": "ֆ/ֆ Արևի զավակը"
+    },
+    {
+      "id": "tmdb_1429178_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մեքսիկական դիպլոմատներ",
+      "abbreviated": "ֆ/ֆ Մեքսիկական դիպլոմատներ"
+    },
+    {
+      "id": "tmdb_1428605_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մի դեպք Սեն Լուի քաղաքում",
+      "abbreviated": "ֆ/ֆ Մի դեպք Սեն Լուի քաղաքում"
+    },
+    {
+      "id": "tmdb_1423418_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Вор",
+      "abbreviated": "к/ф Вор"
+    },
+    {
+      "id": "tmdb_1423418_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Գողը",
+      "abbreviated": "ֆ/ֆ Գողը"
+    },
+    {
+      "id": "tmdb_1425855_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Ануш",
+      "abbreviated": "к/ф Ануш"
+    },
+    {
+      "id": "tmdb_1425855_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Անուշ",
+      "abbreviated": "ֆ/ֆ Անուշ"
+    },
+    {
+      "id": "tmdb_1097658_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Yerkir Nairi / Երկիր Նաիրի",
+      "abbreviated": "ֆ/ֆ Yerkir Nairi / Երկիր Նաիրի"
+    },
+    {
+      "id": "tmdb_1422298_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կիմը հերթապահ",
+      "abbreviated": "ֆ/ֆ Կիմը հերթապահ"
+    },
+    {
+      "id": "tmdb_313076_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Дом на вулкане",
+      "abbreviated": "к/ф Дом на вулкане"
+    },
+    {
+      "id": "tmdb_313076_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տունը հրաբխի վրա",
+      "abbreviated": "ֆ/ֆ Տունը հրաբխի վրա"
+    },
+    {
+      "id": "tmdb_1425688_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Колхозная весна",
+      "abbreviated": "к/ф Колхозная весна"
+    },
+    {
+      "id": "tmdb_1425688_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կոլխոզային գարուն",
+      "abbreviated": "ֆ/ֆ Կոլխոզային գարուն"
+    },
+    {
+      "id": "tmdb_1105979_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шестнадцатый",
+      "abbreviated": "к/ф Шестнадцатый"
+    },
+    {
+      "id": "tmdb_1105979_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տասնվեցերորդը",
+      "abbreviated": "ֆ/ֆ Տասնվեցերորդը"
+    },
+    {
+      "id": "tmdb_289389_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Хаз-пуш: Персия при Каджарах",
+      "abbreviated": "к/ф Хаз-пуш: Персия при Каджарах"
+    },
+    {
+      "id": "tmdb_289389_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խասփուշ",
+      "abbreviated": "ֆ/ֆ Խասփուշ"
+    },
+    {
+      "id": "tmdb_1423496_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ղուլը",
+      "abbreviated": "ֆ/ֆ Ղուլը"
+    },
+    {
+      "id": "tmdb_1424548_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Пять в яблочко",
+      "abbreviated": "к/ф Пять в яблочко"
+    },
+    {
+      "id": "tmdb_1424548_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Հինգն էլ խնձորին",
+      "abbreviated": "ֆ/ֆ Հինգն էլ խնձորին"
+    },
+    {
+      "id": "tmdb_289388_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Злой дух",
+      "abbreviated": "к/ф Злой дух"
+    },
+    {
+      "id": "tmdb_289388_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խաս-փուշ",
+      "abbreviated": "ֆ/ֆ Խաս-փուշ"
+    },
+    {
+      "id": "tmdb_272089_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Зарэ",
+      "abbreviated": "к/ф Зарэ"
+    },
+    {
+      "id": "tmdb_272089_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Զարե",
+      "abbreviated": "ֆ/ֆ Զարե"
+    },
+    {
+      "id": "tmdb_272092_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Шор и Шоршор",
+      "abbreviated": "к/ф Шор и Шоршор"
+    },
+    {
+      "id": "tmdb_272092_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Շոր և Շորշոր",
+      "abbreviated": "ֆ/ֆ Շոր և Շորշոր"
+    },
+    {
+      "id": "tmdb_36277_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Намус",
+      "abbreviated": "к/ф Намус"
+    },
+    {
+      "id": "tmdb_36277_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Նամուս",
+      "abbreviated": "ֆ/ֆ Նամուս"
+    },
+    {
+      "id": "tmdb_1507017_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խորհրդային Հայաստան",
+      "abbreviated": "ֆ/ֆ Խորհրդային Հայաստան"
+    },
+    {
+      "id": "tmdb_1645876_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Փոքրիկ հողագործը",
+      "abbreviated": "ֆ/ֆ Փոքրիկ հողագործը"
+    },
+    {
+      "id": "tmdb_1631033_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "18-րդ գարունը",
+      "abbreviated": "ֆ/ֆ 18-րդ գարունը"
+    },
+    {
+      "id": "tmdb_1630422_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սև աստղային հրեշտակ",
+      "abbreviated": "ֆ/ֆ Սև աստղային հրեշտակ"
+    },
+    {
+      "id": "tmdb_1627815_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ամենագեղեցիկը",
+      "abbreviated": "ֆ/ֆ Ամենագեղեցիկը"
+    },
+    {
+      "id": "tmdb_1618813_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձին",
+      "abbreviated": "ֆ/ֆ Ձին"
+    },
+    {
+      "id": "tmdb_1618810_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դիմակայություն",
+      "abbreviated": "ֆ/ֆ Դիմակայություն"
+    },
+    {
+      "id": "tmdb_1592820_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բարի հետք",
+      "abbreviated": "ֆ/ֆ Բարի հետք"
+    },
+    {
+      "id": "tmdb_1505427_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "շարունակական միջոց",
+      "abbreviated": "ֆ/ֆ շարունակական միջոց"
+    },
+    {
+      "id": "tmdb_1505306_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թունելից 13 կմ հեռավորության վրա",
+      "abbreviated": "ֆ/ֆ Թունելից 13 կմ հեռավորության վրա"
+    },
+    {
+      "id": "tmdb_1493644_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Три золотых принципа",
+      "abbreviated": "к/ф Три золотых принципа"
+    },
+    {
+      "id": "tmdb_1493644_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երեք Ոսկե Կանոն",
+      "abbreviated": "ֆ/ֆ Երեք Ոսկե Կանոն"
+    },
+    {
+      "id": "tmdb_1493639_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պատահար Հուլիսին",
+      "abbreviated": "ֆ/ֆ Պատահար Հուլիսին"
+    },
+    {
+      "id": "tmdb_1493110_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երուսաղեմի Հայկական Պարտեզը",
+      "abbreviated": "ֆ/ֆ Երուսաղեմի Հայկական Պարտեզը"
+    },
+    {
+      "id": "tmdb_1482555_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "բարև",
+      "abbreviated": "ֆ/ֆ բարև"
+    },
+    {
+      "id": "tmdb_1471157_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արտավազդ II Հռոմի և Պարթևաստանի միջև",
+      "abbreviated": "ֆ/ֆ Արտավազդ II Հռոմի և Պարթևաստանի միջև"
+    },
+    {
+      "id": "tmdb_1460396_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արա Հարությունյանի Կոմիտասը",
+      "abbreviated": "ֆ/ֆ Արա Հարությունյանի Կոմիտասը"
+    },
+    {
+      "id": "tmdb_1423552_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Սիմոր",
+      "abbreviated": "ֆ/ֆ Սիմոր"
+    },
+    {
+      "id": "tmdb_1418614_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բեմ",
+      "abbreviated": "ֆ/ֆ Բեմ"
+    },
+    {
+      "id": "tmdb_1363929_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Թիթեռի կամքը",
+      "abbreviated": "ֆ/ֆ Թիթեռի կամքը"
+    },
+    {
+      "id": "tmdb_1339133_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Պատերազմի դեպքերը",
+      "abbreviated": "ֆ/ֆ Պատերազմի դեպքերը"
+    },
+    {
+      "id": "tmdb_1337574_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Վերածնվածը",
+      "abbreviated": "ֆ/ֆ Վերածնվածը"
+    },
+    {
+      "id": "tmdb_1336540_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Արցախ, հավերժի սահմանին",
+      "abbreviated": "ֆ/ֆ Արցախ, հավերժի սահմանին"
+    },
+    {
+      "id": "tmdb_1329717_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Դիմակահանդես",
+      "abbreviated": "ֆ/ֆ Դիմակահանդես"
+    },
+    {
+      "id": "tmdb_1314093_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Տուն",
+      "abbreviated": "ֆ/ֆ Տուն"
+    },
+    {
+      "id": "tmdb_1314074_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բեռ",
+      "abbreviated": "ֆ/ֆ Բեռ"
+    },
+    {
+      "id": "tmdb_1314065_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ձուն",
+      "abbreviated": "ֆ/ֆ Ձուն"
+    },
+    {
+      "id": "tmdb_1290665_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կտավը",
+      "abbreviated": "ֆ/ֆ Կտավը"
+    },
+    {
+      "id": "tmdb_1263293_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "«ԵՐԳՆ ՈՒ ԵՍ»",
+      "abbreviated": "ֆ/ֆ «ԵՐԳՆ ՈՒ ԵՍ»"
+    },
+    {
+      "id": "tmdb_1263291_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "«Գուրգեն Մուշեղյան․ ՏԱՐԱԾՈՒԹՅԱՆ ՀԱՐՄՈՆԻԱ»",
+      "abbreviated": "ֆ/ֆ «Գուրգեն Մուշեղյան․ ՏԱՐԱԾՈՒԹՅԱՆ ՀԱՐՄՈՆԻԱ»"
+    },
+    {
+      "id": "tmdb_1240481_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Коко",
+      "abbreviated": "к/ф Коко"
+    },
+    {
+      "id": "tmdb_1240481_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Կոկո",
+      "abbreviated": "ֆ/ֆ Կոկո"
+    },
+    {
+      "id": "tmdb_1240476_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Сос Лос в Вегасе",
+      "abbreviated": "к/ф Сос Лос в Вегасе"
+    },
+    {
+      "id": "tmdb_1240476_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Լոսի սոսը Վեգասում",
+      "abbreviated": "ֆ/ֆ Լոսի սոսը Վեգասում"
+    },
+    {
+      "id": "tmdb_1240467_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Манана",
+      "abbreviated": "к/ф Манана"
+    },
+    {
+      "id": "tmdb_1240467_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Մանանա",
+      "abbreviated": "ֆ/ֆ Մանանա"
+    },
+    {
+      "id": "tmdb_1240110_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "За кулисами",
+      "abbreviated": "к/ф За кулисами"
+    },
+    {
+      "id": "tmdb_1240110_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Բեմ",
+      "abbreviated": "ֆ/ֆ Բեմ"
+    },
+    {
+      "id": "tmdb_1239603_ru",
+      "type": "movie",
+      "lang": "ru",
+      "plain": "Авлос",
+      "abbreviated": "к/ф Авлос"
+    },
+    {
+      "id": "tmdb_1239603_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ավլոս",
+      "abbreviated": "ֆ/ֆ Ավլոս"
+    },
+    {
+      "id": "tmdb_1151558_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Երկու անհայտով հավասարում",
+      "abbreviated": "ֆ/ֆ Երկու անհայտով հավասարում"
+    },
+    {
+      "id": "tmdb_1150452_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Ավթոնա",
+      "abbreviated": "ֆ/ֆ Ավթոնա"
+    },
+    {
+      "id": "tmdb_688112_hy",
+      "type": "movie",
+      "lang": "hy",
+      "plain": "Խիո",
+      "abbreviated": "ֆ/ֆ Խիո"
+    },
+    {
+      "id": "tmdb_310432_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Գնդապետ SoS",
+      "abbreviated": "հ/ս Գնդապետ SoS"
+    },
+    {
+      "id": "tmdb_305634_ru",
+      "type": "series",
+      "lang": "ru",
+      "plain": "Раунд",
+      "abbreviated": "т/с Раунд"
+    },
+    {
+      "id": "tmdb_305634_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Ռաունդ",
+      "abbreviated": "հ/ս Ռաունդ"
+    },
+    {
+      "id": "tmdb_306131_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Կայսրության Թևերը",
+      "abbreviated": "հ/ս Կայսրության Թևերը"
+    },
+    {
+      "id": "tmdb_284690_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Դեպի Եվրատեսիլ",
+      "abbreviated": "հ/ս Դեպի Եվրատեսիլ"
+    },
+    {
+      "id": "tmdb_113736_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Հատուկ բաժին",
+      "abbreviated": "հ/ս Հատուկ բաժին"
+    },
+    {
+      "id": "tmdb_91050_ru",
+      "type": "series",
+      "lang": "ru",
+      "plain": "Азизяны",
+      "abbreviated": "т/с Азизяны"
+    },
+    {
+      "id": "tmdb_91050_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Ազիզյանները",
+      "abbreviated": "հ/ս Ազիզյանները"
+    },
+    {
+      "id": "tmdb_304683_ru",
+      "type": "series",
+      "lang": "ru",
+      "plain": "Где ты был, человек божий?",
+      "abbreviated": "т/с Где ты был, человек божий?"
+    },
+    {
+      "id": "tmdb_304683_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Որտե՞ղ էիր, մարդ աստծո",
+      "abbreviated": "հ/ս Որտե՞ղ էիր, մարդ աստծո"
+    },
+    {
+      "id": "tmdb_7866_hy",
+      "type": "series",
+      "lang": "hy",
+      "plain": "Ո՞վ է ուզում դառնալ միլիոնատեր",
+      "abbreviated": "հ/ս Ո՞վ է ուզում դառնալ միլիոնատեր"
+    }
+  ]
+}

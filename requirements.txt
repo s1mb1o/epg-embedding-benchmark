@@ -2,6 +2,7 @@ numpy>=1.24
 
 # Sentence Transformers backend (--api st)
 sentence-transformers>=2.2.2
+einops  # required by jina-embeddings-v3
 
 # FlagEmbedding backend (--api flag) — faster BAAI/bge-m3 inference
 # 1.3.x breaks on transformers>=5 (missing is_torch_fx_available);
