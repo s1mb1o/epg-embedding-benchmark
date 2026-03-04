@@ -20,6 +20,10 @@
 
 Built while developing a content recommendation system for an IPTV/OTT operator whose platform serves TV program guides (EPG) in three languages: English, Russian, and Armenian.
 
+### Why these three languages?
+
+Digital television EPG data predominantly uses three languages: **English** (EN), **Russian** (RU), and **Armenian** (HY). English is the lingua franca of international content metadata. Russian is the primary language of post-Soviet broadcast markets where many IPTV/OTT operators serve. Armenian is the national language for operators in Armenia — a market where all three languages coexist in the same EPG feed, making trilingual matching a hard practical requirement rather than an academic exercise.
+
 Every IPTV operator ingests EPG data from multiple sources. The same program arrives with different titles, different transliterations, and in different languages — all needing to be matched together. A RecSys that can't do cross-lingual matching produces poor recommendations for non-English content.
 
 Armenian (`hy`) is particularly challenging:
