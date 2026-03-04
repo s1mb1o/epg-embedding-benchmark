@@ -9,5 +9,8 @@ env/
 .cache/
 cache/
 
+# Jupyter
+.ipynb_checkpoints/
+
 # OS
 .DS_Store
