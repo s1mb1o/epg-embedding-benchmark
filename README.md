@@ -2,7 +2,7 @@
 
 > Evaluating sentence embedding models for cross-lingual TV program guide matching across **English**, **Russian**, and **Armenian** — a production RecSys problem with a low-resource language twist.
 
-`hy` = Armenian (`հայ.`), not Hungarian. This matters because Armenian is a genuinely low-resource language that most commercial models handle poorly.
+`hy` = Armenian (`հայ.`). This matters because Armenian is a genuinely low-resource language that most commercial models handle poorly.
 
 ---
 
@@ -10,9 +10,9 @@
 
 | Winner | Cross-lang score | HY score |
 |--------|:---------------:|:--------:|
-| `intfloat/multilingual-e5-large-instruct` | **0.900** | **0.976** |
+| `intfloat/multilingual-e5-large-instruct` | **0.900** | **0.975** |
 
-**Surprise:** `openai/text-embedding-3-large` scores only **0.34** — below all dedicated multilingual models in this benchmark — because Armenian is severely underrepresented in its training data.
+**Surprise:** OpenAI `text-embedding-3-large` scores only **0.34** — below all dedicated multilingual models in this benchmark — because Armenian is severely underrepresented in its training data.
 
 ---
 
@@ -25,7 +25,47 @@ Every IPTV operator ingests EPG data from multiple sources. The same program arr
 Armenian (`hy`) is particularly challenging:
 - Non-Latin, non-Cyrillic script (unique Armenian alphabet: Հ, Ա, Յ, Ե, ...)
 - Low-resource language: underrepresented in most embedding model training data
-- Domain-specific abbreviations: `ֆ/ֆ` (Feature Film), `ու.` (Documentary)
+- Domain-specific abbreviations
+- Mix of armenian, russian and english in EPG titles
+
+### Domain-specific abbreviations
+  Feature Film
+   * `Գ/Ֆ` (Գեղարվեստական ֆիլմ / Gegharvestakan film) - Most common and standard.
+   * `ֆ/ֆ` (ֆիլմ / film) - Less formal, but sometimes used.
+
+  TV Series
+   * `Հ/Ս` (Հեռուստասերիալ / Herustaserial) - Standard.
+
+  Animations / Cartoons
+   * `Մ/Ֆ` (Մուլտիպլիկացիոն ֆիլմ or Մուլտֆիլմ / Multiplikatsion film or Multfilm) - Standard for animated movies.
+   * `Մ/Ս` (Մուլտսերիալ / Multserial) - Standard for animated series.
+
+  Documentary
+   * `Փ/Ֆ` (Փաստավավերագրական ֆիլմ / Phastavaveragrakan film) - Standard.
+   * `Վ/Ֆ` (Վավերագրական ֆիլմ / Vaveragrakan film) - Standard (often used interchangeably with Փ/Ֆ).
+
+  Show/Entertainment
+   * `Հ/Շ` (Հեռուստաշոու / Herustashou) - Standard for TV shows.
+   * `Ժ/Ծ` (Ժամանցային ծրագիր / Zhamantsayin tsragir) - Standard for entertainment programs.
+   * `Թ/Շ` (Թոք շոու / Tok shou) - Standard for talk shows.
+
+  News
+   * `Լ/Ծ` (Լրատվական ծրագիր / Lratvakan tsragir) - Standard for news programs/broadcasts.
+
+  Live Broadcasts
+   * `Ու/Ե` (Ուղիղ եթեր / Ughigh yeter) — Live Broadcast / Live Air (Very common for news, sports, and events).
+   * `Ու/Հ` (Ուղիղ հեռարձակում / Ughigh herardzakum) — Live Broadcast (Alternative to Ու/Ե).
+
+  Specific Film Genres
+   * `Կ/Ֆ` (Կարճամետրաժ ֆիլմ / Karchametrazh film) — Short Film.
+   * `Պ/Ֆ` (Պատմական ֆիլմ / Patmakan film) — Historical Film.
+   * `Ուս/Ֆ` (Ուսումնական ֆիլմ / Usumnakan film) — Educational Film.
+
+  Specific Programs & Shows
+   * `Մ/Հ` or `Մ/Ծ` (Մանկական հաղորդում / Mankakan haghordum or tsragir) — Children's Program.
+   * `Գ/Հ` or `Գ/Ծ` (Գիտահանրամատչելի հաղորդում / Gitahanramatcheli haghordum) — Scientific / Educational Program.
+   * `Ե/Ծ` (Երաժշտական ծրագիր / Yerazhshtakan tsragir) — Musical Program / Concert.
+   * `Ս/Հ` (Սպորտային հաղորդում / Sportayin haghordum) — Sports Program.
 
 This benchmark measures how well each model handles **semantic alignment** of the same program title across all three languages.
 
@@ -68,13 +108,54 @@ The `movie_*` entries include domain-specific abbreviations (`к/ф` in Russian,
 
 ### Hardware
 
-MacBook M2 Max, 32 GB RAM — all models run locally via CPU/Metal, no GPU cluster required.
+MacBook M2 Max, 32 GB RAM — local models run via CPU/Metal; OpenAI uses remote API.
 
 ---
 
 ## Results
 
-See [RESULTS.md](RESULTS.md).
+| # | Backend | Model | Cross-lang | EN↔RU | EN↔HY | RU↔HY | HY↔HY | s/text |
+|---|---------|-------|:----------:|:-----:|:-----:|:-----:|:-----:|:------:|
+| 1 | st | `intfloat/multilingual-e5-large-instruct` | **0.900** | 0.917 | 0.872 | 0.911 | **0.975** | 0.49 |
+| 2 | st | `intfloat/multilingual-e5-large` | 0.881 | 0.880 | 0.864 | 0.899 | 0.964 | 0.55 |
+| 3 | st | `intfloat/multilingual-e5-base` | 0.876 | 0.883 | 0.858 | 0.889 | 0.958 | 0.42 |
+| 4 | st | `sentence-transformers/LaBSE` | 0.800 | 0.786 | 0.777 | 0.837 | 0.934 | 0.50 |
+| 5 | st | `Metric-AI/armenian-text-embeddings-1` | 0.798 | 0.794 | 0.777 | 0.821 | 0.910 | 0.33 |
+| 6 | st | `intfloat/e5-large-v2` | 0.776 | 0.754 | 0.767 | 0.808 | 0.833 | 0.38 |
+| 7 | flag | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | **0.29** |
+| 8 | st | `BAAI/bge-m3` | 0.767 | 0.797 | 0.712 | 0.791 | 0.849 | 0.50 |
+| 9 | st | `intfloat/e5-large` | 0.751 | 0.723 | 0.729 | 0.803 | 0.863 | 0.39 |
+| 10 | st | `paraphrase-multilingual-mpnet-base-v2` | 0.709 | 0.719 | 0.657 | 0.750 | 0.762 | 0.46 |
+| 11 | st | `distiluse-base-multilingual-cased` | 0.708 | 0.766 | 0.618 | 0.739 | 0.749 | 0.46 |
+| 12 | st | `paraphrase-multilingual-MiniLM-L12-v2` | 0.668 | 0.753 | 0.549 | 0.703 | 0.752 | 0.42 |
+| 13 | openai | `text-embedding-3-large` | 0.338 | 0.622 | 0.168 | 0.222 | 0.665 | 0.06 |
+| 14 | st | `all-MiniLM-L6-v2` | 0.141 | 0.084 | 0.105 | 0.233 | 0.460 | 0.34 |
+
+_st = sentence-transformers · flag = FlagEmbedding · Hardware: M2 Max, 32 GB RAM_
+
+Raw data: [results/benchmark_results.csv](results/benchmark_results.csv)
+
+---
+
+## Analysis
+
+[analysis.ipynb](analysis.ipynb) generates four charts from the benchmark results:
+
+### Models ranked by cross-lingual score
+
+![Models ranked by cross-lingual score](results/scores_ranked.png)
+
+### Accuracy vs Speed
+
+![Accuracy vs Speed](results/accuracy_vs_speed.png)
+
+### Cross-language score vs Armenian consistency
+
+![Cross-language vs HY consistency](results/cross_lang_vs_hy.png)
+
+### Per language-pair heatmap
+
+![Per language-pair heatmap](results/heatmap.png)
 
 ---
 
@@ -82,9 +163,9 @@ See [RESULTS.md](RESULTS.md).
 
 ### 1. The multilingual-e5 family is the clear winner for EN+RU+HY
 
-`intfloat/multilingual-e5-large-instruct` achieves 0.90 cross-language mean and 0.98 HY-HY consistency. The entire e5 family performs significantly better than all alternatives. The base model offers the best accuracy/cost trade-off for production use.
+`intfloat/multilingual-e5-large-instruct` achieves 0.90 cross-lingual mean and 0.975 HY↔HY consistency. The three multilingual-e5 variants (base, large, large-instruct) all score above 0.87 — significantly better than all other models. The base model offers the best accuracy/cost trade-off for production use.
 
-### 2. OpenAI text-embedding-3-large fails on Armenian
+### 2. OpenAI `text-embedding-3-large` underperforms on Armenian
 
 Despite being a flagship commercial model, it scores **0.34 overall** — below all dedicated multilingual models tested. Armenian is a low-resource language; without sufficient HY parallel training data, the model cannot anchor Armenian phrases near their EN/RU counterparts.
 
@@ -92,19 +173,26 @@ Despite being a flagship commercial model, it scores **0.34 overall** — below 
 
 ### 3. Domain-specific abbreviations hurt all models
 
-`к/ф` (Russian) and `ֆ/ֆ` (Armenian) for "Feature Film" are rare tokens that most models have seen infrequently. Even top-performing models score slightly lower on `movie_*` entries. Pre-processing to expand abbreviations would likely improve all scores.
+EPG data is full of abbreviations like `к/ф` (Russian) and `Գ/Ֆ`, `ֆ/ֆ`, `Հ/Ս` (Armenian). Even top-performing models score lower on `movie_*` entries. This happens for several reasons:
+
+- **Sparse tokens.** Abbreviations are rare in training data, so their vectors are noisy or under-trained.
+- **Tokenization artifacts.** `Գ/Ֆ` gets split into subpieces (`Գ`, `/`, `Ֆ`) — the embedding reflects punctuation + letters, not "feature film".
+- **No compositional meaning.** Models can't infer that `Հ/Ս` expands to `Հեռուստասերիալ` without having seen that mapping frequently.
+- **Script fragmentation.** Armenian + punctuation + mixed case increases subword fragmentation in multilingual tokenizers.
+
+Pre-processing to expand abbreviations before embedding would likely improve all scores.
 
 ### 4. LaBSE is the best non-e5 fallback
 
-Google's Language-agnostic BERT Sentence Embedding scores 0.80 cross-language with solid HY performance (0.93). It's the most reliable choice if the intfloat/e5 family is unavailable.
+Google's Language-agnostic BERT Sentence Embedding scores 0.80 cross-lingual with solid HY performance (0.93). It's the most reliable choice if the intfloat/e5 family is unavailable.
 
 ### 5. Armenian-specialized model doesn't win overall
 
-`Metric-AI/armenian-text-embeddings-1` (based on multilingual-e5) raises HY scores slightly but underperforms the full e5 family on EN↔RU alignment. Specialization for one language comes at a cost to others.
+`Metric-AI/armenian-text-embeddings-1` (based on multilingual-e5) scores 0.91 HY↔HY — below LaBSE (0.93) and the multilingual-e5 variants (0.96–0.98). It also underperforms on EN↔RU alignment. Specialization for one language doesn't guarantee better scores even in that language.
 
 ### 6. FlagEmbedding is the fastest local inference path
 
-`BAAI/bge-m3` via FlagEmbedding runs at 0.27s/text — 35% faster than the same model through sentence-transformers — with identical embedding quality. Useful for latency-sensitive production deployments.
+`BAAI/bge-m3` via FlagEmbedding runs at 0.29s/text — 42% faster than the same model through sentence-transformers (0.50s) — with identical embedding quality. Useful for latency-sensitive production deployments.
 
 ---
 
@@ -115,11 +203,10 @@ For a production EN+RU+HY IPTV/OTT RecSys:
 | Priority | Model | Rationale |
 |----------|-------|-----------|
 | **Default** | `intfloat/multilingual-e5-base` | Best accuracy/size/speed trade-off |
-| **Max accuracy** | `intfloat/multilingual-e5-large-instruct` | Top scores, +40% latency |
-| **EN+RU only** | `openai/text-embedding-3-large` | Viable if Armenian is absent |
-| **Resource-constrained** | `BAAI/bge-m3` via FlagEmbedding | Fastest local inference, 0.27s/text |
+| **Max accuracy** | `intfloat/multilingual-e5-large-instruct` | Top scores, +17% latency vs base |
+| **Resource-constrained** | `BAAI/bge-m3` via FlagEmbedding | Fastest local inference, 0.29s/text |
 
-**Avoid for HY:** `all-MiniLM-L6-v2` (English-centric), `openai/text-embedding-3-large` (Armenian alignment collapses to noise)
+**Avoid for HY:** `all-MiniLM-L6-v2` (English-centric), OpenAI `text-embedding-3-large` (Armenian alignment collapses to noise)
 
 ---
 
@@ -159,11 +246,16 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 .
 ├── benchmark.py          # Main evaluation script
 ├── run_benchmark.sh      # Harness to run all models sequentially
+├── analysis.ipynb        # Visualization notebook (4 charts)
 ├── requirements.txt
 ├── data/
 │   └── epg_phrases.json  # Test dataset: 7 EN/RU/HY triplets + 4 HY synonym pairs
 └── results/
-    └── benchmark_results.csv  # Pre-computed results from M2 Max
+    ├── benchmark_results.csv  # Pre-computed results from M2 Max
+    ├── scores_ranked.png
+    ├── accuracy_vs_speed.png
+    ├── cross_lang_vs_hy.png
+    └── heatmap.png
 ```
 
 ---
@@ -172,7 +264,7 @@ python benchmark.py --api st --model intfloat/multilingual-e5-base --phrases dat
 
 Developed as part of building a content recommendation system for an IPTV/OTT platform serving multi-language EPG data in English, Russian, and Armenian. The results directly informed the production model selection.
 
-The test dataset contains common TV program categories only; no proprietary EPG data is included.
+The test dataset (7 triplets + 4 synonym pairs) is intentionally small — sufficient for a quick draft estimation of model quality, but should be extended with more titles and genres for production-grade evaluation. No proprietary EPG data is included.
 
 ---
 

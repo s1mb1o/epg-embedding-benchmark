@@ -363,12 +363,17 @@ def prepare_embeddings(
     return embedded, stats
 
 
-def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tuple[int, str], np.ndarray]) -> float:
+def report_similarities(
+    phrases: Sequence[Dict[str, str]], embeddings: Dict[Tuple[int, str], np.ndarray]
+) -> Dict[str, float]:
     header = f"{'ID':<24} {'en-ru':>8} {'en-hy':>8} {'ru-hy':>8} {'mean':>8}"
     print(header)
     print("-" * len(header))
 
     totals = []
+    en_ru_scores: List[float] = []
+    en_hy_scores: List[float] = []
+    ru_hy_scores: List[float] = []
     for idx, entry in enumerate(phrases):
         vec_en = embeddings[(idx, "en")]
         vec_ru = embeddings[(idx, "ru")]
@@ -378,6 +383,10 @@ def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tupl
         sim_en_hy = cosine_similarity(vec_en, vec_hy)
         sim_ru_hy = cosine_similarity(vec_ru, vec_hy)
 
+        en_ru_scores.append(sim_en_ru)
+        en_hy_scores.append(sim_en_hy)
+        ru_hy_scores.append(sim_ru_hy)
+
         mean_value = (sim_en_ru + sim_en_hy + sim_ru_hy) / 3.0
         totals.append(mean_value)
 
@@ -386,11 +395,20 @@ def report_similarities(phrases: Sequence[Dict[str, str]], embeddings: Dict[Tupl
             f"{sim_en_ru:8.4f} {sim_en_hy:8.4f} {sim_ru_hy:8.4f} {mean_value:8.4f}"
         )
 
-    overall = sum(totals) / len(totals) if totals else 0.0
+    n = len(totals)
+    overall = sum(totals) / n if n else 0.0
+    en_ru_mean = sum(en_ru_scores) / n if n else 0.0
+    en_hy_mean = sum(en_hy_scores) / n if n else 0.0
+    ru_hy_mean = sum(ru_hy_scores) / n if n else 0.0
     if totals:
         print("-" * len(header))
         print(f"{'overall_mean':<24} {overall:>32.4f}")
-    return overall
+    return {
+        "cross_lang_mean": overall,
+        "en_ru_mean": en_ru_mean,
+        "en_hy_mean": en_hy_mean,
+        "ru_hy_mean": ru_hy_mean,
+    }
 
 
 def report_hy_synonyms(client: EmbeddingClient, synonyms: Sequence[Dict[str, str]]) -> float:
@@ -440,12 +458,19 @@ def _append_csv_row(
     backend: str,
     model: str,
     cross_lang_mean: float,
+    en_ru_mean: float,
+    en_hy_mean: float,
+    ru_hy_mean: float,
     hy_hy_mean: float,
     total_time_s: float,
     time_per_text_s: float,
 ) -> None:
     """Append a single result row to *csv_path*, writing the header if the file is new or empty."""
-    header = ["backend", "model", "cross_lang_mean", "hy_hy_mean", "total_time_s", "time_per_text_s"]
+    header = [
+        "backend", "model", "cross_lang_mean",
+        "en_ru_mean", "en_hy_mean", "ru_hy_mean",
+        "hy_hy_mean", "total_time_s", "time_per_text_s",
+    ]
     write_header = not os.path.exists(csv_path) or os.path.getsize(csv_path) == 0
     with open(csv_path, "a", newline="", encoding="utf-8") as fh:
         writer = csv.writer(fh)
@@ -455,6 +480,9 @@ def _append_csv_row(
             backend,
             model,
             f"{cross_lang_mean:.4f}",
+            f"{en_ru_mean:.4f}",
+            f"{en_hy_mean:.4f}",
+            f"{ru_hy_mean:.4f}",
             f"{hy_hy_mean:.4f}",
             f"{total_time_s:.4f}",
             f"{time_per_text_s:.4f}",
@@ -497,14 +525,20 @@ def main(argv: Sequence[str]) -> int:
         f"| total_time={total_time:.4f}s | per_text={per_text:.4f}s"
     )
 
-    cross_lang_mean = report_similarities(phrases, embeddings)
+    scores = report_similarities(phrases, embeddings)
+    cross_lang_mean = scores["cross_lang_mean"]
 
     hy_hy_mean = 0.0
     if not args.skip_synonyms:
         hy_hy_mean = report_hy_synonyms(client, iterate_synonyms(args))
 
     if args.csv_file:
-        _append_csv_row(args.csv_file, api, model_name, cross_lang_mean, hy_hy_mean, total_time, per_text)
+        _append_csv_row(
+            args.csv_file, api, model_name,
+            cross_lang_mean,
+            scores["en_ru_mean"], scores["en_hy_mean"], scores["ru_hy_mean"],
+            hy_hy_mean, total_time, per_text,
+        )
 
     return 0
 
