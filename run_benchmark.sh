@@ -31,6 +31,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PYTHON_BIN=${PYTHON_BIN:-python3}
 SCRIPT_PATH="$SCRIPT_DIR/benchmark.py"
 CSV_FILE="$SCRIPT_DIR/results/benchmark_results.csv"
+PHRASES_FILE="$SCRIPT_DIR/data/epg_phrases.json"
 ABBREV_FILE="$SCRIPT_DIR/data/abbrev_duplets.json"
 
 if [[ ! -f "$SCRIPT_PATH" ]]; then
@@ -50,7 +51,10 @@ RUNS+=("st sentence-transformers/distiluse-base-multilingual-cased")
 RUNS+=("st sentence-transformers/LaBSE")
 RUNS+=("st intfloat/multilingual-e5-base")
 RUNS+=("st intfloat/multilingual-e5-large")
-RUNS+=("st intfloat/multilingual-e5-large-instruct")
+# Instruct variants excluded: they require asymmetric prompt handling
+# (instruction-prefixed queries vs raw passages) which doesn't apply to
+# this symmetric alignment benchmark.  See README § Limitations.
+# RUNS+=("st intfloat/multilingual-e5-large-instruct")
 RUNS+=("st intfloat/e5-large-v2")
 RUNS+=("st intfloat/e5-large")
 RUNS+=("st Metric-AI/armenian-text-embeddings-1")
@@ -111,15 +115,20 @@ for entry in "${RUNS[@]}"; do
   printf '\033[32m%s\033[0m\n' "$running_msg"
   echo "----------------------------------------------------------------"
 
+  phrases_flag=""
+  if [[ -f "$PHRASES_FILE" ]]; then
+    phrases_flag="--phrases $PHRASES_FILE"
+  fi
+
   abbrev_flag=""
   if [[ -f "$ABBREV_FILE" ]]; then
     abbrev_flag="--abbrev $ABBREV_FILE"
   fi
 
   if [[ -n "${extra:-}" ]]; then
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $abbrev_flag $extra
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $phrases_flag $abbrev_flag $extra
   else
-    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $abbrev_flag
+    "$PYTHON_BIN" "$SCRIPT_PATH" --api "$api" --model "$model" --csv-file "$CSV_FILE" $phrases_flag $abbrev_flag
   fi
 
   echo

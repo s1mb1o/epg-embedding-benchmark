@@ -182,7 +182,14 @@ class EmbeddingClient:
                 trust_remote_code=self.trust_remote_code,
             )
         model = self._st_model
-        embeddings = model.encode(texts, normalize_embeddings=True, show_progress_bar=False)
+        encode_kwargs: Dict[str, object] = dict(
+            normalize_embeddings=True, show_progress_bar=False,
+        )
+        # Jina v3 uses task-specific LoRA adapters; activate the same one
+        # that the Jina API uses so local and API results are comparable.
+        if "jina-embeddings-v3" in self.model_name:
+            encode_kwargs["prompt_name"] = "retrieval.passage"
+        embeddings = model.encode(texts, **encode_kwargs)
         return np.asarray(embeddings, dtype=np.float32)
 
     def _embed_openai(self, texts: Sequence[str]) -> np.ndarray:
@@ -391,6 +398,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
         "--abbrev",
         help="Path to abbreviation duplets JSON for abbreviation robustness test",
     )
+    parser.add_argument(
+        "--skip-retrieval",
+        action="store_true",
+        help="Skip cross-language retrieval evaluation (Recall@1 / MRR)",
+    )
     return parser
 
 
@@ -576,6 +588,62 @@ def report_similarities(
     }
 
 
+def evaluate_retrieval(
+    phrases: Sequence[Dict[str, str]],
+    embeddings: Dict[Tuple[int, str], np.ndarray],
+) -> Dict[str, float]:
+    """Compute cross-language retrieval metrics (Recall@1, MRR) using existing embeddings.
+
+    Treats each language's titles as a retrieval pool: for each query in
+    language A, the correct match is its paired title in language B among
+    all N candidates.  Metrics are averaged over both directions (A→B and B→A).
+    """
+    n = len(phrases)
+    if n < 10:
+        print(f"[retrieval] skipping — only {n} phrases (need >= 10 for meaningful retrieval)")
+        return {}
+
+    langs = ("en", "ru", "hy")
+    matrices: Dict[str, np.ndarray] = {}
+    for lang in langs:
+        matrices[lang] = np.stack([embeddings[(i, lang)] for i in range(n)])
+
+    pairs = [("en", "ru"), ("en", "hy"), ("ru", "hy")]
+    results: Dict[str, float] = {}
+
+    header = f"{'pair':<10} {'R@1':>8} {'MRR':>8}"
+    print()
+    print(header)
+    print("-" * len(header))
+
+    for lang_a, lang_b in pairs:
+        sim = matrices[lang_a] @ matrices[lang_b].T  # (n, n)
+
+        # Forward: lang_a → lang_b.  Correct match for row i is column i.
+        diag_fwd = np.diag(sim)
+        ranks_fwd = (sim > diag_fwd[:, None]).sum(axis=1) + 1
+
+        # Reverse: lang_b → lang_a.
+        sim_t = sim.T
+        diag_rev = np.diag(sim_t)
+        ranks_rev = (sim_t > diag_rev[:, None]).sum(axis=1) + 1
+
+        r1 = float(((ranks_fwd == 1).mean() + (ranks_rev == 1).mean()) / 2.0)
+        mrr = float(((1.0 / ranks_fwd).mean() + (1.0 / ranks_rev).mean()) / 2.0)
+
+        key = f"{lang_a}_{lang_b}"
+        results[f"r1_{key}"] = r1
+        results[f"mrr_{key}"] = mrr
+        print(f"{lang_a}-{lang_b:<7} {r1:8.4f} {mrr:8.4f}")
+
+    results["r1_mean"] = float(np.mean([results[f"r1_{a}_{b}"] for a, b in pairs]))
+    results["mrr_mean"] = float(np.mean([results[f"mrr_{a}_{b}"] for a, b in pairs]))
+    print("-" * len(header))
+    print(f"{'mean':<10} {results['r1_mean']:8.4f} {results['mrr_mean']:8.4f}")
+
+    return results
+
+
 def report_hy_synonyms(client: EmbeddingClient, synonyms: Sequence[Dict[str, str]]) -> float:
     if not synonyms:
         return 0.0
@@ -630,6 +698,7 @@ def _append_csv_row(
     total_time_s: float,
     time_per_text_s: float,
     abbrev_scores: Dict[str, float] | None = None,
+    retrieval_scores: Dict[str, float] | None = None,
 ) -> None:
     """Append a single result row to *csv_path*, writing the header if the file is new or empty."""
     header = [
@@ -637,6 +706,8 @@ def _append_csv_row(
         "en_ru_mean", "en_hy_mean", "ru_hy_mean",
         "hy_hy_mean", "total_time_s", "time_per_text_s",
         "abbrev_ru_mean", "abbrev_hy_mean", "abbrev_mean",
+        "r1_en_ru", "r1_en_hy", "r1_ru_hy", "r1_mean",
+        "mrr_en_ru", "mrr_en_hy", "mrr_ru_hy", "mrr_mean",
     ]
     write_header = not os.path.exists(csv_path) or os.path.getsize(csv_path) == 0
     with open(csv_path, "a", newline="", encoding="utf-8") as fh:
@@ -647,6 +718,11 @@ def _append_csv_row(
         abbrev_ru = abbrev_scores.get("abbrev_ru_mean") if abbrev_scores else None
         abbrev_hy = abbrev_scores.get("abbrev_hy_mean") if abbrev_scores else None
         abbrev_all = abbrev_scores.get("abbrev_mean") if abbrev_scores else None
+
+        def _ret(key: str) -> str:
+            if retrieval_scores and key in retrieval_scores:
+                return f"{retrieval_scores[key]:.4f}"
+            return ""
 
         writer.writerow([
             backend,
@@ -661,6 +737,8 @@ def _append_csv_row(
             f"{abbrev_ru:.4f}" if abbrev_ru is not None else "",
             f"{abbrev_hy:.4f}" if abbrev_hy is not None else "",
             f"{abbrev_all:.4f}" if abbrev_all is not None else "",
+            _ret("r1_en_ru"), _ret("r1_en_hy"), _ret("r1_ru_hy"), _ret("r1_mean"),
+            _ret("mrr_en_ru"), _ret("mrr_en_hy"), _ret("mrr_ru_hy"), _ret("mrr_mean"),
         ])
 
 
@@ -704,6 +782,10 @@ def main(argv: Sequence[str]) -> int:
     scores = report_similarities(phrases, embeddings)
     cross_lang_mean = scores["cross_lang_mean"]
 
+    retrieval_scores: Dict[str, float] | None = None
+    if not args.skip_retrieval:
+        retrieval_scores = evaluate_retrieval(phrases, embeddings) or None
+
     hy_hy_mean = 0.0
     if not args.skip_synonyms:
         hy_hy_mean = report_hy_synonyms(client, iterate_synonyms(args))
@@ -721,6 +803,7 @@ def main(argv: Sequence[str]) -> int:
             scores["en_ru_mean"], scores["en_hy_mean"], scores["ru_hy_mean"],
             hy_hy_mean, total_time, per_text,
             abbrev_scores=abbrev_scores,
+            retrieval_scores=retrieval_scores,
         )
 
     return 0

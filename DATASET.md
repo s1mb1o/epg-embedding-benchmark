@@ -38,7 +38,7 @@ Fetched **523** Armenian-language entries from TMDB (447 movies, 68 animated fil
 
 Only **246 out of 523** movies (47%) have titles in all three languages — the rest are missing Russian translations. This is expected: TMDB relies on community contributions, and Russian metadata for Armenian films is sparse.
 
-The 246 complete triplets are integrated into the benchmark as the extended test set alongside the 7 hand-crafted triplets (253 total).
+After deduplication (removing 8 entries that appeared under different TMDB IDs with identical or overlapping titles in any language), **238 TMDB triplets** are integrated into the benchmark alongside the 7 hand-crafted triplets (245 total). The merge script (`scripts/merge_tmdb_to_phrases.py`) detects duplicates by checking if any single non-empty language title already exists under a different ID.
 
 ## Data Format
 
